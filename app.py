@@ -6,6 +6,197 @@ from functools import reduce
 from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components
 import json
+import firebase_admin 
+from firebase_admin import credentials, db
+import base64
+
+
+# --- CONEXIÓN A LA BASE DE CONOCIMIENTO (FIREBASE) ---
+@st.cache_resource
+def init_firebase():
+    """Inicializa la conexión con Firebase usando st.secrets."""
+    try:
+        # Comprueba si la app ya está inicializada
+        firebase_admin.get_app()
+    except ValueError:
+        # Si no, inicialízala
+        
+        # --- INICIO DE LA CORRECCIÓN ---
+        
+        # 1. Convertir el objeto "Secrets" de Streamlit a un dict normal de Python
+        cred_dict = dict(st.secrets["firebase_credentials"])
+        
+        # 2. Corregir los saltos de línea en la llave privada
+        cred_dict["private_key"] = cred_dict["private_key"].replace('\\n', '\n')
+        
+        # --- FIN DE LA CORRECCIÓN ---
+
+        # Ahora cred_dict es un diccionario válido que Firebase puede entender
+        cred = credentials.Certificate(cred_dict)
+        
+        firebase_admin.initialize_app(cred, {
+            'databaseURL': f"https://{cred_dict['project_id']}-default-rtdb.firebaseio.com/"
+        })
+
+init_firebase()
+
+@st.cache_data
+def get_video_as_base64(file_path):
+    """Lee un archivo de video y lo codifica en Base64."""
+    try:
+        with open(file_path, "rb") as f:
+            data = f.read()
+        return base64.b64encode(data).decode()
+    except FileNotFoundError:
+        st.error(f"Error: No se encontró el archivo de video '{file_path}'")
+        return None
+
+def hero_section_video(video_src_data, title_text):
+    """
+    Crea una sección de héroe con un video de fondo, título animado y subtítulo.
+    """
+    st.markdown(f"""
+        <style>
+        /* Contenedor principal del hero */
+        .hero-container {{
+            position: relative;
+            width: 100%;
+            height: 400px; /* Ajusta la altura según necesites */
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 15px; /* Bordes redondeados */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2); /* Sombra sutil */
+        }}
+        
+        /* Video de fondo */
+        .hero-video {{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            transform: translateX(-50%) translateY(-50%);
+            background-size: cover;
+            filter: brightness(60%) contrast(110%); /* Oscurece y da contraste al video */
+        }}
+        
+        /* Contenido sobre el video */
+        .hero-content {{
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            max-width: 800px;
+        }}
+
+        /* Título animado con efecto de máquina de escribir */
+        .typewriter-title-hero {{
+            font-size: 3.5rem; /* Más grande */
+            font-weight: 800;
+            color: white;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.6), 0 0 15px rgba(5, 94, 228, 0.8); /* Doble sombra para impacto */
+            font-family: 'Montserrat', sans-serif; 
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }}
+
+        /* Subtítulo */
+        .hero-subtitle {{
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }}
+
+        /* Cursor para el typewriter */
+        .cursor-hero {{
+            display: inline-block;
+            width: 5px; /* Más ancho */
+            background-color: white;
+            margin-left: 5px;
+            animation: blink-hero 0.75s step-end infinite;
+        }}
+        @keyframes blink-hero {{
+            from, to {{ opacity: 1; }}
+            50% {{ opacity: 0; }}
+        }}
+        </style>
+        
+        <div class="hero-container">
+            <video autoplay muted loop class="hero-video">
+                <source src="data:video/mp4;base64,{video_src_data}" type="video/mp4">
+                Tu navegador no soporta el tag de video.
+            </video>
+            <div class="hero-content">
+                <div class="typewriter-container-hero">
+                    <span id="typewriter-title-hero" class="typewriter-title-hero"></span>
+                    <span id="cursor-hero" class="cursor-hero">|</span>
+                </div>
+                <p class="hero-subtitle">
+                    Análisis inteligente y estratégico para la gestión del agua en México.
+                </p>
+            </div>
+        </div>
+
+        <script>
+        // Script para el efecto de máquina de escribir en el hero
+        const textHero = "{title_text}";
+        const speedHero = 70;
+        const repeatDelayHero = 4000;
+        let iHero = 0;
+        let isDeletingHero = false;
+        
+        function typeWriterHero() {{
+            const element = document.getElementById("typewriter-title-hero");
+            if (!element) return; // Salir si el elemento no existe
+
+            if (!isDeletingHero && iHero < textHero.length) {{
+                element.innerHTML = textHero.substring(0, iHero + 1);
+                iHero++;
+                setTimeout(typeWriterHero, speedHero);
+            }} else if (!isDeletingHero && iHero === textHero.length) {{
+                setTimeout(() => {{
+                    isDeletingHero = true;
+                    typeWriterHero();
+                }}, repeatDelayHero);
+            }} else if (isDeletingHero && iHero > 0) {{
+                element.innerHTML = textHero.substring(0, iHero - 1);
+                iHero--;
+                setTimeout(typeWriterHero, speedHero / 2);
+            }} else if (isDeletingHero && iHero === 0) {{
+                isDeletingHero = false;
+                setTimeout(typeWriterHero, 500);
+            }}
+        }}
+        
+        setTimeout(typeWriterHero, 300);
+        </script>
+    """, unsafe_allow_html=True)
+
+# ----- INICIO DE LA SECCIÓN HERO -----
+# 1. Define el nombre de tu archivo de video
+video_file_name = "Visualización_Futurista_de_Datos_Hídricos_Mexicanos.mp4"  # <--- !!! REEMPLAZA ESTO POR TU NOMBRE DE ARCHIVO !!!
+
+# 2. Codifica el video
+video_base64 = get_video_as_base64(video_file_name)
+
+# 3. Muestra la sección
+if video_base64:
+    hero_section_video(video_base64, "Analizador Inteligente de Consumo Hídrico")
+else:
+    # Si el video falla, muestra un título normal como respaldo
+    st.title("Analizador Inteligente de Consumo Hídrico")
+    st.error(f"No se pudo cargar el video: '{video_file_name}'. Asegúrate de que el nombre sea correcto y esté en la misma carpeta.")
+
+# ----- FIN DE LA SECCIÓN HERO -----
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(
@@ -140,91 +331,9 @@ background: linear-gradient(210deg,rgba(0, 102, 204, 1) 31%, rgba(28, 96, 255, 1
     </style>
 """, unsafe_allow_html=True)
 
-def load_lottiefile(filepath: str):
-    """Carga una animación Lottie desde un archivo JSON local"""
-    try:
-        with open(filepath, "r", encoding='utf-8') as f:
-            return json.load(f)
-    except:
-        return None
 
-def typewriter_title(text, speed=50, repeat_delay=4000):
-    """Crea el efecto de máquina de escribir para el título que se repite"""
-    html_code = f"""
-    <style>
-    
-    .typewriter-container {{
-        min-height: 80px;
-        display: flex;
-        align-items: center;
-    }}
-    
-    .typewriter-title {{
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #055ee4;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-        white-space: normal;
-        word-wrap: break-word;
-        display: inline;
-        line-height: 1.3;
-        text-shadow: 0 2px 4px rgba(5, 94, 228, 0.2);
-    }}
-    
-    .cursor {{
-        display: inline-block;
-        width: 3px;
-        background-color: #055ee4;
-        margin-left: 2px;
-        animation: blink 0.75s step-end infinite;
-    }}
-    
-    @keyframes blink {{
-        from, to {{ opacity: 1; }}
-        50% {{ opacity: 0; }}
-    }}
-    </style>
-    
-    <div class="header-wrapper">
-        <div class="typewriter-container">
-            <span id="typewriter-title" class="typewriter-title"></span>
-            <span id="cursor" class="cursor">|</span>
-        </div>
-    </div>
-    
-    <script>
-    const text = "{text}";
-    const speed = {speed};
-    const repeatDelay = {repeat_delay};
-    let i = 0;
-    let isDeleting = false;
-    
-    function typeWriter() {{
-        const element = document.getElementById("typewriter-title");
-        
-        if (!isDeleting && i < text.length) {{
-            element.innerHTML = text.substring(0, i + 1);
-            i++;
-            setTimeout(typeWriter, speed);
-        }} else if (!isDeleting && i === text.length) {{
-            setTimeout(() => {{
-                isDeleting = true;
-                typeWriter();
-            }}, repeatDelay);
-        }} else if (isDeleting && i > 0) {{
-            element.innerHTML = text.substring(0, i - 1);
-            i--;
-            setTimeout(typeWriter, speed / 2);
-        }} else if (isDeleting && i === 0) {{
-            isDeleting = false;
-            setTimeout(typeWriter, 500);
-        }}
-    }}
-    
-    setTimeout(typeWriter, 300);
-    </script>
-    """
-    components.html(html_code, height=130)
+
+
 
 def create_stat_card(icon, title, value, color="#0066cc"):
     """Crea una tarjeta estadística con efecto glassmorphism"""
@@ -252,60 +361,85 @@ def create_stat_card(icon, title, value, color="#0066cc"):
     </div>
     """
 
-# --- INTERFAZ DE LA APLICACIÓN ---
-# Header con Lottie y Título animado
-col1, col2 = st.columns([1, 6])
-
-with col1:
-    lottie_water = load_lottiefile('riA9NvUSJs.json')
-    if lottie_water:
-        st_lottie(lottie_water, height=120, key="water_animation")
-    else:
-        st.markdown("### 💧")
-
-with col2:
-    typewriter_title("Analizador de Consumo Hídrico en México", speed=70, repeat_delay=4000)
-
-
-# --- CARGAR DATOS DESDE CSV ---
 @st.cache_data
-def cargar_datos_desde_csv(ruta_archivo):
-    """Carga los datos de los estados de México desde un archivo CSV"""
+def cargar_hechos_firebase():
+    """Carga los "hechos" (municipios) desde la Base de Conocimiento en Firebase."""
     try:
-        df = pd.read_csv(ruta_archivo)
-        return df
-    except FileNotFoundError:
-        st.error(f"❌ Error: No se encontró el archivo '{ruta_archivo}'. Asegúrate de que esté en la misma carpeta que tu script.")
-        return None
+        ref = db.reference('/municipios')
+        hechos = ref.get()
 
-def procesar_datos(df):
-    """Aplica conceptos de programación funcional para enriquecer los datos"""
-    lista_de_datos = df.to_dict('records')
-
-    def enriquecer_area(area):
-        area_nueva = area.copy()
+        # --- INICIO DE LA CORRECCIÓN ---
         
-        if area_nueva['poblacion'] > 0:
-            consumo_per_capita = (area_nueva['consumo_anual_m3'] * 1000) / (area_nueva['poblacion'] * 365)
+        # Verificamos si 'hechos' es una lista (lo que Firebase probablemente hizo)
+        if isinstance(hechos, list):
+            # Si es una lista, la usamos directamente.
+            # Filtramos cualquier 'None' que Firebase pueda haber añadido (suele pasar)
+            lista_hechos = [item for item in hechos if item is not None]
+            return lista_hechos
+        
+        # Si NO es una lista, significa que es un diccionario (como esperábamos)
+        elif isinstance(hechos, dict):
+            lista_hechos = [valor for valor in hechos.values()]
+            return lista_hechos
+        
+        # Si no es ninguna de las dos (ej. es None porque la ruta está mal)
         else:
-            consumo_per_capita = 0
-            
-        area_nueva['consumo_per_capita_l_dia'] = round(consumo_per_capita)
+            st.error("❌ Error: Los datos de Firebase no tienen el formato esperado (ni lista ni diccionario).")
+            return None
+        
+        # --- FIN DE LA CORRECCIÓN ---
 
-        if consumo_per_capita > 200:
-            area_nueva['nivel_consumo'] = 'Alto'
-            area_nueva['color'] = [255, 48, 48]
-        elif 100 <= consumo_per_capita <= 200:
-            area_nueva['nivel_consumo'] = 'Moderado'
-            area_nueva['color'] = [255, 165, 0]
-        else:
-            area_nueva['nivel_consumo'] = 'Bueno'
-            area_nueva['color'] = [34, 139, 34]
-            
-        return area_nueva
+    except Exception as e:
+        st.error(f"❌ Error al conectar con Firebase: {e}")
+        return None
+    
+# --- SISTEMA DE PRODUCCIÓN BASADO EN REGLAS ---
 
-    datos_enriquecidos = list(map(enriquecer_area, lista_de_datos))
-    return pd.DataFrame(datos_enriquecidos)
+def regla_calcular_consumo_per_capita(hecho):
+    """
+    Regla de Negocio 1: Calcula el consumo per cápita.
+    Un "hecho" (municipio) entra, y un "hecho inferido" (con el nuevo dato) sale.
+    """
+    hecho_inferido = hecho.copy()
+    if hecho_inferido['poblacion'] > 0:
+        consumo = (hecho_inferido['consumo_anual_m3'] * 1000) / (hecho_inferido['poblacion'] * 365)
+    else:
+        consumo = 0
+    hecho_inferido['consumo_per_capita_l_dia'] = round(consumo)
+    return hecho_inferido
+
+def regla_asignar_nivel_y_color(hecho_calculado):
+    """
+    Regla de Negocio 2: Asigna el nivel de consumo y el color.
+    Aplica lógica para inferir el estado de un municipio basado en su consumo.
+    """
+    hecho_inferido = hecho_calculado.copy()
+    consumo = hecho_inferido['consumo_per_capita_l_dia']
+    
+    if consumo > 350:  # Umbral Alto (Ajustado)
+        hecho_inferido['nivel_consumo'] = 'Alto'
+        hecho_inferido['color'] = [255, 48, 48]
+    elif 150 <= consumo <= 350: # Umbral Moderado (Ajustado)
+        hecho_inferido['nivel_consumo'] = 'Moderado'
+        hecho_inferido['color'] = [255, 165, 0]
+    else: # Nivel Bueno
+        hecho_inferido['nivel_consumo'] = 'Bueno'
+        hecho_inferido['color'] = [34, 139, 34]
+        
+    return hecho_inferido
+
+def motor_de_inferencia(hechos_originales):
+    """
+    Motor de Inferencia: Aplica la cadena de reglas a la lista de hechos.
+    Esto simula la arquitectura de un sistema de producción.
+    """
+    # 1. Aplicar la primera regla a todos los hechos
+    hechos_calculados = list(map(regla_calcular_consumo_per_capita, hechos_originales))
+    
+    # 2. Aplicar la segunda regla a los resultados de la primera
+    nuevos_hechos_inferidos = list(map(regla_asignar_nivel_y_color, hechos_calculados))
+    
+    return nuevos_hechos_inferidos
 
 def generar_recomendaciones(area):
     """Genera recomendaciones dinámicas basadas en las características de un área"""
@@ -356,12 +490,14 @@ def generar_recomendaciones(area):
             </div>
         """, unsafe_allow_html=True)
 
-# 1. Cargar y procesar datos
-df_original = cargar_datos_desde_csv('Consumo_Agua_Estados_rm.csv')
+# 1. Cargar "Hechos" y ejecutar "Inferencia"
+hechos_originales = cargar_hechos_firebase()
 
-if df_original is not None:
-    df_procesado = procesar_datos(df_original)
 
+if hechos_originales:
+    # Ejecuta el motor de inferencia para obtener los datos procesados
+    lista_datos_inferidos = motor_de_inferencia(hechos_originales)
+    df_procesado = pd.DataFrame(lista_datos_inferidos)
     # 2. Sidebar mejorado
     with st.sidebar:
         st.markdown("###  Panel de Control")
@@ -516,3 +652,5 @@ if df_original is not None:
             <p>💧 Dashboard de Análisis Hídrico | Desarrollado por JamDev21</p>
         </div>
     """, unsafe_allow_html=True)
+else:
+    st.error("No se pudieron cargar los datos de la base de conocimiento de Firebase.")
