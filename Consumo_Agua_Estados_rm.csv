@@ -1,0 +1,2206 @@
+nombre_area,estado,poblacion,lat,lon,tipo_zona,consumo_anual_m3
+Aguascalientes,Aguascalientes,948990,21.8823,-102.291,Servicios,10
+Asientos,Aguascalientes,51536,22.238,-102.088,Agrícola,36075200
+Calvillo,Aguascalientes,58250,21.845,-102.718,Agrícola,43687500
+Cosío,Aguascalientes,17000,22.366,-102.302,Agrícola,11900000
+Jesús María,Aguascalientes,129929,21.961,-102.343,Mixta,116936100
+Pabellón de Arteaga,Aguascalientes,47646,22.147,-102.277,Mixta,38116800
+Rincón de Romos,Aguascalientes,57132,22.233,-102.32,Mixta,42849000
+San José de Gracia,Aguascalientes,9552,22.148,-102.414,Agrícola,6686400
+Tepezalá,Aguascalientes,22485,22.219,-102.167,Agrícola,15739500
+El Llano,Aguascalientes,20853,21.916,-101.966,Agrícola,14597100
+San Francisco de los Romo,Aguascalientes,61997,22.066,-102.26,Mixta,49597600
+Ensenada,Baja California,443807,31.866,-116.596,Servicios,532568400
+Mexicali,Baja California,1049792,32.624,-115.454,Industrial,1364729600
+Tecate,Baja California,108440,32.569,-116.627,Industrial,124706000
+Tijuana,Baja California,1922523,32.502,-117.003,Industrial,2307027600
+Playas de Rosarito,Baja California,126890,32.36,-117.05,Servicios,152268000
+San Quintín,Baja California,117568,30.48,-115.95,Agrícola,94054400
+San Felipe,Baja California,20000,31.025,-114.841,Servicios,22000000
+Comondú,Baja California Sur,73021,25.059,-111.121,Agrícola,58416800
+Mulegé,Baja California Sur,64013,26.89,-111.98,Servicios,57611700
+La Paz,Baja California Sur,292241,24.142,-110.31,Servicios,350689200
+Los Cabos,Baja California Sur,351111,22.89,-109.916,Servicios,456444300
+Loreto,Baja California Sur,18052,26.012,-111.343,Servicios,19857200
+Calkiní,Campeche,59288,20.373,-90.046,Mixta,44466000
+Campeche,Campeche,294077,19.83,-90.53,Servicios,323484700
+Carmen,Campeche,248845,18.636,-91.831,Industrial,298614000
+Champotón,Campeche,78170,19.356,-90.72,Agrícola,62536000
+Hecelchakán,Campeche,31840,20.174,-90.091,Agrícola,23880000
+Hopelchén,Campeche,42140,19.76,-89.845,Agrícola,31605000
+Palizada,Campeche,8683,18.255,-92.09,Agrícola,6078100
+Tenabo,Campeche,11452,19.95,-90.22,Agrícola,8589000
+Escárcega,Campeche,59923,18.61,-90.73,Mixta,47938400
+Calakmul,Campeche,31714,18.52,-89.92,Agrícola,22200000
+Candelaria,Campeche,46798,17.84,-91.04,Agrícola,32758600
+Dzitbalché,Campeche,14392,19.83,-90.53,Agrícola,10074400
+Seybaplaya,Campeche,15167,19.64,-90.67,Mixta,11375250
+Abasolo,Coahuila de Zaragoza,1022,27.17,-101.42,Agrícola,715400
+Acuña,Coahuila de Zaragoza,163058,29.32,-100.93,Industrial,195669600
+Allende,Coahuila de Zaragoza,23062,28.34,-100.87,Mixta,17296500
+Arteaga,Coahuila de Zaragoza,23307,25.43,-100.84,Agrícola,17480250
+Candela,Coahuila de Zaragoza,1652,26.85,-100.67,Agrícola,1156400
+Castaños,Coahuila de Zaragoza,29128,26.78,-101.42,Mixta,21846000
+Cuatro Ciénegas,Coahuila de Zaragoza,12615,26.98,-102.06,Servicios,11353500
+Escobedo,Coahuila de Zaragoza,3047,27.27,-101.27,Agrícola,2132900
+Francisco I. Madero,Coahuila de Zaragoza,59300,25.77,-103.27,Agrícola,44475000
+Frontera,Coahuila de Zaragoza,82409,26.92,-101.45,Industrial,82409000
+General Cepeda,Coahuila de Zaragoza,11898,25.37,-101.45,Agrícola,8328600
+Guerrero,Coahuila de Zaragoza,1643,28.3,-100.28,Agrícola,1150100
+Hidalgo,Coahuila de Zaragoza,1733,28.87,-100.12,Agrícola,1213100
+Jiménez,Coahuila de Zaragoza,9502,29.07,-100.75,Agrícola,6651400
+Juárez,Coahuila de Zaragoza,1584,27.6,-100.7,Agrícola,1108800
+Lamadrid,Coahuila de Zaragoza,1730,27.05,-101.78,Agrícola,1211000
+Matamoros,Coahuila de Zaragoza,118337,25.52,-103.23,Mixta,106503300
+Monclova,Coahuila de Zaragoza,237969,26.9,-101.42,Industrial,285562800
+Morelos,Coahuila de Zaragoza,8128,28.43,-101,Agrícola,5689600
+Múzquiz,Coahuila de Zaragoza,71627,27.87,-101.52,Mixta,57301600
+Nadadores,Coahuila de Zaragoza,6539,27.03,-101.58,Agrícola,4577300
+Nava,Coahuila de Zaragoza,33129,28.42,-100.77,Industrial,36441900
+Ocampo,Coahuila de Zaragoza,9642,27.3,-102.38,Agrícola,6749400
+Parras,Coahuila de Zaragoza,44472,25.43,-102.18,Servicios,40024800
+Piedras Negras,Coahuila de Zaragoza,176327,28.7,-100.52,Industrial,211592400
+Progreso,Coahuila de Zaragoza,3284,27.43,-101.2,Agrícola,2298800
+Ramos Arizpe,Coahuila de Zaragoza,122243,25.54,-100.94,Industrial,146691600
+Sabinas,Coahuila de Zaragoza,64694,27.85,-101.12,Mixta,51755200
+Sacramento,Coahuila de Zaragoza,2471,27,-101.72,Agrícola,1729700
+Saltillo,Coahuila de Zaragoza,879958,25.42,-101,Industrial,1055949600
+San Buenaventura,Coahuila de Zaragoza,24759,27.05,-101.54,Mixta,18569250
+San Juan de Sabinas,Coahuila de Zaragoza,42261,27.93,-101.27,Mixta,33808800
+San Pedro,Coahuila de Zaragoza,101041,25.75,-102.98,Agrícola,80832800
+Sierra Mojada,Coahuila de Zaragoza,6744,27.28,-103.7,Agrícola,4720800
+Torreón,Coahuila de Zaragoza,720848,25.54,-103.44,Industrial,865017600
+Viesca,Coahuila de Zaragoza,20305,25.33,-102.8,Agrícola,14213500
+Villa Unión,Coahuila de Zaragoza,6188,28.22,-100.72,Agrícola,4331600
+Zaragoza,Coahuila de Zaragoza,13135,28.48,-100.92,Mixta,9851250
+Armería,Colima,27626,18.93,-103.96,Agrícola,20719500
+Colima,Colima,157048,19.24,-103.72,Servicios,172752800
+Comala,Colima,21661,19.32,-103.75,Servicios,21661000
+Coquimatlán,Colima,20837,19.22,-103.8,Agrícola,15627750
+Cuauhtémoc,Colima,31267,19.32,-103.6,Mixta,25013600
+Ixtlahuacán,Colima,5623,18.99,-103.73,Agrícola,3936100
+Manzanillo,Colima,191031,19.1,-104.3,Servicios,229237200
+Minatitlán,Colima,10231,19.38,-104.05,Agrícola,7161700
+Tecomán,Colima,116305,18.91,-103.87,Agrícola,93044000
+Villa de Álvarez,Colima,149762,19.26,-103.74,Mixta,134785800
+Acacoyagua,Chiapas,16814,15.35,-92.68,Agrícola,11769800
+Acala,Chiapas,21382,16.55,-92.8,Agrícola,15000000
+Acapetahua,Chiapas,27588,15.27,-92.9,Agrícola,19311600
+Altamirano,Chiapas,32791,16.73,-92.03,Agrícola,22953700
+Amatán,Chiapas,23675,17.37,-92.83,Agrícola,16572500
+Amatenango de la Frontera,Chiapas,32126,15.52,-92.08,Agrícola,22488200
+Amatenango del Valle,Chiapas,11216,16.6,-92.4,Agrícola,7851200
+Ángel Albino Corzo,Chiapas,32742,15.87,-92.73,Agrícola,22919400
+Arriaga,Chiapas,41315,16.23,-93.9,Mixta,33052000
+Bejucal de Ocampo,Chiapas,7813,15.48,-92.17,Agrícola,5469100
+Bella Vista,Chiapas,20173,15.57,-92.23,Agrícola,14121100
+Berriozábal,Chiapas,53820,16.8,-93.27,Mixta,40365000
+Bochil,Chiapas,39121,16.98,-92.9,Agrícola,27384700
+El Bosque,Chiapas,25877,17.07,-92.72,Agrícola,18113900
+Cacahoatán,Chiapas,51276,15.03,-92.17,Agrícola,35893200
+Catazajá,Chiapas,18018,17.72,-92.02,Agrícola,12612600
+Cintalapa,Chiapas,84293,16.67,-93.72,Mixta,67434400
+Coapilla,Chiapas,10160,17.13,-93.1,Agrícola,7112000
+Comitán de Domínguez,Chiapas,166178,16.25,-92.13,Servicios,166178000
+La Concordia,Chiapas,49184,15.83,-92.68,Agrícola,34428800
+Copainalá,Chiapas,23296,17.08,-93.2,Agrícola,16307200
+Chalchihuitán,Chiapas,17300,16.97,-92.63,Agrícola,12110000
+Chamula,Chiapas,97511,16.78,-92.68,Agrícola,68257700
+Chanal,Chiapas,12888,16.65,-92.27,Agrícola,9021600
+Chapultenango,Chiapas,8455,17.33,-93.13,Agrícola,5918500
+Chenalhó,Chiapas,48202,16.88,-92.63,Agrícola,33741400
+Chiapa de Corzo,Chiapas,109315,16.7,-93.02,Servicios,98383500
+Chiapilla,Chiapas,6281,16.57,-92.92,Agrícola,4396700
+Chicoasén,Chiapas,5503,17,-93.1,Agrícola,3852100
+Chicomuselo,Chiapas,37170,15.77,-92.27,Agrícola,26019000
+Chilón,Chiapas,138010,17.13,-92.28,Agrícola,96607000
+Escuintla,Chiapas,30605,15.33,-92.78,Agrícola,21423500
+Francisco León,Chiapas,7188,17.27,-93.22,Agrícola,5031600
+Frontera Comalapa,Chiapas,79532,15.67,-92.13,Mixta,63625600
+Frontera Hidalgo,Chiapas,15034,14.82,-92.17,Agrícola,10523800
+La Grandeza,Chiapas,7421,15.53,-92.22,Agrícola,5194700
+Huehuetán,Chiapas,38260,15.03,-92.38,Agrícola,26782000
+Huixtán,Chiapas,24423,16.72,-92.45,Agrícola,17096100
+Huitiupán,Chiapas,22582,17.2,-92.68,Agrícola,15807400
+Huixtla,Chiapas,54854,15.13,-92.47,Mixta,43883200
+La Independencia,Chiapas,44127,16.15,-91.78,Agrícola,30888900
+Ixhuatán,Chiapas,9812,17.3,-93,Agrícola,6868400
+Ixtacomitán,Chiapas,11213,17.42,-93.1,Agrícola,7849100
+Ixtapa,Chiapas,29304,16.8,-92.9,Agrícola,20512800
+Ixtapangajoya,Chiapas,6040,17.47,-93,Agrícola,4228000
+Jiquipilas,Chiapas,42022,16.67,-93.63,Agrícola,29415400
+Jitotol,Chiapas,20171,17.07,-92.83,Agrícola,14119700
+Juárez,Chiapas,21389,17.65,-93.18,Mixta,17111200
+Larráinzar,Chiapas,24107,16.9,-92.77,Agrícola,16874900
+La Libertad,Chiapas,5059,17.6,-91.7,Agrícola,3541300
+Mapastepec,Chiapas,45031,15.43,-92.9,Agrícola,31521700
+Las Margaritas,Chiapas,141976,16.32,-91.98,Agrícola,99383200
+Mazapa de Madero,Chiapas,9097,15.4,-92.18,Agrícola,6367900
+Mazatán,Chiapas,28267,14.87,-92.45,Agrícola,19786900
+Metapa,Chiapas,5607,14.83,-92.2,Agrícola,3924900
+Mitontic,Chiapas,13063,16.85,-92.63,Agrícola,9144100
+Motozintla,Chiapas,78317,15.37,-92.35,Mixta,62653600
+Nicolás Ruíz,Chiapas,4758,16.45,-92.65,Agrícola,3330600
+Ocosingo,Chiapas,234383,16.9,-92.08,Agrícola,164068100
+Ocotepec,Chiapas,13364,17.17,-93.17,Agrícola,9354800
+Ocozocoautla de Espinosa,Chiapas,97479,16.77,-93.37,Mixta,77983200
+Ostuacán,Chiapas,18043,17.4,-93.32,Agrícola,12630100
+Osumacinta,Chiapas,4130,16.92,-93.08,Agrícola,2891000
+Oxchuc,Chiapas,54848,16.78,-92.35,Agrícola,38393600
+Palenque,Chiapas,132256,17.5,-91.98,Servicios,145481600
+Pantelhó,Chiapas,25477,17,-92.47,Agrícola,17833900
+Pantepec,Chiapas,12239,17.22,-93.05,Agrícola,8567300
+Pichucalco,Chiapas,31456,17.5,-93.12,Mixta,25164800
+Pijijiapan,Chiapas,51731,15.68,-93.22,Mixta,41384800
+El Porvenir,Chiapas,15510,15.45,-92.28,Agrícola,10857000
+Villa Comaltitlán,Chiapas,28082,15.22,-92.82,Agrícola,19657400
+Pueblo Nuevo Solistahuacán,Chiapas,32981,17.15,-92.9,Agrícola,23086700
+Rayón,Chiapas,9770,17.2,-92.98,Agrícola,6839000
+Reforma,Chiapas,44828,17.87,-93.15,Industrial,53793600
+Las Rosas,Chiapas,30005,16.35,-92.37,Agrícola,21003500
+Sabanilla,Chiapas,27725,17.27,-92.57,Agrícola,19407500
+Salto de Agua,Chiapas,62174,17.57,-92.33,Agrícola,43521800
+San Cristóbal de las Casas,Chiapas,215874,16.73,-92.63,Servicios,237461400
+San Fernando,Chiapas,41423,16.87,-93.22,Agrícola,28996100
+Siltepec,Chiapas,43501,15.55,-92.33,Agrícola,30450700
+Simojovel,Chiapas,49957,17.15,-92.7,Mixta,34969900
+Sitalá,Chiapas,14479,17.02,-92.3,Agrícola,10135300
+Socoltenango,Chiapas,18780,16.22,-92.35,Agrícola,13146000
+Solosuchiapa,Chiapas,8900,17.38,-92.98,Agrícola,6230000
+Soyaló,Chiapas,11762,16.9,-92.93,Agrícola,8233400
+Suchiapa,Chiapas,24446,16.62,-93.1,Agrícola,17112200
+Suchiate,Chiapas,43343,14.68,-92.23,Agrícola,30340100
+Sunuapa,Chiapas,2237,17.35,-93.22,Agrícola,1565900
+Tapachula,Chiapas,353706,14.9,-92.27,Mixta,389076600
+Tapalapa,Chiapas,5575,17.2,-93.1,Agrícola,3902500
+Tapilula,Chiapas,12822,17.25,-93.02,Agrícola,8975400
+Tecpatán,Chiapas,20853,17.15,-93.43,Agrícola,14597100
+Tenejapa,Chiapas,48202,16.82,-92.5,Agrícola,33741400
+Teopisca,Chiapas,46485,16.53,-92.48,Mixta,32539500
+Tila,Chiapas,85718,17.3,-92.43,Agrícola,60002600
+Tonalá,Chiapas,89932,16.08,-93.75,Servicios,80938800
+Totolapa,Chiapas,7381,16.5,-92.75,Agrícola,5166700
+La Trinitaria,Chiapas,90422,16.12,-92.05,Agrícola,63295400
+Tumbalá,Chiapas,39678,17.28,-92.32,Agrícola,27774600
+Tuxtla Gutiérrez,Chiapas,578830,16.75,-93.12,Servicios,694596000
+Tuxtla Chico,Chiapas,41019,14.93,-92.17,Agrícola,28713300
+Tuzantán,Chiapas,30909,15.1,-92.42,Agrícola,21636300
+Tzimol,Chiapas,16478,16.27,-92.23,Agrícola,11534600
+Unión Juárez,Chiapas,16029,15.07,-92.08,Agrícola,11220300
+Venustiano Carranza,Chiapas,67484,16.35,-92.57,Mixta,53987200
+Villa Corzo,Chiapas,80785,16.18,-93.27,Agrícola,56549500
+Villaflores,Chiapas,109993,16.23,-93.27,Mixta,87994400
+Yajalón,Chiapas,43806,17.17,-92.33,Agrícola,30664200
+San Lucas,Chiapas,6268,16.55,-92.7,Agrícola,4387600
+Zinacantán,Chiapas,47000,16.77,-92.72,Agrícola,32900000
+San Juan Cancuc,Chiapas,38624,16.93,-92.38,Agrícola,27036800
+Aldama,Chiapas,8000,16.92,-92.7,Agrícola,5600000
+Benemérito de las Américas,Chiapas,18788,16.52,-90.63,Agrícola,13151600
+Maravilla Tenejapa,Chiapas,12891,16.15,-91.28,Agrícola,9023700
+Marqués de Comillas,Chiapas,11943,16.15,-90.65,Agrícola,8360100
+Montecristo de Guerrero,Chiapas,7831,15.5,-92.57,Agrícola,5481700
+San Andrés Duraznal,Chiapas,5109,17.02,-92.8,Agrícola,3576300
+Santiago el Pinar,Chiapas,5121,16.93,-92.73,Agrícola,3584700
+Capitán Luis Ángel Vidal,Chiapas,5000,15.7,-92.9,Agrícola,3500000
+Rincón Chamula San Pedro,Chiapas,8717,17.13,-92.93,Agrícola,6101900
+El Parral,Chiapas,11000,16,-93.1,Agrícola,7700000
+Emiliano Zapata,Chiapas,10000,16.3,-92.9,Agrícola,7000000
+Mezcalapa,Chiapas,23000,17.2,-93.3,Mixta,18400000
+Honduras de la Sierra,Chiapas,12000,15.7,-92.5,Agrícola,8400000
+Ahumada,Chihuahua,13757,30.57,-106.5,Agrícola,9629900
+Aldama,Chihuahua,26047,28.83,-105.9,Mixta,20837600
+Allende,Chihuahua,8487,26.95,-105.3,Agrícola,5940900
+Aquiles Serdán,Chihuahua,13990,28.53,-105.97,Mixta,11192000
+Ascensión,Chihuahua,25985,31.18,-107.97,Agrícola,18189500
+Bachíniva,Chihuahua,5807,28.78,-107.25,Agrícola,4064900
+Balleza,Chihuahua,16544,26.17,-106.33,Agrícola,11580800
+Batopilas de Manuel Gómez Morín,Chihuahua,11277,26.97,-107.5,Servicios,10149300
+Bocoyna,Chihuahua,23267,27.83,-107.58,Servicios,20940300
+Buenaventura,Chihuahua,25145,30.05,-107.47,Agrícola,17601500
+Camargo,Chihuahua,49499,27.67,-105.17,Mixta,39599200
+Carichí,Chihuahua,8311,27.93,-107.05,Agrícola,5817700
+Casas Grandes,Chihuahua,11815,30.37,-107.95,Servicios,10633500
+Coronado,Chihuahua,2247,26.73,-105.15,Agrícola,1572900
+Coyame del Sotol,Chihuahua,1453,29.7,-105.1,Agrícola,1017100
+La Cruz,Chihuahua,4242,27.87,-105.18,Agrícola,2969400
+Cuauhtémoc,Chihuahua,180638,28.4,-106.87,Mixta,162574200
+Cusihuiriachi,Chihuahua,5099,28.2,-106.72,Agrícola,3569300
+Chihuahua,Chihuahua,937674,28.63,-106.08,Servicios,1125208800
+Chínipas,Chihuahua,6013,27.38,-108.53,Agrícola,4209100
+Delicias,Chihuahua,150506,28.18,-105.47,Mixta,135455400
+Dr. Belisario Domínguez,Chihuahua,2573,28.1,-106.47,Agrícola,1801100
+Galeana,Chihuahua,6341,30.08,-107.6,Agrícola,4438700
+Santa Isabel,Chihuahua,3893,28.38,-106.33,Agrícola,2725100
+Gómez Farías,Chihuahua,7028,29.35,-107.73,Agrícola,4919600
+Gran Morelos,Chihuahua,2962,28.25,-106.57,Agrícola,2073400
+Guachochi,Chihuahua,50181,26.82,-107.07,Agrícola,35126700
+Guadalupe,Chihuahua,4237,31.12,-105.2,Agrícola,2965900
+Guadalupe y Calvo,Chihuahua,50514,26.1,-106.97,Agrícola,35359800
+Guazapares,Chihuahua,7982,27.23,-108.2,Agrícola,5587400
+Guerrero,Chihuahua,35473,28.55,-107.48,Agrícola,24831100
+Hidalgo del Parral,Chihuahua,116662,26.93,-105.67,Mixta,105000000
+Huejotitán,Chihuahua,824,27.05,-105.9,Agrícola,576800
+Ignacio Zaragoza,Chihuahua,5330,29.67,-107.73,Agrícola,3731000
+Janos,Chihuahua,11009,30.88,-108.2,Agrícola,7706300
+Jiménez,Chihuahua,41838,27.13,-104.9,Mixta,33470400
+Juárez,Chihuahua,1512450,31.73,-106.48,Industrial,1814940000
+Julimes,Chihuahua,5063,28.43,-105.4,Agrícola,3544100
+López,Chihuahua,3993,27,-105.03,Agrícola,2795100
+Madera,Chihuahua,25442,29.18,-108.15,Agrícola,17809400
+Maguarichi,Chihuahua,1473,27.87,-108,Agrícola,1031100
+Manuel Benavides,Chihuahua,1455,29,-104.13,Agrícola,1018500
+Matachí,Chihuahua,2864,28.85,-107.67,Agrícola,2004800
+Matamoros,Chihuahua,4490,26.77,-105.58,Agrícola,3143000
+Meoqui,Chihuahua,44853,28.27,-105.48,Mixta,35882400
+Morelos,Chihuahua,7155,26.63,-107.68,Agrícola,5008500
+Moris,Chihuahua,4479,28.1,-108.77,Agrícola,3135300
+Namiquipa,Chihuahua,22915,29.27,-107.4,Agrícola,16040500
+Nonoava,Chihuahua,2620,27.48,-106.72,Agrícola,1834000
+Nuevo Casas Grandes,Chihuahua,65753,30.42,-107.9,Mixta,59177700
+Ocampo,Chihuahua,6298,28.02,-108.35,Agrícola,4408600
+Ojinaga,Chihuahua,26315,29.57,-104.42,Mixta,21052000
+Práxedis G. Guerrero,Chihuahua,2644,31.37,-106.02,Agrícola,1850800
+Riva Palacio,Chihuahua,7975,28.82,-106.57,Agrícola,5582500
+Rosales,Chihuahua,17215,28.18,-105.57,Agrícola,12050500
+Rosario,Chihuahua,1992,27.32,-106.33,Agrícola,1394400
+San Francisco de Borja,Chihuahua,2162,27.83,-106.07,Agrícola,1513400
+San Francisco de Conchos,Chihuahua,2687,27.57,-105.3,Agrícola,1880900
+San Francisco del Oro,Chihuahua,4820,26.85,-105.85,Mixta,4338000
+Santa Bárbara,Chihuahua,10940,26.8,-105.82,Mixta,9846000
+Satevó,Chihuahua,3480,27.75,-106.27,Agrícola,2436000
+Saucillo,Chihuahua,29699,28,-105.28,Agrícola,20789300
+Temósachic,Chihuahua,5640,28.32,-108,Agrícola,3948000
+El Tule,Chihuahua,1863,27.07,-105.97,Agrícola,1304100
+Urique,Chihuahua,17042,27.22,-107.92,Servicios,15337800
+Uruachi,Chihuahua,6823,27.87,-108.2,Agrícola,4776100
+Valle de Zaragoza,Chihuahua,4819,27.45,-105.8,Agrícola,3373300
+Azcapotzalco,Ciudad de México,432205,19.48,-99.18,Industrial,518646000
+Coyoacán,Ciudad de México,614447,19.32,-99.15,Servicios,737336400
+Cuajimalpa de Morelos,Ciudad de México,217686,19.35,-99.28,Servicios,261223200
+Gustavo A. Madero,Ciudad de México,1173351,19.5,-99.1,Industrial,1408021200
+Iztacalco,Ciudad de México,404695,19.38,-99.1,Mixta,485634000
+Iztapalapa,Ciudad de México,1835486,19.35,-99.07,Industrial,2202583200
+La Magdalena Contreras,Ciudad de México,247622,19.3,-99.25,Servicios,297146400
+Milpa Alta,Ciudad de México,152685,19.18,-99.02,Agrícola,122148000
+Álvaro Obregón,Ciudad de México,759137,19.35,-99.2,Servicios,910964400
+Tláhuac,Ciudad de México,392313,19.27,-99,Mixta,431544300
+Tlalpan,Ciudad de México,699928,19.28,-99.17,Servicios,839913600
+Xochimilco,Ciudad de México,442178,19.25,-99.1,Servicios,486395800
+Benito Juárez,Ciudad de México,434153,19.37,-99.15,Servicios,564398900
+Cuauhtémoc,Ciudad de México,545884,19.43,-99.15,Servicios,655060800
+Miguel Hidalgo,Ciudad de México,414470,19.42,-99.2,Servicios,538811000
+Venustiano Carranza,Ciudad de México,443704,19.43,-99.1,Mixta,532444800
+Canatlán,Durango,31349,24.52,-104.78,Agrícola,21944300
+Canelas,Durango,4282,23.12,-106.55,Agrícola,2997400
+Coneto de Comonfort,Durango,4090,24.87,-104.78,Agrícola,2863000
+Cuencamé,Durango,34945,24.87,-103.7,Mixta,26208750
+Durango,Durango,688697,24.02,-104.65,Servicios,757566700
+General Simón Bolívar,Durango,10038,25,-103.35,Agrícola,7026600
+Gómez Palacio,Durango,372286,25.57,-103.5,Industrial,446743200
+Guadalupe Victoria,Durango,36695,24.43,-104.12,Mixta,27521250
+Guanaceví,Durango,9714,25.9,-105.97,Agrícola,6800000
+Hidalgo,Durango,4018,25.98,-104.92,Agrícola,2812600
+Indé,Durango,4824,25.82,-105.15,Agrícola,3376800
+Lerdo,Durango,163313,25.53,-103.52,Mixta,146981700
+Mapimí,Durango,26920,26.12,-103.85,Agrícola,18844000
+Mezquital,Durango,40250,23.47,-104.38,Agrícola,28175000
+Nazas,Durango,12894,25.27,-104.12,Agrícola,9025800
+Nombre de Dios,Durango,19060,23.85,-104.25,Agrícola,13342000
+Ocampo,Durango,5974,26.4,-105.37,Agrícola,4181800
+El Oro,Durango,10738,25.55,-105.28,Agrícola,7516600
+Otáez,Durango,4923,24.7,-105.9,Agrícola,3446100
+Pánuco de Coronado,Durango,12020,24.53,-104.33,Agrícola,8414000
+Peñón Blanco,Durango,10860,24.78,-104.03,Agrícola,7602000
+Poanas,Durango,29466,24.47,-104.07,Agrícola,20626200
+Pueblo Nuevo,Durango,51269,23.38,-105.38,Agrícola,35888300
+Rodeo,Durango,12818,25.17,-104.57,Agrícola,8972600
+San Bernardo,Durango,2832,26.37,-105.7,Agrícola,1982400
+San Dimas,Durango,17326,24.13,-105.78,Agrícola,12128200
+San Juan de Guadalupe,Durango,5272,24.67,-102.78,Agrícola,3690400
+San Juan del Río,Durango,12127,24.77,-104.47,Agrícola,8488900
+San Luis del Cordero,Durango,2061,25.2,-104.28,Agrícola,1442700
+San Pedro del Gallo,Durango,1596,25.57,-104.47,Agrícola,1117200
+Santa Clara,Durango,4237,24.43,-103.35,Agrícola,2965900
+Santiago Papasquiaro,Durango,49207,25.03,-105.42,Mixta,36905250
+Súchil,Durango,6603,23.4,-104,Agrícola,4622100
+Tamazula,Durango,25637,24.97,-106.97,Agrícola,17945900
+Tepehuanes,Durango,11380,25.33,-105.72,Agrícola,7966000
+Tlahualilo,Durango,21262,26.1,-103.43,Agrícola,14883400
+Topia,Durango,9440,25.22,-106.57,Agrícola,6608000
+Vicente Guerrero,Durango,23479,23.73,-103.98,Mixta,17609250
+Nuevo Ideal,Durango,27982,24.88,-105.07,Mixta,20986500
+Abasolo,Guanajuato,92040,20.45,-101.52,Agrícola,64428000
+Acámbaro,Guanajuato,108697,20.03,-100.73,Mixta,97827300
+San Miguel de Allende,Guanajuato,174615,20.92,-100.74,Servicios,192076500
+Apaseo el Alto,Guanajuato,63393,20.45,-100.62,Mixta,50714400
+Apaseo el Grande,Guanajuato,117884,20.55,-100.68,Mixta,106095600
+Atarjea,Guanajuato,5296,21.27,-99.72,Agrícola,3707200
+Celaya,Guanajuato,521169,20.52,-100.82,Industrial,625402800
+Manuel Doblado,Guanajuato,41240,20.73,-101.95,Agrícola,28868000
+Comonfort,Guanajuato,82213,20.72,-100.77,Mixta,65770400
+Coroneo,Guanajuato,11084,20.18,-100.35,Agrícola,7758800
+Cortazar,Guanajuato,97928,20.48,-100.93,Mixta,88135200
+Cuerámaro,Guanajuato,29471,20.62,-101.68,Agrícola,20629700
+Doctor Mora,Guanajuato,27376,21.13,-100.32,Agrícola,19163200
+Dolores Hidalgo Cuna de la Independencia Nacional,Guanajuato,163038,21.15,-100.93,Servicios,146734200
+Guanajuato,Guanajuato,194500,21.02,-101.25,Servicios,213950000
+Huanímaro,Guanajuato,20015,20.37,-101.5,Agrícola,14010500
+Irapuato,Guanajuato,592953,20.67,-101.35,Industrial,711543600
+Jaral del Progreso,Guanajuato,38782,20.37,-101.02,Agrícola,27147400
+Jerécuaro,Guanajuato,49137,20.15,-100.52,Agrícola,34395900
+León,Guanajuato,1721215,21.12,-101.68,Industrial,2065458000
+Moroleón,Guanajuato,47261,20.13,-101.2,Mixta,42534900
+Ocampo,Guanajuato,24357,21.65,-101.38,Agrícola,17049900
+Pénjamo,Guanajuato,154960,20.43,-101.72,Agrícola,108472000
+Pueblo Nuevo,Guanajuato,12423,20.52,-101.37,Agrícola,8696100
+Purísima del Rincón,Guanajuato,83842,21.03,-101.85,Mixta,67073600
+Romita,Guanajuato,65766,20.87,-101.52,Agrícola,46036200
+Salamanca,Guanajuato,273417,20.57,-101.2,Industrial,328100400
+Salvatierra,Guanajuato,94558,20.22,-100.88,Mixta,75646400
+San Diego de la Unión,Guanajuato,38012,21.47,-100.87,Agrícola,26608400
+San Felipe,Guanajuato,119789,21.48,-101.22,Agrícola,83852300
+San Francisco del Rincón,Guanajuato,130871,21.02,-101.77,Mixta,117783900
+San José Iturbide,Guanajuato,89558,21,-100.38,Mixta,71646400
+San Luis de la Paz,Guanajuato,128526,21.3,-100.52,Mixta,102820800
+Santa Catarina,Guanajuato,5640,21.13,-99.88,Agrícola,3948000
+Juventino Rosas,Guanajuato,82455,20.63,-101,Agrícola,57718500
+Santiago Maravatío,Guanajuato,6670,20.18,-100.98,Agrícola,4669000
+Silao de la Victoria,Guanajuato,203556,20.93,-101.43,Industrial,223911600
+Tarandacuao,Guanajuato,11667,20,-100.5,Agrícola,8166900
+Tarimoro,Guanajuato,35905,20.3,-100.75,Agrícola,25133500
+Tierra Blanca,Guanajuato,19702,21.02,-100.08,Agrícola,13791400
+Uriangato,Guanajuato,62215,20.13,-101.17,Mixta,55993500
+Valle de Santiago,Guanajuato,150054,20.4,-101.2,Agrícola,105037800
+Victoria,Guanajuato,20800,21.22,-100.22,Agrícola,14560000
+Villagrán,Guanajuato,65922,20.52,-100.98,Mixta,52737600
+Xichú,Guanajuato,11342,21.3,-99.97,Agrícola,7939400
+Yuriria,Guanajuato,70554,20.2,-101.13,Mixta,56443200
+Acapulco de Juárez,Guerrero,779566,16.85,-99.82,Servicios,935479200
+Ahuacuotzingo,Guerrero,26417,17.72,-98.9,Agrícola,18491900
+Ajuchitlán del Progreso,Guerrero,37593,18.15,-100.5,Agrícola,26315100
+Alcozauca de Guerrero,Guerrero,21568,17.47,-98.38,Agrícola,15097600
+Alpoyeca,Guerrero,7345,17.58,-98.5,Agrícola,5141500
+Apaxtla,Guerrero,11617,18.15,-99.93,Agrícola,8131900
+Arcelia,Guerrero,32181,18.3,-100.27,Mixta,25744800
+Atenango del Río,Guerrero,8491,18.12,-99.1,Agrícola,5943700
+Atlamajalcingo del Monte,Guerrero,5605,17.3,-98.57,Agrícola,3923500
+Atlixtac,Guerrero,28531,17.58,-98.92,Agrícola,19971700
+Atoyac de Álvarez,Guerrero,60680,17.2,-100.43,Mixta,48544000
+Ayutla de los Libres,Guerrero,62690,16.97,-99.1,Agrícola,43883000
+Azoyú,Guerrero,14389,16.55,-98.98,Agrícola,10072300
+Benito Juárez,Guerrero,15019,17.1,-100.45,Agrícola,10513300
+Buenavista de Cuéllar,Guerrero,12178,18.43,-99.4,Agrícola,8524600
+Coahuayutla de José María Izazaga,Guerrero,12028,18.25,-101.2,Agrícola,8419600
+Cocula,Guerrero,14346,18.23,-99.65,Mixta,11476800
+Copala,Guerrero,13627,16.63,-98.98,Agrícola,9538900
+Copalillo,Guerrero,15424,17.98,-99.13,Agrícola,10796800
+Copanatoyac,Guerrero,21666,17.4,-98.7,Agrícola,15166200
+Coyuca de Benítez,Guerrero,73056,17,-100.08,Mixta,58444800
+Coyuca de Catalán,Guerrero,38546,18.33,-100.67,Agrícola,26982200
+Cuajinicuilapa,Guerrero,26627,16.47,-98.42,Agrícola,18638900
+Cualác,Guerrero,7879,17.72,-98.67,Agrícola,5515300
+Cuautepec,Guerrero,15115,16.73,-99,Agrícola,10580500
+Cuetzala del Progreso,Guerrero,8833,18.2,-99.85,Agrícola,6183100
+Cutzamala de Pinzón,Guerrero,20108,18.57,-100.58,Agrícola,14075600
+Chilapa de Álvarez,Guerrero,123740,17.6,-99.17,Mixta,98992000
+Chilpancingo de los Bravo,Guerrero,283354,17.55,-99.5,Servicios,311689400
+Florencio Villarreal,Guerrero,20175,16.73,-99.12,Agrícola,14122500
+General Canuto A. Neri,Guerrero,6209,18.35,-99.7,Agrícola,4346300
+General Heliodoro Castillo,Guerrero,37295,17.78,-100.03,Agrícola,26106500
+Huamuxtitlán,Guerrero,17303,17.8,-98.55,Agrícola,12112100
+Huitzuco de los Figueroa,Guerrero,36142,18.3,-99.37,Agrícola,25299400
+Iguala de la Independencia,Guerrero,154173,18.35,-99.53,Servicios,154173000
+Igualapa,Guerrero,11794,16.67,-98.5,Agrícola,8255800
+Ixcateopan de Cuauhtémoc,Guerrero,6114,18.5,-99.78,Servicios,5502600
+Zihuatanejo de Azueta,Guerrero,128574,17.63,-101.55,Servicios,154288800
+Juan R. Escudero,Guerrero,26176,17.13,-99.53,Agrícola,18323200
+Leonardo Bravo,Guerrero,25895,17.63,-99.78,Agrícola,18126500
+Malinaltepec,Guerrero,29627,17.28,-98.67,Agrícola,20738900
+Mártir de Cuilapan,Guerrero,18784,17.92,-99.32,Agrícola,13148800
+Metlatónoc,Guerrero,18976,17.2,-98.42,Agrícola,13283200
+Mochitlán,Guerrero,12061,17.47,-99.38,Agrícola,8442700
+Olinalá,Guerrero,25633,17.83,-98.83,Agrícola,17943100
+Ometepec,Guerrero,68249,16.68,-98.4,Mixta,54599200
+Pedro Ascencio Alquisiras,Guerrero,6709,18.57,-99.8,Agrícola,4696300
+Petatlán,Guerrero,44979,17.53,-101.27,Mixta,35983200
+Pilcaya,Guerrero,12739,18.73,-99.68,Agrícola,8917300
+Pungarabato,Guerrero,38481,18.33,-100.67,Mixta,30784800
+Quechultenango,Guerrero,36143,17.4,-99.3,Agrícola,25299100
+San Luis Acatlán,Guerrero,42380,16.8,-98.73,Agrícola,29666000
+San Marcos,Guerrero,50124,16.8,-99.38,Agrícola,35086800
+San Miguel Totolapan,Guerrero,24139,18.15,-100.32,Agrícola,16897300
+Taxco de Alarcón,Guerrero,105586,18.55,-99.6,Servicios,116144600
+Tecoanapa,Guerrero,46065,16.92,-99.27,Agrícola,32245500
+Técpan de Galeana,Guerrero,62071,17.22,-100.63,Mixta,49656800
+Teloloapan,Guerrero,53769,18.35,-99.87,Mixta,43015200
+Tepecoacuilco de Trujano,Guerrero,30470,18.2,-99.47,Agrícola,21329000
+Tetipac,Guerrero,13115,18.63,-99.65,Agrícola,9180500
+Tixtla de Guerrero,Guerrero,43171,17.57,-99.4,Mixta,34536800
+Tlacoachistlahuaca,Guerrero,21360,16.78,-98.3,Agrícola,14952000
+Tlacoapa,Guerrero,11219,17.22,-98.75,Agrícola,7853300
+Tlalchapa,Guerrero,11631,18.43,-100.47,Agrícola,8141700
+Tlalixtaquilla de Maldonado,Guerrero,7604,17.5,-98.45,Agrícola,5322800
+Tlapa de Comonfort,Guerrero,96125,17.55,-98.57,Mixta,76900000
+Tlapehuala,Guerrero,22209,18.3,-100.5,Agrícola,15546300
+La Unión de Isidoro Montes de Oca,Guerrero,25637,17.98,-101.8,Servicios,25637000
+Xalpatláhuac,Guerrero,12727,17.47,-98.6,Agrícola,8908900
+Xochihuehuetlán,Guerrero,7850,17.9,-98.47,Agrícola,5495000
+Xochistlahuaca,Guerrero,29891,16.78,-98.23,Agrícola,20923700
+Zapotitlán Tablas,Guerrero,11508,17.37,-98.8,Agrícola,8055600
+Zirándaro,Guerrero,18031,18.45,-101.1,Agrícola,12621700
+Zitlala,Guerrero,22587,17.8,-99.2,Agrícola,15810900
+Eduardo Neri,Guerrero,53126,17.72,-99.57,Mixta,42500800
+Acatepec,Guerrero,37837,17.2,-98.95,Agrícola,26485900
+Marquelia,Guerrero,14173,16.58,-98.82,Servicios,12755700
+Cochoapa el Grande,Guerrero,21275,17.1,-98.4,Agrícola,14892500
+José Joaquín de Herrera,Guerrero,15678,17.45,-99.02,Agrícola,10974600
+Juchitán,Guerrero,7569,16.6,-98.7,Agrícola,5298300
+Iliatenco,Guerrero,10522,17.1,-98.68,Agrícola,7365400
+Las Vigas,Guerrero,8000,17,-99.3,Agrícola,5600000
+Santa Cruz del Rincón,Guerrero,7000,17.2,-98.8,Agrícola,4900000
+San Nicolás,Guerrero,7000,16.8,-98.7,Agrícola,4900000
+Acatlán,Hidalgo,22268,20.18,-98.45,Agrícola,15587600
+Acaxochitlán,Hidalgo,45155,20.15,-98.2,Agrícola,31608500
+Actopan,Hidalgo,61002,20.27,-98.93,Mixta,48801600
+Agua Blanca de Iturbide,Hidalgo,9634,20.35,-98.35,Agrícola,6743800
+Ajacuba,Hidalgo,18630,20.1,-99.1,Agrícola,13041000
+Alfajayucan,Hidalgo,19205,20.4,-99.37,Agrícola,13443500
+Almoloya,Hidalgo,12487,19.72,-98.37,Agrícola,8740900
+Apan,Hidalgo,46698,19.72,-98.45,Mixta,37358400
+El Arenal,Hidalgo,20357,20.22,-98.9,Agrícola,14249900
+Atitalaquia,Hidalgo,31697,20,-99.22,Industrial,34866700
+Atlapexco,Hidalgo,19754,21,-98.37,Agrícola,13827800
+Atotonilco el Grande,Hidalgo,29007,20.28,-98.67,Mixta,23205600
+Atotonilco de Tula,Hidalgo,62477,19.97,-99.27,Industrial,68724700
+Calnali,Hidalgo,16752,20.9,-98.57,Agrícola,11726400
+Cardonal,Hidalgo,19485,20.6,-99.12,Agrícola,13639500
+Cuautepec de Hinojosa,Hidalgo,60353,19.98,-98.3,Mixta,48282400
+Chapantongo,Hidalgo,13076,20.28,-99.4,Agrícola,9153200
+Chapulhuacán,Hidalgo,22379,21.15,-98.92,Agrícola,15665300
+Chilcuautla,Hidalgo,18520,20.32,-99.23,Agrícola,12964000
+Eloxochitlán,Hidalgo,2598,20.73,-98.78,Agrícola,1818600
+Emiliano Zapata,Hidalgo,15309,19.65,-98.57,Agrícola,10716300
+Epazoyucan,Hidalgo,16223,19.98,-98.78,Agrícola,11356100
+Francisco I. Madero,Hidalgo,36263,20.25,-99.07,Agrícola,25384100
+Huasca de Ocampo,Hidalgo,17578,20.2,-98.57,Servicios,17578000
+Huautla,Hidalgo,20786,21.03,-98.28,Agrícola,14550200
+Huazalingo,Hidalgo,13410,21.07,-98.5,Agrícola,9387000
+Huehuetla,Hidalgo,23820,20.5,-98.07,Agrícola,16674000
+Huejutla de Reyes,Hidalgo,131553,21.13,-98.42,Mixta,105242400
+Huichapan,Hidalgo,47425,20.37,-99.65,Mixta,37940000
+Ixmiquilpan,Hidalgo,98654,20.48,-99.22,Mixta,88788600
+Jacala de Ledezma,Hidalgo,11516,21.02,-99.18,Agrícola,8061200
+Jaltocán,Hidalgo,10657,21.1,-98.52,Agrícola,7459900
+Juárez Hidalgo,Hidalgo,2900,20.77,-98.83,Agrícola,2030000
+Lolotla,Hidalgo,9588,20.88,-98.7,Agrícola,6711600
+Metepec,Hidalgo,12903,20.25,-98.37,Agrícola,9032100
+San Agustín Metzquititlán,Hidalgo,9789,20.53,-98.63,Agrícola,6852300
+Metztitlán,Hidalgo,20970,20.6,-98.77,Agrícola,14679000
+Mineral del Chico,Hidalgo,8855,20.22,-98.73,Servicios,8000000
+Mineral del Monte,Hidalgo,14324,20.13,-98.67,Servicios,12891600
+La Misión,Hidalgo,9718,21.08,-99.05,Agrícola,6802600
+Mixquiahuala de Juárez,Hidalgo,47109,20.23,-99.2,Mixta,37687200
+Molango de Escamilla,Hidalgo,11585,20.78,-98.72,Agrícola,8109500
+Nicolás Flores,Hidalgo,6151,20.83,-99.15,Agrícola,4305700
+Nopala de Villagrán,Hidalgo,16752,20.2,-99.65,Agrícola,11726400
+Omitlán de Juárez,Hidalgo,9231,20.18,-98.65,Servicios,8307900
+San Felipe Orizatlán,Hidalgo,41591,21.18,-98.6,Agrícola,29113700
+Pacula,Hidalgo,4503,21.03,-99.3,Agrícola,3152100
+Pachuca de Soto,Hidalgo,314331,20.1,-98.73,Servicios,377197200
+Pisaflores,Hidalgo,18129,21.2,-98.98,Agrícola,12690300
+Progreso de Obregón,Hidalgo,23854,20.25,-99.18,Mixta,19083200
+Mineral de la Reforma,Hidalgo,202749,20.08,-98.7,Mixta,182474100
+San Agustín Tlaxiaca,Hidalgo,38891,20.07,-98.88,Mixta,31112800
+San Bartolo Tutotepec,Hidalgo,18520,20.4,-98.2,Agrícola,12964000
+San Salvador,Hidalgo,36767,20.33,-99,Agrícola,25736900
+Santiago de Anaya,Hidalgo,18131,20.38,-98.97,Agrícola,12691700
+Santiago Tulantepec de Lugo Guerrero,Hidalgo,39121,20.03,-98.37,Mixta,31296800
+Singuilucan,Hidalgo,15147,19.97,-98.53,Agrícola,10602900
+Tasquillo,Hidalgo,17468,20.55,-99.32,Agrícola,12227600
+Tecozautla,Hidalgo,38012,20.53,-99.63,Servicios,30409600
+Tenango de Doria,Hidalgo,17206,20.32,-98.22,Agrícola,12044200
+Tepeapulco,Hidalgo,56150,19.78,-98.55,Mixta,44920000
+Tepehuacán de Guerrero,Hidalgo,30701,21.05,-98.83,Agrícola,21490700
+Tepeji del Río de Ocampo,Hidalgo,90546,19.9,-99.33,Industrial,108655200
+Tepetitlán,Hidalgo,11545,20.18,-99.38,Agrícola,8081500
+Tetepango,Hidalgo,12028,20.12,-99.18,Agrícola,8419600
+Villa de Tezontepec,Hidalgo,12630,19.88,-98.82,Agrícola,8841000
+Tezontepec de Aldama,Hidalgo,54415,20.18,-99.27,Mixta,43532000
+Tianguistengo,Hidalgo,14349,20.78,-98.6,Agrícola,10044300
+Tizayuca,Hidalgo,168302,19.83,-98.97,Industrial,185132200
+Tlahuelilpan,Hidalgo,19241,20.13,-99.23,Mixta,15392800
+Tlahuiltepa,Hidalgo,9360,20.92,-98.95,Agrícola,6552000
+Tlanalapa,Hidalgo,11082,19.82,-98.58,Agrícola,7757400
+Tlanchinol,Hidalgo,36490,21.03,-98.65,Agrícola,25543000
+Tlaxcoapan,Hidalgo,28646,20.08,-99.22,Mixta,22916800
+Tolcayuca,Hidalgo,21183,19.93,-98.92,Mixta,16946400
+Tula de Allende,Hidalgo,115107,20.05,-99.33,Industrial,126617700
+Tulancingo de Bravo,Hidalgo,168352,20.08,-98.37,Mixta,151516800
+Xochiatipan,Hidalgo,18632,20.85,-98.3,Agrícola,13042400
+Xochicoatlán,Hidalgo,6916,20.78,-98.68,Agrícola,4841200
+Yahualica,Hidalgo,24775,20.93,-98.35,Agrícola,17342500
+Zacualtipán de Ángeles,Hidalgo,38260,20.65,-98.6,Mixta,28695000
+Zapotlán de Juárez,Hidalgo,21443,19.97,-98.85,Agrícola,15010100
+Zempoala,Hidalgo,57906,19.92,-98.67,Mixta,46324800
+Zimapán,Hidalgo,39927,20.73,-99.38,Servicios,31941600
+Acatic,Jalisco,23460,20.785,-102.911,Agrícola,16422000
+Acatlán de Juárez,Jalisco,25450,20.414,-103.593,Mixta,19087500
+Ahualulco de Mercado,Jalisco,23630,20.7,-103.98,Agrícola,17722500
+Amacueca,Jalisco,5690,20.046,-103.598,Agrícola,3983000
+Amatitán,Jalisco,16550,20.838,-103.719,Agrícola,13240000
+Ameca,Jalisco,60386,20.55,-104.04,Mixta,48308800
+San Juanito de Escobedo,Jalisco,9433,20.82,-103.98,Agrícola,7074750
+Arandas,Jalisco,80609,20.704,-102.346,Mixta,64487200
+El Arenal,Jalisco,20463,20.77,-103.69,Agrícola,15347250
+Atemajac de Brizuela,Jalisco,7077,20.21,-103.72,Agrícola,5307750
+Atengo,Jalisco,5623,20.35,-104.18,Agrícola,3936100
+Atenguillo,Jalisco,4301,20.43,-104.47,Agrícola,3225750
+Atotonilco el Alto,Jalisco,64103,20.53,-102.51,Mixta,51282400
+Atoyac,Jalisco,8690,20.01,-103.52,Agrícola,6517500
+Autlán de Navarro,Jalisco,64931,19.77,-104.36,Mixta,51944800
+Ayotlán,Jalisco,41738,20.44,-102.39,Agrícola,31303500
+Ayutla,Jalisco,13063,20.12,-104.34,Agrícola,9797250
+La Barca,Jalisco,67937,20.29,-102.54,Mixta,54349600
+Bolaños,Jalisco,7133,21.9,-103.78,Agrícola,5349750
+Cabo Corrientes,Jalisco,10724,20.24,-105.51,Servicios,10724000
+Casimiro Castillo,Jalisco,20689,19.59,-104.43,Agrícola,15516750
+Cihuatlán,Jalisco,19992,19.23,-104.57,Servicios,21991200
+Zapotlán el Grande,Jalisco,115141,19.7,-103.46,Servicios,126655100
+Cocula,Jalisco,29267,20.36,-103.82,Mixta,21950250
+Colotlán,Jalisco,19797,22.12,-103.27,Mixta,14847750
+Concepción de Buenos Aires,Jalisco,6616,19.92,-103.36,Agrícola,4962000
+Cuautitlán de García Barragán,Jalisco,18540,19.43,-104.51,Agrícola,13905000
+Cuautla,Jalisco,2207,20.24,-104.4,Agrícola,1655250
+Cuquío,Jalisco,19176,20.92,-103.04,Agrícola,14382000
+Chapala,Jalisco,55196,20.3,-103.19,Servicios,60715600
+Chimaltitán,Jalisco,3278,21.82,-103.74,Agrícola,2458500
+Chiquilistlán,Jalisco,5770,20.26,-103.81,Agrícola,4327500
+Degollado,Jalisco,21272,20.44,-102.14,Mixta,15954000
+Ejutla,Jalisco,1986,19.95,-104.14,Agrícola,1489500
+Encarnación de Díaz,Jalisco,53555,21.52,-102.23,Mixta,40166250
+Etzatlán,Jalisco,20176,20.77,-104.09,Agrícola,15132000
+El Grullo,Jalisco,25950,19.8,-104.21,Mixta,20760000
+Guachinango,Jalisco,4376,20.61,-104.38,Agrícola,3282000
+Guadalajara,Jalisco,1385629,20.67,-103.34,Servicios,1662754800
+Hostotipaquillo,Jalisco,10578,21.08,-103.9,Agrícola,7933500
+Huejúcar,Jalisco,5903,22.35,-103.21,Agrícola,4427250
+Huejuquilla el Alto,Jalisco,9340,22.6,-103.87,Agrícola,7005000
+La Huerta,Jalisco,24727,19.48,-104.64,Agrícola,18545250
+Ixtlahuacán de los Membrillos,Jalisco,67832,20.42,-103.19,Mixta,54265600
+Ixtlahuacán del Río,Jalisco,20464,20.87,-103.25,Agrícola,15348000
+Jalostotitlán,Jalisco,35071,21.17,-102.47,Mixta,26303250
+Jamay,Jalisco,24894,20.25,-102.7,Agrícola,18670500
+Jesús María,Jalisco,18972,20.64,-102.23,Agrícola,14229000
+Jilotlán de los Dolores,Jalisco,10305,19.34,-103.01,Agrícola,7728750
+Jocotepec,Jalisco,47534,20.29,-103.43,Servicios,52287400
+Juanacatlán,Jalisco,33467,20.52,-103.17,Industrial,36813700
+Juchitlán,Jalisco,5497,20.09,-104.09,Agrícola,4122750
+Lagos de Moreno,Jalisco,172403,21.36,-101.92,Mixta,155162700
+El Limón,Jalisco,5465,19.82,-104.16,Agrícola,4098750
+Magdalena,Jalisco,22687,20.91,-104.02,Agrícola,17015250
+Santa María del Oro,Jalisco,1815,19.56,-102.68,Agrícola,1361250
+La Manzanilla de la Paz,Jalisco,4014,19.98,-103.08,Agrícola,3010500
+Mascota,Jalisco,14979,20.52,-104.79,Servicios,13481100
+Mazamitla,Jalisco,14925,19.91,-103.02,Servicios,16417500
+Mexticacán,Jalisco,6034,21.34,-102.73,Agrícola,4525500
+Mezquitic,Jalisco,19992,22.03,-103.73,Agrícola,14994000
+Mixtlán,Jalisco,3670,20.46,-104.3,Agrícola,2752500
+Ocotlán,Jalisco,106059,20.35,-102.76,Industrial,116664900
+Ojuelos de Jalisco,Jalisco,32308,21.87,-101.59,Mixta,24231000
+Pihuamo,Jalisco,11537,19.25,-103.38,Agrícola,8652750
+Poncitlán,Jalisco,53659,20.38,-102.92,Mixta,42927200
+Puerto Vallarta,Jalisco,291839,20.62,-105.22,Servicios,379390700
+Villa Purificación,Jalisco,11186,19.72,-104.6,Agrícola,8389500
+Quitupan,Jalisco,7957,19.82,-102.85,Agrícola,5967750
+El Salto,Jalisco,232852,20.53,-103.29,Industrial,279422400
+San Cristóbal de la Barranca,Jalisco,3284,21.03,-103.48,Agrícola,2463000
+San Diego de Alejandría,Jalisco,7074,21.02,-102.13,Agrícola,5305500
+San Juan de los Lagos,Jalisco,72230,21.25,-102.33,Servicios,65007000
+San Julián,Jalisco,16578,21.01,-102.17,Mixta,12433500
+San Marcos,Jalisco,3791,20.78,-104.19,Agrícola,2843250
+San Martín de Bolaños,Jalisco,2992,21.7,-103.8,Agrícola,2244000
+San Martín Hidalgo,Jalisco,27891,20.43,-103.92,Mixta,20918250
+San Miguel el Alto,Jalisco,32289,21.02,-102.39,Mixta,24216750
+Gómez Farías,Jalisco,17042,19.81,-103.45,Agrícola,12781500
+San Sebastián del Oeste,Jalisco,5978,20.76,-104.85,Servicios,5380200
+Santa María de los Ángeles,Jalisco,3677,22.28,-103.04,Agrícola,2757750
+Sayula,Jalisco,37633,19.88,-103.59,Mixta,28224750
+Tala,Jalisco,87690,20.67,-103.7,Industrial,96459000
+Talpa de Allende,Jalisco,15643,20.38,-104.82,Servicios,14078700
+Tamazula de Gordiano,Jalisco,43003,19.67,-103.25,Agrícola,32252250
+Tapalpa,Jalisco,19506,19.94,-103.76,Servicios,19506000
+Tecalitlán,Jalisco,16705,19.47,-103.3,Agrícola,12528750
+Tecolotlán,Jalisco,17502,20.21,-104.05,Agrícola,13126500
+Techaluta de Montenegro,Jalisco,3717,19.94,-103.56,Agrícola,2787750
+Tenamaxtlán,Jalisco,7395,20.2,-104.17,Agrícola,5546250
+Teocaltiche,Jalisco,40131,21.44,-102.58,Mixta,30098250
+Teocuitatlán de Corona,Jalisco,11181,20.18,-103.4,Agrícola,8385750
+Tepatitlán de Morelos,Jalisco,150190,20.81,-102.73,Mixta,135171000
+Tequila,Jalisco,44347,20.88,-103.83,Servicios,44347000
+Teuchitlán,Jalisco,9591,20.68,-103.85,Agrícola,7193250
+Tizapán el Alto,Jalisco,22045,20.17,-103.07,Agrícola,16533750
+Tlajomulco de Zúñiga,Jalisco,727750,20.48,-103.44,Industrial,873300000
+San Pedro Tlaquepaque,Jalisco,687127,20.61,-103.31,Industrial,755839700
+Tolimán,Jalisco,9513,19.61,-103.95,Agrícola,7134750
+Tomatlán,Jalisco,34914,19.93,-105.25,Agrícola,26185500
+Tonalá,Jalisco,569913,20.62,-103.23,Industrial,626904300
+Tonaya,Jalisco,5953,19.83,-104.08,Agrícola,4464750
+Tonila,Jalisco,7397,19.45,-103.51,Agrícola,5547750
+Totatiche,Jalisco,4441,21.93,-103.44,Agrícola,3330750
+Tototlán,Jalisco,23531,20.52,-102.77,Agrícola,17648250
+Tuxcacuesco,Jalisco,3711,19.82,-104,Agrícola,2783250
+Tuxcueca,Jalisco,6043,20.12,-103.27,Agrícola,4532250
+Tuxpan,Jalisco,36306,19.55,-103.37,Mixta,27229500
+Unión de San Antonio,Jalisco,17623,21.13,-102,Agrícola,13217250
+Unión de Tula,Jalisco,13994,20.01,-104.26,Mixta,10495500
+Valle de Guadalupe,Jalisco,7220,21,-102.6,Agrícola,5415000
+Valle de Juárez,Jalisco,6616,19.91,-102.89,Agrícola,4962000
+San Gabriel,Jalisco,16576,19.74,-103.76,Agrícola,12432000
+Villa Corona,Jalisco,17978,20.42,-103.68,Agrícola,13483500
+Villa Guerrero,Jalisco,6001,21.98,-103.6,Agrícola,4500750
+Villa Hidalgo,Jalisco,19688,21.66,-102.6,Mixta,14766000
+Cañadas de Obregón,Jalisco,4130,21.1,-102.75,Agrícola,3097500
+Yahualica de González Gallo,Jalisco,22687,21.17,-102.88,Mixta,17015250
+Zacoalco de Torres,Jalisco,30635,20.23,-103.58,Mixta,22976250
+Zapopan,Jalisco,1476491,20.72,-103.4,Servicios,1771789200
+Zapotiltic,Jalisco,32123,19.62,-103.41,Mixta,24092250
+Zapotitlán de Vadillo,Jalisco,6874,19.57,-103.82,Agrícola,5155500
+Zapotlán del Rey,Jalisco,18596,20.46,-102.91,Agrícola,13947000
+Zapotlanejo,Jalisco,64808,20.62,-103.06,Industrial,71288800
+San Ignacio Cerro Gordo,Jalisco,10978,20.74,-102.51,Agrícola,8233500
+Acambay de Ruíz Castañeda,México,66946,19.95,-99.84,Agrícola,50209500
+Acolman,México,171507,19.63,-98.92,Mixta,154356300
+Aculco,México,49646,20.1,-99.82,Agrícola,34752200
+Almoloya de Alquisiras,México,15424,18.82,-99.88,Agrícola,10796800
+Almoloya de Juárez,México,174547,19.37,-99.75,Agrícola,122182900
+Almoloya del Río,México,12239,19.15,-99.48,Agrícola,8567300
+Amanalco,México,23675,19.25,-99.98,Agrícola,16572500
+Amatepec,México,26946,18.68,-100.18,Agrícola,18862200
+Amecameca,México,53441,19.12,-98.77,Mixta,42752800
+Apaxco,México,31896,19.98,-99.17,Industrial,35085600
+Atenco,México,74776,19.55,-98.92,Agrícola,52343200
+Atizapán,México,12891,19.23,-99.5,Agrícola,9023700
+Atizapán de Zaragoza,México,523674,19.57,-99.25,Industrial,628408800
+Atlacomulco,México,109104,19.8,-99.87,Mixta,98193600
+Atlautla,México,31697,19.02,-98.78,Agrícola,22187900
+Axapusco,México,27521,19.72,-98.73,Agrícola,19264700
+Ayapango,México,11213,19.13,-98.8,Agrícola,7849100
+Calimaya,México,69075,19.17,-99.62,Agrícola,48352500
+Capulhuac,México,38734,19.2,-99.47,Mixta,28000000
+Coacalco de Berriozábal,México,293440,19.63,-99.1,Industrial,352128000
+Coatepec Harinas,México,38624,18.92,-99.77,Agrícola,27036800
+Cocotitlán,México,15167,19.22,-98.87,Agrícola,10616900
+Coyotepec,México,42353,19.78,-99.22,Agrícola,29647100
+Cuautitlán,México,178847,19.67,-99.18,Industrial,214616400
+Chalco,México,400192,19.27,-98.9,Mixta,480230400
+Chapa de Mota,México,27548,19.83,-99.52,Agrícola,19283600
+Chapultepec,México,14041,19.18,-99.5,Agrícola,9828700
+Chiautla,México,22687,19.55,-98.95,Agrícola,15880900
+Chicoloapan,México,193763,19.43,-98.9,Mixta,193763000
+Chiconcuac,México,26920,19.57,-98.9,Mixta,21536000
+Chimalhuacán,México,705193,19.42,-98.95,Industrial,846231600
+Donato Guerra,México,37170,19.3,-100.13,Agrícola,26019000
+Ecatepec de Morelos,México,1645352,19.6,-99.05,Industrial,1974422400
+Ecatzingo,México,10978,18.95,-98.73,Agrícola,7684600
+Huehuetoca,México,163250,19.83,-99.2,Mixta,146925000
+Hueypoxtla,México,47109,19.92,-99.05,Agrícola,32976300
+Huixquilucan,México,284965,19.37,-99.35,Servicios,341958000
+Isidro Fabela,México,11545,19.52,-99.43,Agrícola,8081500
+Ixtapaluca,México,542211,19.32,-98.88,Mixta,650653200
+Ixtapan de la Sal,México,38481,18.83,-99.68,Servicios,34632900
+Ixtapan del Oro,México,6916,19.18,-100.27,Agrícola,4841200
+Ixtlahuaca,México,177114,19.57,-99.77,Mixta,141691200
+Xalatlaco,México,20286,19.17,-99.42,Agrícola,14199200
+Jaltenco,México,31080,19.75,-99.1,Mixta,24864000
+Jilotepec,México,87690,19.98,-99.52,Agrícola,61383000
+Jilotzingo,México,19506,19.45,-99.32,Agrícola,13654200
+Jiquipilco,México,74542,19.55,-99.6,Agrícola,52179400
+Jocotitlán,México,65147,19.7,-99.78,Agrícola,45602900
+Joquicingo,México,13627,19.1,-99.52,Agrícola,9538900
+Juchitepec,México,28267,19.08,-98.87,Agrícola,19786900
+Lerma,México,170327,19.28,-99.52,Industrial,187359700
+Malinalco,México,28145,18.95,-99.5,Servicios,25330500
+Melchor Ocampo,México,61220,19.7,-99.15,Mixta,48976000
+Metepec,México,242307,19.25,-99.6,Servicios,290768400
+Mexicaltzingo,México,14041,19.2,-99.55,Agrícola,9828700
+Morelos,México,19041,19.68,-99.67,Agrícola,13328700
+Naucalpan de Juárez,México,834434,19.47,-99.23,Industrial,1001320800
+Nezahualcóyotl,México,1077208,19.4,-99.02,Servicios,1292649600
+Nextlalpan,México,55803,19.75,-99.05,Mixta,44642400
+Nicolás Romero,México,432205,19.62,-99.3,Mixta,432205000
+Nopaltepec,México,10305,19.77,-98.7,Agrícola,7213500
+Ocoyoacac,México,73021,19.27,-99.47,Agrícola,51114700
+Ocuilan,México,34892,18.98,-99.37,Agrícola,24424400
+El Oro,México,37424,19.8,-100.13,Servicios,33681600
+Otumba,México,36531,19.7,-98.75,Agrícola,25571700
+Otzoloapan,México,4820,19.12,-100.28,Agrícola,3374000
+Otzolotepec,México,89558,19.38,-99.55,Agrícola,62690600
+Ozumba,México,30548,19.03,-98.8,Mixta,24438400
+Papalotla,México,4923,19.55,-98.85,Agrícola,3446100
+La Paz,México,304473,19.37,-98.98,Mixta,365367600
+Polotitlán,México,14925,20.22,-99.8,Agrícola,10447500
+Rayón,México,15424,19.15,-99.57,Agrícola,10796800
+San Antonio la Isla,México,30909,19.17,-99.55,Agrícola,21636300
+San Felipe del Progreso,México,127044,19.7,-99.95,Agrícola,88930800
+San Martín de las Pirámides,México,29128,19.7,-98.83,Servicios,26215200
+San Mateo Atenco,México,97479,19.25,-99.53,Industrial,107226900
+San Simón de Guerrero,México,6413,18.92,-100.03,Agrícola,4489100
+Santo Tomás,México,4490,19.18,-100.23,Agrícola,3143000
+Soyaniquilpan de Juárez,México,12423,20.03,-99.5,Agrícola,8696100
+Sultepec,México,24966,18.82,-100,Agrícola,17476200
+Tecámac,México,547503,19.72,-98.97,Mixta,602253300
+Tejupilco,México,74776,18.9,-100.15,Mixta,59820800
+Temamatla,México,13880,19.2,-98.87,Agrícola,9716000
+Temascalapa,México,44347,19.8,-98.88,Agrícola,31042900
+Temascalcingo,México,66779,19.92,-100,Agrícola,46745300
+Temascaltepec,México,34892,19.03,-100.03,Agrícola,24424400
+Temoaya,México,105766,19.47,-99.6,Agrícola,74036200
+Tenancingo,México,104646,18.97,-99.6,Mixta,83716800
+Tenango del Aire,México,12822,19.15,-98.85,Agrícola,8975400
+Tenango del Valle,México,90315,19.1,-99.6,Mixta,72252000
+Teoloyucan,México,107000,19.75,-99.18,Mixta,96300000
+Teotihuacán,México,57463,19.68,-98.87,Servicios,57463000
+Tepetlaoxtoc,México,32126,19.58,-98.82,Agrícola,22488200
+Tepetlixpa,México,20171,19.05,-98.82,Agrícola,14119700
+Tepotzotlán,México,103692,19.72,-99.22,Servicios,114061200
+Tequixquiac,México,39527,19.9,-99.13,Agrícola,27668900
+Texcaltitlán,México,17042,18.97,-99.9,Agrícola,11929400
+Texcalyacac,México,6413,19.15,-99.45,Agrícola,4489100
+Texcoco,México,277028,19.52,-98.88,Mixta,249325200
+Tezoyuca,México,48827,19.6,-98.92,Mixta,39061600
+Tianguistenco,México,80453,19.17,-99.47,Mixta,64362400
+Timilpan,México,16117,19.8,-99.72,Agrícola,11281900
+Tlalmanalco,México,51100,19.2,-98.8,Mixta,40880000
+Tlalnepantla de Baz,México,672202,19.53,-99.2,Industrial,806642400
+Tlatlaya,México,34892,18.6,-100.2,Agrícola,24424400
+Toluca,México,910608,19.28,-99.65,Servicios,1092729600
+Tonatico,México,13627,18.82,-99.67,Servicios,12264300
+Tultepec,México,159647,19.68,-99.12,Mixta,143682300
+Tultitlán,México,516341,19.65,-99.17,Industrial,619609200
+Valle de Bravo,México,66601,19.2,-100.13,Servicios,73261100
+Villa de Allende,México,53126,19.38,-100.13,Agrícola,37188200
+Villa del Carbón,México,51213,19.72,-99.47,Servicios,46091700
+Villa Guerrero,México,68652,18.97,-99.63,Agrícola,48056400
+Villa Victoria,México,104840,19.43,-99.98,Agrícola,73388000
+Xonacatlán,México,55803,19.42,-99.52,Mixta,44642400
+Zacazonapan,México,4130,19.1,-100.22,Agrícola,2891000
+Zacualpan,México,15424,18.72,-99.78,Agrícola,10796800
+Zinacantepec,México,204640,19.28,-99.73,Mixta,163712000
+Zumpahuacán,México,17711,18.83,-99.58,Agrícola,12397700
+Zumpango,México,230855,19.8,-99.1,Mixta,207769500
+Cuautitlán Izcalli,México,555165,19.65,-99.22,Industrial,666198000
+Valle de Chalco Solidaridad,México,396780,19.28,-98.93,Mixta,476136000
+Luvianos,México,27891,18.9,-100.37,Agrícola,19523700
+San José del Rincón,México,99965,19.6,-100.15,Agrícola,69975500
+Tonanitla,México,12423,19.68,-99.03,Mixta,9938400
+Acuitzio,Michoacán de Ocampo,11537,19.48,-101.33,Agrícola,8075900
+Aguililla,Michoacán de Ocampo,14979,18.82,-102.73,Agrícola,10485300
+Álvaro Obregón,Michoacán de Ocampo,22687,19.82,-101.05,Mixta,18149600
+Angamacutiro,Michoacán de Ocampo,13994,20.15,-101.7,Agrícola,9795800
+Angangueo,Michoacán de Ocampo,11084,19.63,-100.28,Servicios,9975600
+Apatzingán,Michoacán de Ocampo,130871,19.08,-102.35,Mixta,117783900
+Aporo,Michoacán de Ocampo,3438,19.67,-100.43,Agrícola,2406600
+Aquila,Michoacán de Ocampo,24423,18.6,-103.5,Agrícola,17096100
+Ario,Michoacán de Ocampo,36306,19.2,-101.7,Agrícola,25414200
+Arteaga,Michoacán de Ocampo,21869,18.35,-102.28,Agrícola,15308300
+Briseñas,Michoacán de Ocampo,11545,20.27,-102.45,Agrícola,8081500
+Buenavista,Michoacán de Ocampo,45538,19.2,-102.58,Agrícola,31876600
+Carácuaro,Michoacán de Ocampo,9097,18.98,-101.12,Agrícola,6367900
+Coahuayana,Michoacán de Ocampo,17042,18.72,-103.67,Agrícola,11929400
+Coalcomán de Vázquez Pallares,Michoacán de Ocampo,19633,18.78,-103.17,Agrícola,13743100
+Coeneo,Michoacán de Ocampo,21262,19.82,-101.58,Agrícola,14883400
+Contepec,Michoacán de Ocampo,35905,19.95,-100.17,Agrícola,25133500
+Copándaro,Michoacán de Ocampo,9340,19.85,-101.23,Agrícola,6538000
+Cotija,Michoacán de Ocampo,19688,19.82,-102.7,Agrícola,13781600
+Cuitzeo,Michoacán de Ocampo,29849,19.97,-101.13,Mixta,23879200
+Charapan,Michoacán de Ocampo,13063,19.63,-102.27,Agrícola,9144100
+Charo,Michoacán de Ocampo,25145,19.7,-101.05,Agrícola,17601500
+Chavinda,Michoacán de Ocampo,10483,20,-102.45,Agrícola,7338100
+Cherán,Michoacán de Ocampo,20588,19.68,-101.95,Agrícola,14411600
+Chilchota,Michoacán de Ocampo,39527,19.83,-102.17,Agrícola,27668900
+Chinicuila,Michoacán de Ocampo,4923,18.72,-103.4,Agrícola,3446100
+Chucándiro,Michoacán de Ocampo,5109,19.9,-101.35,Agrícola,3576300
+Churintzio,Michoacán de Ocampo,5215,20.12,-101.9,Agrícola,3650500
+Churumuco,Michoacán de Ocampo,13880,18.63,-101.63,Agrícola,9716000
+Ecuandureo,Michoacán de Ocampo,11943,20.1,-102.27,Agrícola,8360100
+Epitacio Huerta,Michoacán de Ocampo,16117,20.2,-100.28,Agrícola,11281900
+Erongarícuaro,Michoacán de Ocampo,15865,19.58,-101.72,Agrícola,11105500
+Gabriel Zamora,Michoacán de Ocampo,22045,19.18,-102.05,Agrícola,15431500
+Hidalgo,Michoacán de Ocampo,124806,19.7,-100.55,Mixta,99844800
+La Huacana,Michoacán de Ocampo,30635,18.97,-102,Agrícola,21444500
+Huandacareo,Michoacán de Ocampo,11943,19.92,-101.3,Agrícola,8360100
+Huaniqueo,Michoacán de Ocampo,8229,19.87,-101.5,Agrícola,5760300
+Huetamo,Michoacán de Ocampo,41973,18.62,-100.88,Mixta,33578400
+Huiramba,Michoacán de Ocampo,8900,19.52,-101.43,Agrícola,6230000
+Indaparapeo,Michoacán de Ocampo,17804,19.72,-100.98,Agrícola,12462800
+Irimbo,Michoacán de Ocampo,15865,19.72,-100.47,Agrícola,11105500
+Ixtlán,Michoacán de Ocampo,13880,20.2,-102.4,Agrícola,9716000
+Jacona,Michoacán de Ocampo,68781,19.95,-102.28,Mixta,55024800
+Jiménez,Michoacán de Ocampo,12727,19.92,-101.45,Agrícola,8908900
+Jiquilpan,Michoacán de Ocampo,35306,19.98,-102.72,Mixta,28244800
+Juárez,Michoacán de Ocampo,14925,19.3,-100.43,Agrícola,10447500
+Jungapeo,Michoacán de Ocampo,21669,19.45,-100.5,Agrícola,15168300
+Lagunillas,Michoacán de Ocampo,5874,19.58,-101.4,Agrícola,4111800
+Madero,Michoacán de Ocampo,19176,19.38,-101.27,Agrícola,13423200
+Maravatío,Michoacán de Ocampo,89311,19.9,-100.43,Mixta,71448800
+Marcos Castellanos,Michoacán de Ocampo,13994,19.9,-102.9,Agrícola,9795800
+Lázaro Cárdenas,Michoacán de Ocampo,196003,17.97,-102.2,Industrial,235203600
+Morelia,Michoacán de Ocampo,849053,19.7,-101.18,Servicios,1018863600
+Morelos,Michoacán de Ocampo,8395,20.05,-101.5,Agrícola,5876500
+Múgica,Michoacán de Ocampo,45155,19.03,-102.08,Agrícola,31608500
+Nahuatzen,Michoacán de Ocampo,31697,19.63,-101.9,Agrícola,22187900
+Nocupétaro,Michoacán de Ocampo,8229,19.05,-101.18,Agrícola,5760300
+Nuevo Parangaricutiro,Michoacán de Ocampo,21262,19.42,-102.13,Agrícola,14883400
+Nuevo Urecho,Michoacán de Ocampo,9097,19.2,-101.87,Agrícola,6367900
+Numarán,Michoacán de Ocampo,9513,20.25,-101.88,Agrícola,6659100
+Ocampo,Michoacán de Ocampo,24775,19.58,-100.35,Agrícola,17342500
+Pajacuarán,Michoacán de Ocampo,21183,20.12,-102.55,Agrícola,14828100
+Panindícuaro,Michoacán de Ocampo,15865,19.98,-101.77,Agrícola,11105500
+Parácuaro,Michoacán de Ocampo,26920,19.15,-102.22,Agrícola,18844000
+Paracho,Michoacán de Ocampo,39333,19.65,-102.05,Mixta,29500000
+Pátzcuaro,Michoacán de Ocampo,98297,19.52,-101.6,Servicios,98297000
+Penjamillo,Michoacán de Ocampo,16578,20.1,-101.92,Agrícola,11604600
+Peribán,Michoacán de Ocampo,30548,19.52,-102.42,Agrícola,21383600
+La Piedad,Michoacán de Ocampo,106400,20.33,-102.02,Mixta,95760000
+Purépero,Michoacán de Ocampo,16335,19.92,-102,Agrícola,11434500
+Puruándiro,Michoacán de Ocampo,68045,20.1,-101.52,Mixta,54436000
+Queréndaro,Michoacán de Ocampo,14173,19.78,-100.88,Agrícola,9921100
+Quiroga,Michoacán de Ocampo,27521,19.67,-101.52,Servicios,24768900
+Cojumatlán de Régules,Michoacán de Ocampo,9986,19.83,-102.85,Agrícola,6990200
+Los Reyes,Michoacán de Ocampo,78931,19.58,-102.47,Agrícola,55251700
+Sahuayo,Michoacán de Ocampo,78477,20.05,-102.72,Mixta,62781600
+San Lucas,Michoacán de Ocampo,17804,18.58,-100.78,Agrícola,12462800
+Santa Ana Maya,Michoacán de Ocampo,13063,19.98,-101.03,Agrícola,9144100
+Salvador Escalante,Michoacán de Ocampo,49957,19.42,-101.6,Mixta,39965600
+Senguio,Michoacán de Ocampo,19041,19.75,-100.33,Agrícola,13328700
+Susupuato,Michoacán de Ocampo,8706,19.22,-100.38,Agrícola,6094200
+Tacámbaro,Michoacán de Ocampo,80370,19.23,-101.45,Agrícola,56259000
+Tancítaro,Michoacán de Ocampo,33661,19.33,-102.37,Agrícola,23562700
+Tangamandapio,Michoacán de Ocampo,30263,19.95,-102.42,Agrícola,21184100
+Tangancícuaro,Michoacán de Ocampo,35306,19.9,-102.18,Agrícola,24714200
+Tanhuato,Michoacán de Ocampo,15424,20.3,-102.32,Agrícola,10796800
+Taretan,Michoacán de Ocampo,14173,19.33,-101.92,Agrícola,9921100
+Tarímbaro,Michoacán de Ocampo,114457,19.78,-101.17,Mixta,91565600
+Tepalcatepec,Michoacán de Ocampo,24089,19.18,-102.85,Agrícola,16862300
+Tingambato,Michoacán de Ocampo,15643,19.5,-101.85,Agrícola,10950100
+Tingüindín,Michoacán de Ocampo,14515,19.58,-102.48,Agrícola,10160500
+Tiquicheo de Nicolás Romero,Michoacán de Ocampo,13240,18.9,-100.73,Agrícola,9268000
+Tlalpujahua,Michoacán de Ocampo,28387,19.8,-100.17,Servicios,25548300
+Tlazazalca,Michoacán de Ocampo,6520,19.92,-102.08,Agrícola,4564000
+Tocumbo,Michoacán de Ocampo,12423,19.67,-102.6,Agrícola,8696100
+Tumbiscatío,Michoacán de Ocampo,6520,18.82,-102.37,Agrícola,4564000
+Turicato,Michoacán de Ocampo,29849,19.05,-101.42,Agrícola,20894300
+Tuxpan,Michoacán de Ocampo,26569,19.57,-100.47,Agrícola,18598300
+Tuzantla,Michoacán de Ocampo,16335,19.23,-100.58,Agrícola,11434500
+Tzintzuntzan,Michoacán de Ocampo,14631,19.62,-101.58,Servicios,13167900
+Tzitzio,Michoacán de Ocampo,8900,19.47,-100.93,Agrícola,6230000
+Uruapan,Michoacán de Ocampo,356786,19.42,-102.05,Mixta,321107400
+Venustiano Carranza,Michoacán de Ocampo,23487,20.12,-102.6,Agrícola,16440900
+Villamar,Michoacán de Ocampo,16578,20.02,-102.6,Agrícola,11604600
+Vista Hermosa,Michoacán de Ocampo,21013,20.28,-102.5,Agrícola,14709100
+Yurécuaro,Michoacán de Ocampo,32308,20.2,-102.28,Mixta,24231000
+Zacapu,Michoacán de Ocampo,76839,19.82,-101.78,Mixta,61471200
+Zamora,Michoacán de Ocampo,204860,19.98,-102.28,Mixta,184374000
+Zináparo,Michoacán de Ocampo,3363,20.15,-102.02,Agrícola,2354100
+Zinapécuaro,Michoacán de Ocampo,48483,19.87,-100.75,Mixta,38786400
+Ziracuaretiro,Michoacán de Ocampo,16814,19.43,-101.92,Agrícola,11769800
+Zitácuaro,Michoacán de Ocampo,157048,19.43,-100.35,Mixta,141343200
+José Sixto Verduzco,Michoacán de Ocampo,26176,20.25,-101.5,Agrícola,18323200
+Amacuzac,Morelos,17502,18.6,-99.37,Agrícola,12251400
+Atlatlahucan,Morelos,25232,18.93,-98.9,Agrícola,17662400
+Axochiapan,Morelos,39121,18.5,-98.75,Agrícola,27384700
+Ayala,Morelos,89843,18.77,-98.98,Agrícola,62890100
+Coatlán del Río,Morelos,10483,18.73,-99.45,Agrícola,7338100
+Cuautla,Morelos,187118,18.82,-98.95,Mixta,168406200
+Cuernavaca,Morelos,378476,18.92,-99.23,Servicios,454171200
+Emiliano Zapata,Morelos,107053,18.85,-99.18,Mixta,96347700
+Huitzilac,Morelos,24515,19.03,-99.27,Agrícola,17160500
+Jantetelco,Morelos,18972,18.72,-98.77,Agrícola,13280400
+Jiutepec,Morelos,215171,18.88,-99.17,Industrial,236688100
+Jojutla,Morelos,57673,18.62,-99.42,Mixta,46138400
+Jonacatepec de Leandro Valle,Morelos,16694,18.68,-98.8,Agrícola,11685800
+Mazatepec,Morelos,9812,18.7,-99.37,Agrícola,6868400
+Miacatlán,Morelos,27129,18.75,-99.35,Agrícola,18990300
+Ocuituco,Morelos,18788,18.87,-98.77,Agrícola,13151600
+Puente de Ixtla,Morelos,66435,18.62,-99.32,Mixta,53148000
+Temixco,Morelos,122243,18.85,-99.23,Mixta,109999900
+Tepalcingo,Morelos,28387,18.6,-98.85,Agrícola,19870900
+Tepoztlán,Morelos,54987,18.98,-99.1,Servicios,54987000
+Tetecala,Morelos,7957,18.72,-99.38,Agrícola,5569900
+Tetela del Volcán,Morelos,20696,18.88,-98.72,Agrícola,14487200
+Tlalnepantla,Morelos,7957,18.97,-99.02,Agrícola,5569900
+Tlaltizapán de Zapata,Morelos,52392,18.68,-99.12,Agrícola,36674400
+Tlaquiltenango,Morelos,33844,18.63,-99.15,Agrícola,23690800
+Tlayacapan,Morelos,19315,18.95,-98.98,Servicios,17383500
+Totolapan,Morelos,12239,18.98,-98.92,Agrícola,8567300
+Xochitepec,Morelos,73539,18.78,-99.23,Mixta,58831200
+Yautepec,Morelos,102798,18.88,-99.05,Mixta,82238400
+Yecapixtla,Morelos,56076,18.88,-98.87,Mixta,44860800
+Zacatepec,Morelos,36080,18.65,-99.2,Mixta,28864000
+Zacualpan de Amilpas,Morelos,9986,18.78,-98.77,Agrícola,6990200
+Temoac,Morelos,16578,18.77,-98.8,Agrícola,11604600
+Coatetelco,Morelos,11000,18.72,-99.32,Agrícola,7700000
+Xoxocotla,Morelos,21000,18.63,-99.23,Mixta,16800000
+Hueyapan,Morelos,8000,18.88,-98.68,Agrícola,5600000
+Acaponeta,Nayarit,37232,22.5,-105.35,Agrícola,26062400
+Ahuacatlán,Nayarit,15309,21.05,-104.47,Agrícola,10716300
+Amatlán de Cañas,Nayarit,11537,20.82,-104.42,Agrícola,8075900
+Compostela,Nayarit,77436,21.23,-104.9,Mixta,61948800
+Huajicori,Nayarit,12230,22.67,-105.3,Agrícola,8561000
+Ixtlán del Río,Nayarit,29267,21.03,-104.37,Mixta,23413600
+Jala,Nayarit,19315,21.12,-104.43,Agrícola,13520500
+Xalisco,Nayarit,65219,21.43,-104.9,Mixta,52175200
+Del Nayar,Nayarit,42514,22.2,-104.68,Agrícola,29759800
+Rosamorada,Nayarit,33298,22.13,-105.2,Agrícola,23308600
+Ruíz,Nayarit,23460,21.95,-105.15,Agrícola,16422000
+San Blas,Nayarit,41508,21.53,-105.28,Servicios,37357200
+San Pedro Lagunillas,Nayarit,7683,21.22,-104.77,Agrícola,5378100
+Santa María del Oro,Nayarit,24966,21.33,-104.58,Agrícola,17476200
+Santiago Ixcuintla,Nayarit,93981,21.82,-105.22,Agrícola,65786700
+Tecuala,Nayarit,37330,22.4,-105.45,Agrícola,26131000
+Tepic,Nayarit,425924,21.5,-104.88,Servicios,468516400
+Tuxpan,Nayarit,30048,21.95,-105.3,Agrícola,21033600
+La Yesca,Nayarit,12025,21.35,-104.2,Agrícola,8417500
+Bahía de Banderas,Nayarit,187632,20.8,-105.3,Servicios,225158400
+Abasolo,Nuevo León,2974,25.95,-100.42,Agrícola,2081800
+Agualeguas,Nuevo León,3382,26.32,-99.53,Agrícola,2367400
+Los Aldamas,Nuevo León,1385,26,-99.18,Agrícola,969500
+Allende,Nuevo León,34352,25.28,-100,Mixta,27481600
+Anáhuac,Nuevo León,18031,27.23,-100.13,Agrícola,12621700
+Apodaca,Nuevo León,656464,25.78,-100.18,Industrial,787756800
+Aramberri,Nuevo León,14992,24.1,-99.82,Agrícola,10494400
+Bustamante,Nuevo León,3661,26.53,-100.5,Servicios,3294900
+Cadereyta Jiménez,Nuevo León,122337,25.6,-99.98,Mixta,109999900
+El Carmen,Nuevo León,104478,25.95,-100.35,Mixta,83582400
+Cerralvo,Nuevo León,7177,26.08,-99.6,Agrícola,5023900
+Ciénega de Flores,Nuevo León,68749,25.95,-100.18,Industrial,75623900
+China,Nuevo León,9943,25.7,-99.23,Agrícola,6960100
+Doctor Arroyo,Nuevo León,36080,23.67,-100.18,Agrícola,25256000
+Doctor Coss,Nuevo León,1361,26,-99.2,Agrícola,952700
+Doctor González,Nuevo León,3284,25.88,-99.95,Agrícola,2298800
+Galeana,Nuevo León,40971,24.83,-100.07,Agrícola,28679700
+García,Nuevo León,397978,25.82,-100.58,Industrial,477573600
+San Pedro Garza García,Nuevo León,132169,25.65,-100.4,Servicios,158602800
+General Bravo,Nuevo León,5527,25.8,-99.17,Agrícola,3868900
+General Escobedo,Nuevo León,481213,25.82,-100.3,Industrial,577455600
+General Terán,Nuevo León,14109,25.27,-99.68,Agrícola,9876300
+General Treviño,Nuevo León,1826,26.27,-99.47,Agrícola,1278200
+General Zaragoza,Nuevo León,6282,23.88,-99.77,Agrícola,4397400
+General Zuazua,Nuevo León,102149,25.9,-100.1,Mixta,81719200
+Guadalupe,Nuevo León,643143,25.67,-100.25,Industrial,771771600
+Los Herreras,Nuevo León,1966,25.9,-99.52,Agrícola,1376200
+Higueras,Nuevo León,1385,25.97,-100,Agrícola,969500
+Hualahuises,Nuevo León,7077,24.83,-99.67,Agrícola,5307750
+Iturbide,Nuevo León,3298,24.73,-99.9,Agrícola,2308600
+Juárez,Nuevo León,471523,25.63,-100.1,Mixta,565827600
+Lampazos de Naranjo,Nuevo León,5349,27.02,-100.5,Mixta,4279200
+Linares,Nuevo León,84666,24.85,-99.57,Mixta,67732800
+Marín,Nuevo León,5119,25.88,-100.03,Agrícola,3583300
+Melchor Ocampo,Nuevo León,1520,26.1,-99.4,Agrícola,1064000
+Mier y Noriega,Nuevo León,7645,23.45,-100.12,Agrícola,5351500
+Mina,Nuevo León,6048,26,-100.53,Agrícola,4233600
+Montemorelos,Nuevo León,67428,25.2,-99.82,Mixta,53942400
+Monterrey,Nuevo León,1142994,25.67,-100.3,Servicios,1371592800
+Parás,Nuevo León,906,26.47,-99.47,Agrícola,634200
+Pesquería,Nuevo León,147624,25.77,-99.98,Industrial,177148800
+Los Ramones,Nuevo León,5353,25.7,-99.65,Agrícola,3747100
+Rayones,Nuevo León,2377,25,-100.05,Agrícola,1663900
+Sabinas Hidalgo,Nuevo León,34709,26.5,-100.17,Mixta,27767200
+Salinas Victoria,Nuevo León,86766,25.97,-100.28,Industrial,95442600
+San Nicolás de los Garza,Nuevo León,412959,25.75,-100.22,Industrial,495550800
+Hidalgo,Nuevo León,16086,25.98,-100.42,Mixta,12868800
+Santa Catarina,Nuevo León,306322,25.67,-100.45,Industrial,367586400
+Santiago,Nuevo León,46784,25.43,-100.2,Servicios,51462400
+Vallecillo,Nuevo León,1552,26.65,-99.98,Agrícola,1086400
+Villaldama,Nuevo León,3993,26.5,-100.43,Mixta,3194400
+Abejones,Oaxaca,1087,17.43,-96.6,Agrícola,760900
+Acatlán de Pérez Figueroa,Oaxaca,46629,18.53,-96.6,Agrícola,32640300
+Asunción Cacalotepec,Oaxaca,1410,17.2,-95.9,Agrícola,987000
+Asunción Cuyotepeji,Oaxaca,1473,17.95,-97.77,Agrícola,1031100
+Asunción Ixtaltepec,Oaxaca,16478,16.5,-95.07,Mixta,13182400
+Asunción Nochixtlán,Oaxaca,20464,17.47,-97.23,Mixta,16371200
+Asunción Ocotlán,Oaxaca,3670,16.78,-96.72,Agrícola,2569000
+Asunción Tlacolulita,Oaxaca,694,16.22,-95.7,Agrícola,485800
+Ayotzintepec,Oaxaca,6268,17.65,-96.2,Agrícola,4387600
+El Barrio de la Soledad,Oaxaca,13880,16.78,-95.05,Agrícola,9716000
+Calihualá,Oaxaca,1121,17.58,-98.2,Agrícola,784700
+Candelaria Loxicha,Oaxaca,2758,15.93,-96.48,Agrícola,1930600
+Ciénega de Zimatlán,Oaxaca,3284,16.9,-96.8,Agrícola,2298800
+Ciudad Ixtepec,Oaxaca,28082,16.57,-95.1,Mixta,22465600
+Coatecas Altas,Oaxaca,4923,16.58,-96.6,Agrícola,3446100
+Coicoyán de las Flores,Oaxaca,9231,17.15,-98.23,Agrícola,6461700
+La Compañía,Oaxaca,3670,16.68,-96.77,Agrícola,2569000
+Concepción Buenavista,Oaxaca,670,17.82,-97.52,Agrícola,469000
+Concepción Pápalo,Oaxaca,3438,17.85,-96.9,Agrícola,2406600
+Constancia del Rosario,Oaxaca,3993,16.85,-97.98,Agrícola,2795100
+Cosolapa,Oaxaca,15865,18.6,-96.67,Agrícola,11105500
+Cosoltepec,Oaxaca,2992,18,-97.8,Agrícola,2094400
+Cuilápam de Guerrero,Oaxaca,19176,17,-96.78,Mixta,15340800
+Cuyamecalco Villa de Zaragoza,Oaxaca,4490,18.15,-96.92,Agrícola,3143000
+Chahuites,Oaxaca,12423,16.27,-94.18,Agrícola,8696100
+Chalcatongo de Hidalgo,Oaxaca,10305,17.02,-97.57,Agrícola,7213500
+Chiquihuitlán de Benito Juárez,Oaxaca,1894,17.97,-96.97,Agrícola,1325800
+Heroica Ciudad de Ejutla de Crespo,Oaxaca,24894,16.57,-96.73,Mixta,19915200
+Eloxochitlán de Flores Magón,Oaxaca,4130,18.18,-96.88,Agrícola,2891000
+El Espinal,Oaxaca,9231,16.57,-95,Agrícola,6461700
+Tamazulápam del Espíritu Santo,Oaxaca,2620,17.03,-95.9,Agrícola,1834000
+Fresnillo de Trujano,Oaxaca,1455,17.88,-98.15,Agrícola,1018500
+Guadalupe Etla,Oaxaca,3438,17.15,-96.8,Agrícola,2406600
+Guadalupe de Ramírez,Oaxaca,1455,17.75,-98.12,Agrícola,1018500
+Guelatao de Juárez,Oaxaca,594,17.32,-96.55,Servicios,475200
+Guevea de Humboldt,Oaxaca,5353,16.8,-95.38,Agrícola,3747100
+Mesones Hidalgo,Oaxaca,4490,16.92,-98.22,Agrícola,3143000
+Villa Hidalgo,Oaxaca,1455,17.13,-96.1,Agrícola,1018500
+Heroica Ciudad de Huajuapan de León,Oaxaca,82409,17.8,-97.78,Mixta,65927200
+Huautepec,Oaxaca,653,17.88,-96.83,Agrícola,457100
+Huautla de Jiménez,Oaxaca,32009,18.13,-96.83,Agrícola,22406300
+Ixtlán de Juárez,Oaxaca,9097,17.33,-96.48,Agrícola,6367900
+Heroica Ciudad de Juchitán de Zaragoza,Oaxaca,113570,16.43,-95.02,Mixta,102213000
+Loma Bonita,Oaxaca,40971,18.1,-95.88,Agrícola,28679700
+Magdalena Apasco,Oaxaca,8706,17.22,-96.82,Agrícola,6094200
+Magdalena Jaltepec,Oaxaca,3284,17.25,-97.35,Agrícola,2298800
+Santa Magdalena Jicotlán,Oaxaca,82,17.77,-97.47,Agrícola,57400
+Magdalena Mixtepec,Oaxaca,1361,16.85,-96.78,Agrícola,952700
+Magdalena Ocotlán,Oaxaca,1121,16.75,-96.68,Agrícola,784700
+Magdalena Peñasco,Oaxaca,3670,17.22,-97.55,Agrícola,2569000
+Magdalena Teitipac,Oaxaca,2992,16.88,-96.6,Agrícola,2094400
+Magdalena Tequisistlán,Oaxaca,5903,16.4,-95.58,Agrícola,4132100
+Magdalena Tlacotepec,Oaxaca,1121,16.62,-95.23,Agrícola,784700
+Magdalena Zahuatlán,Oaxaca,355,17.23,-97.3,Agrícola,248500
+Mariscala de Juárez,Oaxaca,3550,17.8,-98.05,Agrícola,2485000
+Mártires de Tacubaya,Oaxaca,1361,16.48,-98.28,Agrícola,952700
+Matías Romero Avendaño,Oaxaca,39719,16.88,-95.03,Mixta,31775200
+Mazatlán Villa de Flores,Oaxaca,14515,18.03,-96.9,Agrícola,10160500
+Miahuatlán de Porfirio Díaz,Oaxaca,47261,16.33,-96.6,Mixta,37808800
+Mixistlán de la Reforma,Oaxaca,1894,17.1,-95.9,Agrícola,1325800
+Monjas,Oaxaca,2240,16.63,-96.85,Agrícola,1568000
+Natividad,Oaxaca,2620,17.25,-96.48,Agrícola,1834000
+Nazareno Etla,Oaxaca,4490,17.12,-96.8,Agrícola,3143000
+Nejapa de Madero,Oaxaca,8395,16.58,-95.6,Agrícola,5876500
+Ixpantepec Nieves,Oaxaca,1894,17.25,-97.87,Agrícola,1325800
+Santiago Niltepec,Oaxaca,5472,16.5,-94.5,Agrícola,3830400
+Oaxaca de Juárez,Oaxaca,270955,17.07,-96.72,Servicios,325146000
+Ocotlán de Morelos,Oaxaca,23101,16.8,-96.67,Mixta,18480800
+La Pe,Oaxaca,204,17.65,-97.63,Agrícola,142800
+Pinotepa de Don Luis,Oaxaca,6916,16.5,-97.9,Agrícola,4841200
+Pluma Hidalgo,Oaxaca,3012,15.92,-96.4,Agrícola,2108400
+San José del Progreso,Oaxaca,6916,16.73,-96.7,Agrícola,4841200
+Putla Villa de Guerrero,Oaxaca,35905,17.03,-97.93,Mixta,28724000
+Santa Catarina Quioquitani,Oaxaca,510,16.27,-96.33,Agrícola,357000
+Reforma de Pineda,Oaxaca,2824,16.33,-94.45,Agrícola,1976800
+La Reforma,Oaxaca,2992,16.97,-97.82,Agrícola,2094400
+Reyes Etla,Oaxaca,3862,17.18,-96.8,Agrícola,2703400
+Rojas de Cuauhtémoc,Oaxaca,1894,16.92,-96.62,Agrícola,1325800
+Salina Cruz,Oaxaca,84438,16.18,-95.2,Industrial,92881800
+San Agustín Amatengo,Oaxaca,1455,16.6,-96.87,Agrícola,1018500
+San Agustín Atenango,Oaxaca,1455,17.77,-97.98,Agrícola,1018500
+San Agustín Chayuco,Oaxaca,4301,16.48,-97.88,Agrícola,3010700
+San Agustín de las Juntas,Oaxaca,12239,17,-96.72,Mixta,9791200
+San Agustín Etla,Oaxaca,4130,17.17,-96.78,Agrícola,2891000
+San Agustín Loxicha,Oaxaca,4301,16,-96.62,Agrícola,3010700
+San Agustín Tlacotepec,Oaxaca,1455,17.27,-97.55,Agrícola,1018500
+San Agustín Yatareni,Oaxaca,4130,17.08,-96.67,Agrícola,2891000
+San Andrés Cabecera Nueva,Oaxaca,2620,16.95,-97.77,Agrícola,1834000
+San Andrés Dinicuiti,Oaxaca,2620,17.72,-97.77,Agrícola,1834000
+San Andrés Huaxpaltepec,Oaxaca,6268,16.3,-98,Agrícola,4387600
+San Andrés Huayápam,Oaxaca,6268,17.1,-96.67,Agrícola,4387600
+San Andrés Ixtlahuaca,Oaxaca,1455,17.05,-96.83,Agrícola,1018500
+San Andrés Lagunas,Oaxaca,594,17.6,-97.68,Agrícola,415800
+San Andrés Nuxiño,Oaxaca,1121,17.3,-97.1,Agrícola,784700
+San Andrés Paxtlán,Oaxaca,1894,16.15,-96.5,Agrícola,1325800
+San Andrés Sinaxtla,Oaxaca,1121,17.43,-97.4,Agrícola,784700
+San Andrés Solaga,Oaxaca,1894,17.33,-96.38,Agrícola,1325800
+San Andrés Teotilálpam,Oaxaca,1455,17.88,-96.7,Agrícola,1018500
+San Andrés Tepetlapa,Oaxaca,355,17.1,-97.97,Agrícola,248500
+San Andrés Yaá,Oaxaca,437,17.22,-96.2,Agrícola,305900
+San Andrés Zabache,Oaxaca,776,16.63,-96.75,Agrícola,543200
+San Andrés Zautla,Oaxaca,4490,17.15,-96.88,Agrícola,3143000
+San Antonino Castillo Velasco,Oaxaca,6268,16.82,-96.67,Agrícola,4387600
+San Antonino el Alto,Oaxaca,2620,16.63,-96.93,Agrícola,1834000
+San Antonino Monte Verde,Oaxaca,594,17.43,-97.78,Agrícola,415800
+San Antonio Acutla,Oaxaca,2240,17.65,-97.55,Agrícola,1568000
+San Antonio de la Cal,Oaxaca,22403,17.03,-96.7,Mixta,17922400
+San Antonio Huitepec,Oaxaca,1455,17,-97.2,Agrícola,1018500
+San Antonio Nanahuatípam,Oaxaca,1894,18.08,-97.02,Agrícola,1325800
+San Antonio Sinicahua,Oaxaca,1121,17.18,-97.53,Agrícola,784700
+San Antonio Tepetlapa,Oaxaca,1121,16.45,-97.6,Agrícola,784700
+San Baltazar Chichicápam,Oaxaca,2240,16.73,-96.6,Agrícola,1568000
+San Baltazar Loxicha,Oaxaca,3363,15.93,-96.62,Agrícola,2354100
+San Baltazar Yatzachi el Bajo,Oaxaca,858,17.3,-96.38,Agrícola,600600
+San Bartolo Coyotepec,Oaxaca,9231,16.97,-96.7,Mixta,7384800
+San Bartolomé Ayautla,Oaxaca,3993,18.02,-96.7,Agrícola,2795100
+San Bartolomé Loxicha,Oaxaca,2240,15.88,-96.67,Agrícola,1568000
+San Bartolomé Quialana,Oaxaca,2620,16.87,-96.53,Agrícola,1834000
+San Bartolomé Yucuañe,Oaxaca,594,17.33,-97.68,Agrícola,415800
+San Bartolomé Zoogocho,Oaxaca,437,17.27,-96.3,Agrícola,305900
+San Bartolo Soyaltepec,Oaxaca,1121,17.52,-97.4,Agrícola,784700
+San Bartolo Yautepec,Oaxaca,670,16.38,-95.8,Agrícola,469000
+San Bernardo Mixtepec,Oaxaca,1121,16.78,-96.83,Agrícola,784700
+San Blas Atempa,Oaxaca,19506,16.33,-95.22,Mixta,15604800
+San Carlos Yautepec,Oaxaca,12239,16.48,-95.95,Agrícola,8567300
+San Cristóbal Amatlán,Oaxaca,1455,16.32,-96.4,Agrícola,1018500
+San Cristóbal Amoltepec,Oaxaca,1121,17.2,-97.77,Agrícola,784700
+San Cristóbal Lachirioag,Oaxaca,1455,17.43,-96.2,Agrícola,1018500
+San Cristóbal Suchixtlahuaca,Oaxaca,1121,17.68,-97.58,Agrícola,784700
+San Dionisio del Mar,Oaxaca,5472,16.33,-94.75,Agrícola,3830400
+San Dionisio Ocotepec,Oaxaca,11084,16.8,-96.4,Agrícola,7758800
+San Dionisio Ocotlán,Oaxaca,3363,16.78,-96.63,Agrícola,2354100
+San Esteban Atatlahuca,Oaxaca,3993,17.1,-97.68,Agrícola,2795100
+San Felipe Jalapa de Díaz,Oaxaca,28267,18.05,-96.53,Agrícola,19786900
+San Felipe Tejalápam,Oaxaca,5472,17.17,-96.87,Agrícola,3830400
+San Felipe Usila,Oaxaca,12239,17.9,-96.52,Agrícola,8567300
+San Francisco Cahuacuá,Oaxaca,594,16.88,-97.28,Agrícola,415800
+San Francisco Cajonos,Oaxaca,437,17.3,-96.3,Agrícola,305900
+San Francisco Chapulapa,Oaxaca,1455,17.92,-96.78,Agrícola,1018500
+San Francisco Chindúa,Oaxaca,1894,17.35,-97.43,Agrícola,1325800
+San Francisco del Mar,Oaxaca,7683,16.23,-94.63,Agrícola,5378100
+San Francisco Huehuetlán,Oaxaca,1121,18.08,-96.95,Agrícola,784700
+San Francisco Ixhuatán,Oaxaca,8900,16.32,-94.48,Agrícola,6230000
+San Francisco Jaltepetongo,Oaxaca,1121,17.45,-97.35,Agrícola,784700
+San Francisco Lachigoló,Oaxaca,4820,16.97,-96.6,Agrícola,3374000
+San Francisco Logueche,Oaxaca,2620,16.27,-96.57,Agrícola,1834000
+San Francisco Nuxaño,Oaxaca,1121,17.38,-97.4,Agrícola,784700
+San Francisco Ozolotepec,Oaxaca,1121,16.13,-96.25,Agrícola,784700
+San Francisco Sola,Oaxaca,2240,16.38,-96.88,Agrícola,1568000
+San Francisco Telixtlahuaca,Oaxaca,12822,17.27,-96.9,Mixta,10257600
+San Francisco Teopan,Oaxaca,594,17.65,-98.2,Agrícola,415800
+San Francisco Tlapancingo,Oaxaca,1121,17.2,-98.07,Agrícola,784700
+San Gabriel Mixtepec,Oaxaca,5215,16.08,-97.08,Agrícola,3650500
+San Ildefonso Amatlán,Oaxaca,1121,16.37,-96.48,Agrícola,784700
+San Ildefonso Sola,Oaxaca,1121,16.42,-96.87,Agrícola,784700
+San Ildefonso Villa Alta,Oaxaca,3363,17.35,-96.15,Agrícola,2354100
+San Jacinto Amilpas,Oaxaca,16814,17.1,-96.75,Mixta,13451200
+San Jacinto Tlacotepec,Oaxaca,1121,16.32,-97.18,Agrícola,784700
+San Jerónimo Coatlán,Oaxaca,3363,16.42,-96.95,Agrícola,2354100
+San Jerónimo Silacayoapilla,Oaxaca,1121,17.82,-97.83,Agrícola,784700
+San Jerónimo Sosola,Oaxaca,3363,17.28,-96.97,Agrícola,2354100
+San Jerónimo Taviche,Oaxaca,1121,16.7,-96.6,Agrícola,784700
+San Jerónimo Tecoátl,Oaxaca,1455,18.15,-97.02,Agrícola,1018500
+San Jorge Nuchita,Oaxaca,3363,17.67,-98.1,Agrícola,2354100
+San José Ayuquila,Oaxaca,4490,17.95,-97.93,Agrícola,3143000
+San José Chiltepec,Oaxaca,11943,17.93,-96.17,Agrícola,8360100
+San José del Peñasco,Oaxaca,1121,16.63,-96.3,Agrícola,784700
+San José Estancia Grande,Oaxaca,1121,16.4,-98.22,Agrícola,784700
+San José Independencia,Oaxaca,3993,18.2,-96.63,Agrícola,2795100
+San José Lachiguiri,Oaxaca,4490,16.45,-96.48,Agrícola,3143000
+San José Tenango,Oaxaca,19041,18.17,-96.7,Agrícola,13328700
+San Juan Achiutla,Oaxaca,437,17.3,-97.57,Agrícola,305900
+San Juan Atepec,Oaxaca,1455,17.43,-96.52,Agrícola,1018500
+Ánimas Trujano,Oaxaca,4490,17,-96.7,Agrícola,3143000
+San Juan Bautista Atatlahuca,Oaxaca,1455,16.45,-96.68,Agrícola,1018500
+San Juan Bautista Coixtlahuaca,Oaxaca,2620,17.72,-97.32,Agrícola,1834000
+San Juan Bautista Cuicatlán,Oaxaca,10305,17.8,-96.97,Mixta,8244000
+San Juan Bautista Guelache,Oaxaca,4490,17.2,-96.78,Agrícola,3143000
+San Juan Bautista Jayacatlán,Oaxaca,1455,17.22,-96.8,Agrícola,1018500
+San Juan Bautista Lo de Soto,Oaxaca,2620,16.45,-98.3,Agrícola,1834000
+San Juan Bautista Suchitepec,Oaxaca,437,17.77,-97.8,Agrícola,305900
+San Juan Bautista Tlacoatzintepec,Oaxaca,2240,17.83,-96.4,Agrícola,1568000
+San Juan Bautista Tlachichilco,Oaxaca,437,17.28,-98.2,Agrícola,305900
+San Juan Bautista Tuxtepec,Oaxaca,159452,18.08,-96.12,Mixta,143506800
+San Juan Cacahuatepec,Oaxaca,8229,16.43,-98.15,Agrícola,5760300
+San Juan Cieneguilla,Oaxaca,437,17.65,-97.87,Agrícola,305900
+San Juan Coatzóspam,Oaxaca,2240,17.9,-96.8,Agrícola,1568000
+San Juan Colorado,Oaxaca,6268,16.48,-97.9,Agrícola,4387600
+San Juan Comaltepec,Oaxaca,2620,17.48,-95.7,Agrícola,1834000
+San Juan Cotzocón,Oaxaca,22403,17.2,-95.4,Agrícola,15682100
+San Juan Chicomezúchil,Oaxaca,437,17.33,-96.5,Agrícola,305900
+San Juan Chilateca,Oaxaca,1455,16.73,-96.67,Agrícola,1018500
+San Juan del Estado,Oaxaca,2620,17.23,-96.83,Agrícola,1834000
+San Juan del Río,Oaxaca,1121,16.77,-96.18,Agrícola,784700
+San Juan Diuxi,Oaxaca,1121,17.32,-97.4,Agrícola,784700
+San Juan Evangelista Analco,Oaxaca,437,17.4,-96.5,Agrícola,305900
+San Juan Guelavía,Oaxaca,3363,16.92,-96.55,Agrícola,2354100
+San Juan Guichicovi,Oaxaca,29849,16.97,-95.08,Agrícola,20894300
+San Juan Ihualtepec,Oaxaca,437,17.33,-98.18,Agrícola,305900
+San Juan Juquila Mixes,Oaxaca,4490,16.87,-95.9,Agrícola,3143000
+San Juan Juquila Vijanos,Oaxaca,1455,17.38,-96.3,Agrícola,1018500
+San Juan Lachao,Oaxaca,4490,16.18,-97.08,Agrícola,3143000
+San Juan Lachigalla,Oaxaca,2240,16.63,-96.67,Agrícola,1568000
+San Juan Lajarcia,Oaxaca,1121,16.45,-96,Agrícola,784700
+San Juan Lalana,Oaxaca,12239,17.5,-95.8,Agrícola,8567300
+San Juan de los Cués,Oaxaca,2240,17.98,-97.1,Agrícola,1568000
+San Juan Mazatlán,Oaxaca,17215,17.28,-95.27,Agrícola,12050500
+San Juan Mixtepec - Dto. 08,Oaxaca,17215,17.3,-97.83,Agrícola,12050500
+San Juan Mixtepec - Dto. 26,Oaxaca,776,16.18,-97.3,Agrícola,543200
+San Juan Ñumí,Oaxaca,6268,17.42,-97.77,Agrícola,4387600
+San Juan Ozolotepec,Oaxaca,1455,16.17,-96.25,Agrícola,1018500
+San Juan Petlapa,Oaxaca,2620,17.5,-95.9,Agrícola,1834000
+San Juan Quiahije,Oaxaca,4490,16.23,-97.2,Agrícola,3143000
+San Juan Quiotepec,Oaxaca,2620,17.6,-96.57,Agrícola,1834000
+San Juan Sayultepec,Oaxaca,437,17.37,-97.33,Agrícola,305900
+San Juan Tabaá,Oaxaca,1121,17.27,-96.1,Agrícola,784700
+San Juan Tamazola,Oaxaca,1121,17.15,-97.12,Agrícola,784700
+San Juan Teita,Oaxaca,437,17.07,-97.6,Agrícola,305900
+San Juan Teitipac,Oaxaca,2620,16.9,-96.58,Agrícola,1834000
+San Juan Tepeuxila,Oaxaca,2620,17.75,-96.8,Agrícola,1834000
+San Juan Teposcolula,Oaxaca,1455,17.5,-97.48,Agrícola,1018500
+San Juan Yaeé,Oaxaca,1455,17.3,-96.2,Agrícola,1018500
+San Juan Yatzona,Oaxaca,437,17.3,-96.27,Agrícola,305900
+San Juan Yucuita,Oaxaca,2240,17.47,-97.33,Agrícola,1568000
+San Lorenzo,Oaxaca,2620,16.4,-97.38,Agrícola,1834000
+San Lorenzo Albarradas,Oaxaca,3363,16.97,-96.33,Agrícola,2354100
+San Lorenzo Cacaotepec,Oaxaca,17215,17.12,-96.8,Mixta,13772000
+San Lorenzo Cuaunecuiltitla,Oaxaca,437,18.05,-96.8,Agrícola,305900
+San Lorenzo Texmelúcan,Oaxaca,1121,16.48,-97.18,Agrícola,784700
+San Lorenzo Victoria,Oaxaca,1121,17.28,-97.98,Agrícola,784700
+San Lucas Camotlán,Oaxaca,3363,17,-95.72,Agrícola,2354100
+San Lucas Ojitlán,Oaxaca,22403,17.98,-96.4,Agrícola,15682100
+San Lucas Quiaviní,Oaxaca,1894,16.88,-96.5,Agrícola,1325800
+San Lucas Zoquiápam,Oaxaca,1894,18.12,-96.9,Agrícola,1325800
+San Luis Amatlán,Oaxaca,4490,16.4,-96.43,Agrícola,3143000
+San Marcial Ozolotepec,Oaxaca,1455,16.2,-96.3,Agrícola,1018500
+San Marcos Arteaga,Oaxaca,3363,17.72,-97.88,Agrícola,2354100
+San Martín de los Cansecos,Oaxaca,1121,16.68,-96.72,Agrícola,784700
+San Martín Huamelúlpam,Oaxaca,1121,17.33,-97.65,Agrícola,784700
+San Martín Itunyoso,Oaxaca,1121,17.07,-97.8,Agrícola,784700
+San Martín Lachilá,Oaxaca,1455,16.6,-96.7,Agrícola,1018500
+San Martín Peras,Oaxaca,11213,17.22,-98.2,Agrícola,7849100
+San Martín Tilcajete,Oaxaca,2240,16.85,-96.68,Agrícola,1568000
+San Martín Toxpalan,Oaxaca,3363,18,-97.02,Agrícola,2354100
+San Martín Zacatepec,Oaxaca,1455,17.1,-97.87,Agrícola,1018500
+San Mateo Cajonos,Oaxaca,437,17.27,-96.2,Agrícola,305900
+Capulálpam de Méndez,Oaxaca,1455,17.3,-96.45,Servicios,1309500
+San Mateo del Mar,Oaxaca,15865,16.22,-95,Agrícola,11105500
+San Mateo Etlatongo,Oaxaca,1121,17.43,-97.3,Agrícola,784700
+San Mateo Nejápam,Oaxaca,1455,17.65,-98.3,Agrícola,1018500
+San Mateo Peñasco,Oaxaca,1455,17.18,-97.55,Agrícola,1018500
+San Mateo Piñas,Oaxaca,2240,15.93,-96.3,Agrícola,1568000
+San Mateo Río Hondo,Oaxaca,3363,16.15,-96.5,Agrícola,2354100
+San Mateo Sindihui,Oaxaca,437,17.05,-97.4,Agrícola,305900
+San Mateo Tlapiltepec,Oaxaca,437,17.2,-97.42,Agrícola,305900
+San Melchor Betaza,Oaxaca,858,17.32,-96.25,Agrícola,600600
+San Miguel Achiutla,Oaxaca,858,17.32,-97.58,Agrícola,600600
+San Miguel Ahuehuetitlán,Oaxaca,2240,17.88,-98.22,Agrícola,1568000
+San Miguel Aloápam,Oaxaca,2620,17.43,-96.73,Agrícola,1834000
+San Miguel Amatitlán,Oaxaca,4490,17.9,-98.05,Agrícola,3143000
+San Miguel Amatlán,Oaxaca,1121,17.15,-96.43,Agrícola,784700
+San Miguel Coatlán,Oaxaca,3363,16.27,-96.7,Agrícola,2354100
+San Miguel Chicahua,Oaxaca,1121,17.28,-97.5,Agrícola,784700
+San Miguel Chimalapa,Oaxaca,9231,16.67,-94.13,Agrícola,6461700
+San Miguel del Puerto,Oaxaca,4490,15.97,-96.08,Agrícola,3143000
+San Miguel del Río,Oaxaca,437,17.28,-96.9,Agrícola,305900
+San Miguel Ejutla,Oaxaca,4490,16.53,-96.73,Agrícola,3143000
+San Miguel el Grande,Oaxaca,4490,17.07,-97.62,Agrícola,3143000
+San Miguel Huautla,Oaxaca,1121,17.72,-97.23,Agrícola,784700
+San Miguel Mixtepec,Oaxaca,1121,16.8,-96.9,Agrícola,784700
+San Miguel Panixtlahuaca,Oaxaca,6268,16.28,-97.33,Agrícola,4387600
+San Miguel Peras,Oaxaca,4490,16.92,-96.97,Agrícola,3143000
+San Miguel Piedras,Oaxaca,1121,17.2,-97.5,Agrícola,784700
+San Miguel Quetzaltepec,Oaxaca,8229,16.92,-95.7,Agrícola,5760300
+San Miguel Santa Flor,Oaxaca,1121,18,-96.8,Agrícola,784700
+Villa Sola de Vega,Oaxaca,12822,16.5,-96.97,Agrícola,8975400
+San Miguel Soyaltepec,Oaxaca,44908,18.18,-96.2,Agrícola,31435600
+San Miguel Suchixtepec,Oaxaca,1455,16.08,-96.47,Agrícola,1018500
+Villa Talea de Castro,Oaxaca,2620,17.37,-96.27,Agrícola,1834000
+San Miguel Tecomatlán,Oaxaca,437,17.28,-97.4,Agrícola,305900
+San Miguel Tenango,Oaxaca,1121,16.63,-95.53,Agrícola,784700
+San Miguel Tequixtepec,Oaxaca,1455,17.78,-97.35,Agrícola,1018500
+San Miguel Tilquiápam,Oaxaca,1455,16.8,-96.6,Agrícola,1018500
+San Miguel Tlacamama,Oaxaca,1894,16.42,-98.05,Agrícola,1325800
+San Miguel Tlacotepec,Oaxaca,3363,17.47,-97.9,Agrícola,2354100
+San Miguel Tulancingo,Oaxaca,437,17.7,-97.57,Agrícola,305900
+San Miguel Yotao,Oaxaca,437,17.47,-96.4,Agrícola,305900
+San Nicolás,Oaxaca,1121,16.67,-96.78,Agrícola,784700
+San Nicolás Hidalgo,Oaxaca,1121,17.18,-97.8,Agrícola,784700
+San Pablo Coatlán,Oaxaca,4490,16.32,-96.8,Agrícola,3143000
+San Pablo Cuatro Venados,Oaxaca,1455,16.98,-96.88,Agrícola,1018500
+San Pablo Etla,Oaxaca,19041,17.13,-96.75,Mixta,15232800
+San Pablo Huitzo,Oaxaca,5903,17.27,-96.88,Agrícola,4132100
+San Pablo Huixtepec,Oaxaca,11213,16.85,-96.78,Agrícola,7849100
+San Pablo Macuiltianguis,Oaxaca,1455,17.48,-96.53,Agrícola,1018500
+San Pablo Tijaltepec,Oaxaca,1121,16.92,-97.47,Agrícola,784700
+San Pablo Villa de Mitla,Oaxaca,14173,16.92,-96.4,Servicios,12755700
+San Pablo Yaganiza,Oaxaca,1121,17.23,-96.2,Agrícola,784700
+San Pedro Amuzgos,Oaxaca,6268,16.67,-98.1,Agrícola,4387600
+San Pedro Apóstol,Oaxaca,1455,16.82,-96.67,Agrícola,1018500
+San Pedro Atoyac,Oaxaca,4490,16.48,-98,Agrícola,3143000
+Puebla,Puebla,1692181,19.0414,-98.2063,Servicios,2030617200
+Acajete,Puebla,76839,19.1,-97.93,Mixta,61471200
+Acateno,Puebla,11084,20.13,-97.2,Agrícola,7758800
+Acatlán,Puebla,37031,18.2,-98.05,Mixta,29624800
+Acatzingo,Puebla,65147,18.98,-97.78,Mixta,52117600
+Acteopan,Puebla,3091,18.77,-98.7,Agrícola,2163700
+Ahuacatlán,Puebla,15643,20,-97.85,Agrícola,10950100
+Ahuatlán,Puebla,4130,18.57,-98.17,Agrícola,2891000
+Ahuazotepec,Puebla,11213,20.03,-98.08,Agrícola,7849100
+Ahuehuetitla,Puebla,2620,18.15,-98.15,Agrícola,1834000
+Ajalpan,Puebla,74542,18.37,-97.25,Mixta,59633600
+Albino Zertuche,Puebla,1894,18.3,-98.2,Agrícola,1325800
+Aljojuca,Puebla,7188,19.38,-97.52,Agrícola,5031600
+Altepexi,Puebla,22403,18.5,-97.28,Mixta,17922400
+Amixtlán,Puebla,4820,20.05,-97.75,Agrícola,3374000
+Amozoc,Puebla,125876,19.03,-98.05,Industrial,138463600
+Aquixtla,Puebla,8395,19.8,-97.93,Agrícola,5876500
+Atempan,Puebla,27129,19.8,-97.43,Mixta,21703200
+Atexcal,Puebla,3791,18.42,-97.47,Agrícola,2653700
+Atlixco,Puebla,141791,18.9,-98.43,Servicios,141791000
+Atoyatempan,Puebla,6616,18.82,-97.92,Agrícola,4631200
+Atzala,Puebla,1455,18.6,-98.53,Agrícola,1018500
+Atzitzihuacán,Puebla,12822,18.88,-98.55,Agrícola,8975400
+Atzitzintla,Puebla,9513,18.9,-97.35,Agrícola,6659100
+Axutla,Puebla,1121,18.25,-98.42,Agrícola,784700
+Ayotoxco de Guerrero,Puebla,13627,20.03,-97.4,Agrícola,9538900
+Calpan,Puebla,15643,19.1,-98.47,Agrícola,10950100
+Caltepec,Puebla,4923,18.2,-97.45,Agrícola,3446100
+Camocuautla,Puebla,2620,20.1,-97.7,Agrícola,1834000
+Caxhuacan,Puebla,4923,20.1,-97.58,Agrícola,3446100
+Coatepec,Puebla,1121,19.95,-97.63,Agrícola,784700
+Coatzingo,Puebla,3363,18.67,-98.15,Agrícola,2354100
+Cohetzala,Puebla,1455,18.25,-98.8,Agrícola,1018500
+Cohuecan,Puebla,5472,18.8,-98.7,Agrícola,3830400
+Coronango,Puebla,46995,19.12,-98.27,Mixta,42295500
+Coxcatlán,Puebla,21183,18.27,-97.15,Agrícola,14828100
+Coyomeapan,Puebla,15167,18.43,-97.02,Agrícola,10616900
+Coyotepec,Puebla,5472,18.32,-97.78,Agrícola,3830400
+Cuapiaxtla de Madero,Puebla,9812,18.93,-97.8,Agrícola,6868400
+Cuautempan,Puebla,11084,19.92,-97.77,Agrícola,7758800
+Cuautinchán,Puebla,11084,18.93,-98.08,Agrícola,7758800
+Cuautlancingo,Puebla,137435,19.08,-98.25,Industrial,151178500
+Cuayuca de Andrade,Puebla,3363,18.38,-98.2,Agrícola,2354100
+Cuetzalan del Progreso,Puebla,49957,20.02,-97.52,Servicios,44961300
+Cuyoaco,Puebla,16578,19.63,-97.63,Agrícola,11604600
+Chalchicomula de Sesma,Puebla,46798,19,-97.43,Mixta,37438400
+Chapulco,Puebla,8229,18.67,-97.4,Agrícola,5760300
+Chiautla,Puebla,21869,18.3,-98.6,Mixta,17495200
+Chiautzingo,Puebla,22687,19.2,-98.47,Agrícola,15880900
+Chiconcuautla,Puebla,17424,20.08,-97.95,Agrícola,12196800
+Chichiquila,Puebla,26744,19.23,-97.08,Agrícola,18720800
+Chietla,Puebla,35905,18.52,-98.6,Agrícola,25133500
+Chigmecatitlán,Puebla,1455,18.65,-98.05,Agrícola,1018500
+Chignahuapan,Puebla,66435,19.83,-98.03,Servicios,59791500
+Chignautla,Puebla,35905,19.82,-97.38,Mixta,28724000
+Chila,Puebla,4820,18.1,-98,Agrícola,3374000
+Chila de la Sal,Puebla,1455,18.15,-98.53,Agrícola,1018500
+Honey,Puebla,4490,20.27,-98.22,Agrícola,3143000
+Chilchotla,Puebla,21183,19.27,-97.18,Agrícola,14828100
+Chinantla,Puebla,2620,18.27,-98.22,Agrícola,1834000
+Domingo Arenas,Puebla,7789,19.12,-98.4,Agrícola,5452300
+Eloxochitlán,Puebla,13880,18.5,-96.88,Agrícola,9716000
+Epatlán,Puebla,4490,18.63,-98.37,Agrícola,3143000
+Esperanza,Puebla,14731,18.85,-97.38,Agrícola,10311700
+Francisco Z. Mena,Puebla,17502,20.8,-97.8,Agrícola,12251400
+General Felipe Ángeles,Puebla,21183,18.98,-97.63,Agrícola,14828100
+Guadalupe,Puebla,670,18.23,-98.27,Agrícola,469000
+Guadalupe Victoria,Puebla,18129,19.3,-97.35,Agrícola,12690300
+Hermenegildo Galeana,Puebla,8229,20.12,-97.72,Agrícola,5760300
+Huaquechula,Puebla,29849,18.77,-98.5,Agrícola,20894300
+Huatlatlauca,Puebla,6520,18.58,-98.03,Agrícola,4564000
+Huauchinango,Puebla,103977,20.18,-98.05,Mixta,83181600
+Huehuetla,Puebla,18788,20.12,-97.62,Agrícola,13151600
+Huehuetlán el Chico,Puebla,8900,18.4,-98.7,Agrícola,6230000
+Huejotzingo,Puebla,90794,19.15,-98.4,Mixta,72635200
+Hueyapan,Puebla,12822,19.9,-97.38,Agrícola,8975400
+Hueytamalco,Puebla,31267,19.95,-97.28,Agrícola,21886900
+Hueytlalpan,Puebla,5903,20.07,-97.63,Agrícola,4132100
+Huitzilan de Serdán,Puebla,15424,20,-97.67,Agrícola,10796800
+Huitziltepec,Puebla,5903,18.8,-97.83,Agrícola,4132100
+Atlequizayan,Puebla,3363,20.1,-97.5,Agrícola,2354100
+Ixcamilpa de Guerrero,Puebla,3791,18.1,-98.68,Agrícola,2653700
+Ixcaquixtla,Puebla,8395,18.45,-97.8,Agrícola,5876500
+Ixtacamaxtitlán,Puebla,28145,19.6,-97.87,Agrícola,19701500
+Ixtepec,Puebla,680,19.98,-97.65,Agrícola,476000
+Izúcar de Matamoros,Puebla,72799,18.6,-98.47,Mixta,58239200
+Jalpan,Puebla,13410,20.4,-97.87,Agrícola,9387000
+Jolalpan,Puebla,13240,18.3,-98.85,Agrícola,9268000
+Jonotla,Puebla,4820,20.08,-97.48,Agrícola,3374000
+Jopala,Puebla,13627,20.18,-97.7,Agrícola,9538900
+Juan C. Bonilla,Puebla,21382,19.12,-98.3,Mixta,17105600
+Juan Galindo,Puebla,10067,20.22,-97.97,Mixta,8053600
+Juan N. Méndez,Puebla,5215,18.57,-97.7,Agrícola,3650500
+Lafragua,Puebla,11943,19.3,-97.28,Agrícola,8360100
+Libres,Puebla,34653,19.47,-97.68,Mixta,27722400
+La Magdalena Tlatlauquitepec,Puebla,858,18.72,-97.97,Agrícola,600600
+Mazapiltepec de Juárez,Puebla,2992,19.18,-97.77,Agrícola,2094400
+Mixtla,Puebla,1455,19.6,-97.87,Agrícola,1018500
+Molcaxac,Puebla,6804,18.73,-97.9,Agrícola,4762800
+Cañada Morelos,Puebla,21183,18.73,-97.43,Agrícola,14828100
+Naupan,Puebla,10305,20.22,-98.15,Agrícola,7213500
+Nauzontla,Puebla,12822,19.95,-97.48,Agrícola,8975400
+Nealtican,Puebla,12822,19.05,-98.45,Agrícola,8975400
+Nicolás Bravo,Puebla,6520,18.6,-97.35,Agrícola,4564000
+Nopalucan,Puebla,32009,19.22,-97.85,Mixta,25607200
+Ocotepec,Puebla,5215,19.53,-97.68,Agrícola,3650500
+Ocoyucan,Puebla,40971,18.95,-98.3,Mixta,32776800
+Olintla,Puebla,12239,20.18,-97.68,Agrícola,8567300
+Oriental,Puebla,19992,19.38,-97.62,Mixta,15993600
+Pahuatlán,Puebla,20620,20.28,-98.15,Agrícola,14434000
+Palmar de Bravo,Puebla,51100,18.83,-97.53,Agrícola,35770000
+Pantepec,Puebla,19176,20.62,-97.8,Agrícola,13423200
+Petlalcingo,Puebla,9513,18.08,-97.93,Agrícola,6659100
+Piaxtla,Puebla,4923,18.23,-98.25,Agrícola,3446100
+Quecholac,Puebla,51100,18.92,-97.67,Agrícola,35770000
+Quimixtlán,Puebla,22403,19.23,-97.1,Agrícola,15682100
+Rafael Lara Grajales,Puebla,14631,19.33,-97.73,Mixta,11704800
+Los Reyes de Juárez,Puebla,27318,18.95,-97.82,Agrícola,19122600
+San Andrés Cholula,Puebla,154448,19.03,-98.3,Servicios,169892800
+San Antonio Cañada,Puebla,5353,18.32,-97.2,Agrícola,3747100
+San Diego la Mesa Tochimiltzingo,Puebla,1203,18.7,-98.33,Agrícola,842100
+San Felipe Teotlalcingo,Puebla,10866,19.2,-98.5,Agrícola,7606200
+San Felipe Tepatlán,Puebla,3993,20.15,-97.8,Agrícola,2795100
+San Gabriel Chilac,Puebla,16117,18.4,-97.3,Agrícola,11281900
+San Gregorio Atzompa,Puebla,9513,19.03,-98.33,Agrícola,6659100
+San Jerónimo Tecuanipan,Puebla,6804,19.05,-98.37,Agrícola,4762800
+San Jerónimo Xayacatlán,Puebla,3791,18.2,-97.92,Agrícola,2653700
+San José Chiapa,Puebla,8900,19.25,-97.77,Industrial,9790000
+San José Miahuatlán,Puebla,14392,18.43,-97.28,Agrícola,10074400
+San Juan Atenco,Puebla,3791,18.98,-97.5,Agrícola,2653700
+San Juan Atzompa,Puebla,437,18.68,-98.02,Agrícola,305900
+San Martín Texmelucan,Puebla,155738,19.28,-98.43,Mixta,139999900
+San Martín Totoltepec,Puebla,858,18.67,-98.25,Agrícola,600600
+San Matías Tlalancaleca,Puebla,21183,19.32,-98.5,Mixta,16946400
+San Miguel Ixitlán,Puebla,594,18.05,-97.9,Agrícola,415800
+San Miguel Xoxtla,Puebla,12423,19.17,-98.3,Mixta,9938400
+San Nicolás Buenos Aires,Puebla,10657,19.25,-97.53,Agrícola,7459900
+San Nicolás de los Ranchos,Puebla,12239,19.07,-98.48,Agrícola,8567300
+San Pablo Anicano,Puebla,3363,18.25,-98.15,Agrícola,2354100
+San Pedro Cholula,Puebla,138433,19.07,-98.3,Servicios,138433000
+San Pedro Yeloixtlahuaca,Puebla,3363,18.05,-98.05,Agrícola,2354100
+San Salvador el Seco,Puebla,30548,19.15,-97.63,Mixta,24438400
+San Salvador el Verde,Puebla,34653,19.27,-98.52,Agrícola,24257100
+San Salvador Huixcolotla,Puebla,14925,18.93,-97.77,Agrícola,10447500
+San Sebastián Tlacotepec,Puebla,13627,18.4,-96.83,Agrícola,9538900
+Santa Catarina Tlaltempan,Puebla,858,18.5,-97.9,Agrícola,600600
+Santa Inés Ahuatempan,Puebla,6268,18.37,-98.03,Agrícola,4387600
+Santa Isabel Cholula,Puebla,9513,18.97,-98.37,Agrícola,6659100
+Santiago Miahuatlán,Puebla,14041,18.55,-97.43,Agrícola,9828700
+Huehuetlán el Grande,Puebla,7188,18.77,-98.12,Agrícola,5031600
+Santo Tomás Hueyotlipan,Puebla,8900,18.88,-97.9,Agrícola,6230000
+Soltepec,Puebla,12822,19.22,-97.7,Agrícola,8975400
+Tecali de Herrera,Puebla,24089,18.9,-97.97,Mixta,19271200
+Tecamachalco,Puebla,80370,18.88,-97.73,Mixta,64296000
+Tecomatlán,Puebla,5472,18.15,-98.35,Agrícola,3830400
+Tehuacán,Puebla,327312,18.47,-97.38,Mixta,327312000
+Tehuitzingo,Puebla,12028,18.32,-98.3,Agrícola,8419600
+Tenampulco,Puebla,16578,20.18,-97.35,Agrícola,11604600
+Teopantlán,Puebla,4301,18.63,-98.25,Agrícola,3010700
+Teotlalco,Puebla,3363,18.37,-98.77,Agrícola,2354100
+Tepanco de López,Puebla,22403,18.6,-97.55,Agrícola,15682100
+Tepango de Rodríguez,Puebla,4130,19.95,-97.78,Agrícola,2891000
+Tepatlaxco de Hidalgo,Puebla,19205,19.03,-97.93,Agrícola,13443500
+Tepeaca,Puebla,84534,18.97,-97.9,Mixta,67627200
+Tepemaxalco,Puebla,2240,18.68,-98.27,Agrícola,1568000
+Tepeojuma,Puebla,9513,18.72,-98.42,Agrícola,6659100
+Tepetzintla,Puebla,11943,19.98,-97.83,Agrícola,8360100
+Tepexco,Puebla,6520,18.6,-98.63,Agrícola,4564000
+Tepexi de Rodríguez,Puebla,22687,18.48,-97.93,Mixta,18149600
+Tepeyahualco,Puebla,18342,19.5,-97.48,Agrícola,12839400
+Tepeyahualco de Cuauhtémoc,Puebla,4130,18.78,-97.85,Agrícola,2891000
+Tetela de Ocampo,Puebla,26343,19.82,-97.8,Mixta,21074400
+Teteles de Avila Castillo,Puebla,22403,19.85,-97.43,Mixta,17922400
+Teziutlán,Puebla,103583,19.82,-97.35,Mixta,82866400
+Tianguismanalco,Puebla,11084,19,-98.43,Agrícola,7758800
+Tilapa,Puebla,9097,18.6,-98.57,Agrícola,6367900
+Tlacotepec de Benito Juárez,Puebla,54593,18.65,-97.67,Agrícola,38215100
+Tlacuilotepec,Puebla,16335,20.37,-98,Agrícola,11434500
+Tlachichuca,Puebla,30548,19.17,-97.4,Agrícola,21383600
+Tlahuapan,Puebla,45031,19.35,-98.58,Agrícola,31521700
+Tlaltenango,Puebla,7683,19.15,-98.38,Agrícola,5378100
+Tlanepantla,Puebla,5472,18.82,-98.17,Agrícola,3830400
+Tlaola,Puebla,20171,20.2,-97.92,Agrícola,14119700
+Tlapacoya,Puebla,6916,20.15,-98.2,Agrícola,4841200
+Tlapanalá,Puebla,9513,18.73,-98.52,Agrícola,6659100
+Tlatlauquitepec,Puebla,54415,19.85,-97.48,Mixta,43532000
+Tlaxco,Puebla,15643,20.13,-98.05,Agrícola,10950100
+Tochimilco,Puebla,19315,18.88,-98.57,Agrícola,13520500
+Tochtepec,Puebla,22687,18.87,-97.8,Agrícola,15880900
+Totoltepec de Guerrero,Puebla,1121,18.23,-98.02,Agrícola,784700
+Tulcingo,Puebla,9812,18.1,-98.43,Agrícola,6868400
+Tuzamapan de Galeana,Puebla,6268,20.1,-97.53,Agrícola,4387600
+Tzicatlacoyan,Puebla,6804,18.87,-98.1,Agrícola,4762800
+Venustiano Carranza,Puebla,64618,20.5,-97.7,Mixta,51694400
+Vicente Guerrero,Puebla,27129,18.52,-97.18,Agrícola,18990300
+Xayacatlán de Bravo,Puebla,1455,18.3,-97.9,Agrícola,1018500
+Xicotepec,Puebla,79843,20.28,-97.95,Mixta,63874400
+Xicotlán,Puebla,1455,18.33,-98.55,Agrícola,1018500
+Xiutetelco,Puebla,43003,19.8,-97.33,Mixta,34402400
+Xochiapulco,Puebla,4490,19.88,-97.65,Agrícola,3143000
+Xochiltepec,Puebla,3363,18.68,-98.3,Agrícola,2354100
+Xochitlán de Vicente Suárez,Puebla,13240,19.97,-97.68,Agrícola,9268000
+Xochitlán Todos Santos,Puebla,6616,18.73,-97.8,Agrícola,4631200
+Yaonáhuac,Puebla,8580,19.88,-97.4,Agrícola,6006000
+Yehualtepec,Puebla,26176,18.72,-97.7,Agrícola,18323200
+Zacapala,Puebla,4490,18.58,-98.08,Agrícola,3143000
+Zacapoaxtla,Puebla,55803,19.87,-97.58,Mixta,44642400
+Zacatlán,Puebla,87361,19.93,-97.97,Servicios,78624900
+Zapotitlán,Puebla,10067,18.32,-97.52,Agrícola,7046900
+Zapotitlán de Méndez,Puebla,5807,20,-97.7,Agrícola,4064900
+Zaragoza,Puebla,28905,19.77,-97.55,Mixta,23124000
+Zautla,Puebla,21183,19.75,-97.68,Agrícola,14828100
+Zihuateutla,Puebla,13063,20.35,-97.85,Agrícola,9144100
+Zinacatepec,Puebla,18972,18.42,-97.35,Agrícola,13280400
+Zongozotla,Puebla,4490,20.02,-97.72,Agrícola,3143000
+Zoquiapan,Puebla,2620,20.1,-97.6,Agrícola,1834000
+Zoquitlán,Puebla,20853,18.42,-96.95,Agrícola,14597100
+Amealco de Bonfil,Querétaro,66841,20.18,-100.13,Mixta,50130750
+Pinal de Amoles,Querétaro,27365,21.13,-99.62,Agrícola,19155500
+Arroyo Seco,Querétaro,13141,21.47,-99.65,Agrícola,9198700
+Cadereyta de Montes,Querétaro,69075,20.7,-99.82,Mixta,55260000
+Colón,Querétaro,67131,20.78,-100.05,Mixta,53704800
+Corregidora,Querétaro,212567,20.52,-100.45,Industrial,233823700
+Ezequiel Montes,Querétaro,45141,20.67,-99.9,Mixta,36112800
+Huimilpan,Querétaro,36885,20.37,-100.27,Agrícola,25819500
+Jalpan de Serra,Querétaro,27344,21.22,-99.47,Servicios,21875200
+Landa de Matamoros,Querétaro,19904,21.18,-99.32,Agrícola,13932800
+El Marqués,Querétaro,231668,20.6,-100.28,Industrial,254834800
+Pedro Escobedo,Querétaro,77404,20.5,-100.13,Mixta,61923200
+Peñamiller,Querétaro,19149,21.03,-99.88,Agrícola,13404300
+Querétaro,Querétaro,1049777,20.6,-100.38,Servicios,1259732400
+San Joaquín,Querétaro,8359,20.92,-99.57,Agrícola,5851300
+San Juan del Río,Querétaro,297804,20.38,-99.98,Industrial,327584400
+Tequisquiapan,Querétaro,79403,20.52,-99.88,Servicios,71462700
+Tolimán,Querétaro,27916,20.92,-99.93,Agrícola,19541200
+Cozumel,Quintana Roo,88626,20.45,-86.9,Servicios,106351200
+Felipe Carrillo Puerto,Quintana Roo,83970,19.58,-88.03,Mixta,75573000
+Isla Mujeres,Quintana Roo,22686,21.25,-86.73,Servicios,27223200
+Othón P. Blanco,Quintana Roo,233648,18.52,-88.3,Servicios,257012800
+Benito Juárez,Quintana Roo,911503,21.17,-86.83,Servicios,1093803600
+José María Morelos,Quintana Roo,39165,19.73,-88.7,Agrícola,27415500
+Lázaro Cárdenas,Quintana Roo,29192,21,-87.45,Agrícola,20434400
+Solidaridad,Quintana Roo,333800,20.63,-87.08,Servicios,400560000
+Tulum,Quintana Roo,46721,20.2,-87.45,Servicios,56065200
+Bacalar,Quintana Roo,41754,18.67,-88.38,Servicios,41754000
+Puerto Morelos,Quintana Roo,26921,20.85,-86.88,Servicios,32305200
+Ahualulco,San Luis Potosí,18972,22.4,-101.17,Agrícola,13280400
+Alaquines,San Luis Potosí,7891,22.1,-99.6,Agrícola,5523700
+Aquismón,San Luis Potosí,48356,21.62,-99.02,Servicios,43520400
+Armadillo de los Infante,San Luis Potosí,4046,22.25,-100.67,Agrícola,2832200
+Cárdenas,San Luis Potosí,18937,22,-99.65,Mixta,15149600
+Catorce,San Luis Potosí,9579,23.68,-100.88,Servicios,8621100
+Cedral,San Luis Potosí,19840,23.8,-100.72,Mixta,15872000
+Cerritos,San Luis Potosí,22093,22.43,-100.28,Mixta,17674400
+Cerro de San Pedro,San Luis Potosí,5054,22.22,-100.78,Servicios,4548600
+Ciudad del Maíz,San Luis Potosí,30588,22.4,-99.6,Mixta,24470400
+Ciudad Fernández,San Luis Potosí,48366,21.93,-99.98,Mixta,38692800
+Tancanhuitz,San Luis Potosí,20210,21.6,-98.97,Agrícola,14147000
+Ciudad Valles,San Luis Potosí,184499,21.98,-99.02,Mixta,166049100
+Coxcatlán,San Luis Potosí,15510,21.53,-98.9,Agrícola,10857000
+Charcas,San Luis Potosí,21683,23.13,-101.12,Mixta,17346400
+Ébano,San Luis Potosí,41624,22.22,-98.37,Industrial,45786400
+Guadalcázar,San Luis Potosí,24894,22.62,-100.4,Agrícola,17425800
+Huehuetlán,San Luis Potosí,15331,21.57,-98.98,Agrícola,10731700
+Lagunillas,San Luis Potosí,5647,21.7,-99.57,Agrícola,3952900
+Matehuala,San Luis Potosí,102373,23.65,-100.65,Mixta,92135700
+Mexquitic de Carmona,San Luis Potosí,58473,22.25,-101.1,Mixta,46778400
+Moctezuma,San Luis Potosí,19317,22.75,-101.08,Agrícola,13521900
+Rayón,San Luis Potosí,15301,21.85,-99.63,Agrícola,10710700
+Rioverde,San Luis Potosí,97943,21.93,-99.98,Mixta,78354400
+Salinas,San Luis Potosí,31215,22.63,-101.72,Mixta,24972000
+San Antonio,San Luis Potosí,9394,21.62,-98.87,Agrícola,6575800
+San Ciro de Acosta,San Luis Potosí,10173,21.63,-99.82,Agrícola,7121100
+San Luis Potosí,San Luis Potosí,911908,22.15,-100.98,Servicios,1094289600
+San Martín Chalchicuautla,San Luis Potosí,20379,21.38,-98.63,Agrícola,14265300
+San Nicolás Tolentino,San Luis Potosí,4954,22.25,-100.53,Agrícola,3467800
+Santa Catarina,San Luis Potosí,12059,21.68,-99.47,Agrícola,8441300
+Santa María del Río,San Luis Potosí,39783,21.8,-100.73,Mixta,31826400
+Santo Domingo,San Luis Potosí,10785,23.3,-101.55,Agrícola,7549500
+San Vicente Tancuayalab,San Luis Potosí,15053,21.75,-98.78,Agrícola,10537100
+Soledad de Graciano Sánchez,San Luis Potosí,332072,22.2,-100.93,Industrial,365279200
+Tamasopo,San Luis Potosí,29307,21.93,-99.4,Servicios,26376300
+Tamazunchale,San Luis Potosí,95037,21.25,-98.8,Mixta,76029600
+Tampacán,San Luis Potosí,15233,21.37,-98.72,Agrícola,10663100
+Tampamolón Corona,San Luis Potosí,14088,21.57,-98.82,Agrícola,9861600
+Tamuín,San Luis Potosí,36952,22,-98.78,Mixta,29561600
+Tanlajás,San Luis Potosí,19313,21.7,-98.87,Agrícola,13519100
+Tanquián de Escobedo,San Luis Potosí,13681,21.6,-98.67,Agrícola,9576700
+Tierra Nueva,San Luis Potosí,9339,21.7,-100.9,Agrícola,6537300
+Vanegas,San Luis Potosí,7539,23.88,-100.95,Agrícola,5277300
+Venado,San Luis Potosí,14515,22.93,-101.1,Agrícola,10160500
+Villa de Arriaga,San Luis Potosí,18206,21.9,-101.38,Agrícola,12744200
+Villa de Guadalupe,San Luis Potosí,9626,23.3,-100.75,Agrícola,6738200
+Villa de la Paz,San Luis Potosí,5268,23.7,-100.7,Agrícola,3687600
+Villa de Ramos,San Luis Potosí,38356,22.83,-101.92,Agrícola,26849200
+Villa de Reyes,San Luis Potosí,52912,21.8,-101,Industrial,58203200
+Villa Hidalgo,San Luis Potosí,19689,22.35,-100.7,Agrícola,13782300
+Villa Juárez,San Luis Potosí,10304,22.33,-99.9,Agrícola,7212800
+Axtla de Terrazas,San Luis Potosí,32628,21.43,-98.87,Agrícola,22839600
+Xilitla,San Luis Potosí,49741,21.38,-98.98,Servicios,44766900
+Zaragoza,San Luis Potosí,27376,21.93,-100.75,Agrícola,19163200
+Villa de Arista,San Luis Potosí,17502,22.67,-100.87,Agrícola,12251400
+Matlapa,San Luis Potosí,28965,21.33,-98.8,Agrícola,20275500
+El Naranjo,San Luis Potosí,20966,22.52,-99.32,Agrícola,14676200
+Ahome,Sinaloa,459310,25.92,-109,Mixta,459310000
+Angostura,Sinaloa,44093,25.37,-108.17,Agrícola,30865100
+Badiraguato,Sinaloa,26507,25.35,-107.55,Agrícola,18554900
+Concordia,Sinaloa,24898,23.28,-106.07,Agrícola,17428600
+Cosalá,Sinaloa,17269,24.42,-106.68,Servicios,15542100
+Culiacán,Sinaloa,1003530,24.8,-107.4,Servicios,1103883000
+Choix,Sinaloa,29363,26.7,-108.32,Agrícola,20554100
+Elota,Sinaloa,55339,24.12,-106.9,Agrícola,38737300
+Escuinapa,Sinaloa,59988,22.83,-105.77,Agrícola,41991600
+El Fuerte,Sinaloa,96593,26.42,-108.62,Agrícola,67615100
+Guasave,Sinaloa,289397,25.57,-108.47,Agrícola,202577900
+Mazatlán,Sinaloa,501471,23.22,-106.42,Servicios,601765200
+Mocorito,Sinaloa,40258,25.48,-107.92,Agrícola,28180600
+Rosario,Sinaloa,52345,22.98,-105.87,Agrícola,36641500
+Salvador Alvarado,Sinaloa,79492,25.42,-108.02,Mixta,63593600
+San Ignacio,Sinaloa,19688,23.93,-106.43,Agrícola,13781600
+Sinaloa,Sinaloa,78653,25.83,-107.9,Agrícola,55057100
+Navolato,Sinaloa,149122,24.77,-107.7,Agrícola,104385400
+Aconchi,Sonora,2444,29.82,-110.23,Agrícola,1710800
+Agua Prieta,Sonora,91929,31.32,-109.55,Industrial,101121900
+Álamos,Sonora,24483,27.02,-108.93,Servicios,22034700
+Altar,Sonora,9492,30.7,-111.83,Agrícola,6644400
+Arivechi,Sonora,1179,28.92,-109.18,Agrícola,825300
+Arizpe,Sonora,2788,30.33,-110.17,Agrícola,1951600
+Atil,Sonora,622,30.8,-111.58,Agrícola,435400
+Bacadéhuachi,Sonora,977,29.8,-109.13,Agrícola,683900
+Bacanora,Sonora,721,28.98,-109.4,Agrícola,504700
+Bacerac,Sonora,1093,30.35,-108.73,Agrícola,765100
+Bacoachi,Sonora,1533,30.63,-110,Agrícola,1073100
+Bácum,Sonora,23151,27.53,-110.08,Agrícola,16205700
+Banámichi,Sonora,1473,30,-110.4,Agrícola,1031100
+Baviácora,Sonora,3293,29.7,-110.17,Agrícola,2305100
+Bavispe,Sonora,1288,30.48,-108.93,Agrícola,901600
+Benjamín Hill,Sonora,5285,30.17,-111.1,Agrícola,3699500
+Caborca,Sonora,89122,30.72,-112.15,Mixta,71297600
+Cajeme,Sonora,436484,27.48,-109.93,Mixta,436484000
+Cananea,Sonora,39451,30.98,-110.3,Mixta,35505900
+Carbó,Sonora,4483,29.68,-110.95,Agrícola,3138100
+La Colorada,Sonora,1730,28.7,-110.58,Agrícola,1211000
+Cucurpe,Sonora,906,30.33,-110.67,Agrícola,634200
+Cumpas,Sonora,5827,30,-109.78,Agrícola,4078900
+Divisaderos,Sonora,680,29.6,-109.47,Agrícola,476000
+Empalme,Sonora,54128,27.97,-110.82,Mixta,48715200
+Etchojoa,Sonora,61230,26.92,-109.65,Agrícola,42861000
+Fronteras,Sonora,7470,30.9,-109.57,Agrícola,5229000
+Granados,Sonora,1093,29.83,-109.28,Agrícola,765100
+Guaymas,Sonora,154786,27.92,-110.9,Servicios,161000000
+Hermosillo,Sonora,936263,29.1,-110.97,Servicios,1123515600
+Huachinera,Sonora,1093,30.2,-108.95,Agrícola,765100
+Huásabas,Sonora,808,29.9,-109.4,Agrícola,565600
+Huatabampo,Sonora,78128,26.83,-109.63,Agrícola,54689600
+Huépac,Sonora,1031,29.9,-110.2,Agrícola,721700
+Imuris,Sonora,12959,30.77,-110.85,Agrícola,9071300
+Magdalena,Sonora,33049,30.62,-110.97,Mixta,26439200
+Mazatán,Sonora,1288,29,-110.45,Agrícola,901600
+Moctezuma,Sonora,5109,29.8,-109.67,Agrícola,3576300
+Naco,Sonora,6422,31.33,-109.95,Mixta,5137600
+Nácori Chico,Sonora,1533,29.67,-108.97,Agrícola,1073100
+Nacozari de García,Sonora,14303,30.37,-109.68,Mixta,12872700
+Navojoa,Sonora,164387,27.07,-109.45,Mixta,147948300
+Nogales,Sonora,261137,31.3,-110.95,Industrial,287250700
+Onavas,Sonora,364,28.47,-109.53,Agrícola,254800
+Opodepe,Sonora,2444,29.93,-110.63,Agrícola,1710800
+Oquitoa,Sonora,483,30.73,-111.73,Agrícola,338100
+Pitiquito,Sonora,9468,30.7,-112,Agrícola,6627600
+Puerto Peñasco,Sonora,62689,31.32,-113.53,Servicios,75226800
+Quiriego,Sonora,3047,27.52,-109.28,Agrícola,2132900
+Rayón,Sonora,1473,29.7,-110.57,Agrícola,1031100
+Rosario,Sonora,5232,28.28,-109.33,Agrícola,3662400
+Sahuaripa,Sonora,5634,29.05,-109.23,Agrícola,3943800
+San Felipe de Jesús,Sonora,391,29.88,-110.3,Agrícola,273700
+San Javier,Sonora,541,28.58,-109.73,Agrícola,378700
+San Luis Río Colorado,Sonora,199021,32.45,-114.77,Industrial,238825200
+San Miguel de Horcasitas,Sonora,9492,29.48,-110.77,Agrícola,6644400
+San Pedro de la Cueva,Sonora,1473,29.28,-109.93,Agrícola,1031100
+Santa Ana,Sonora,16248,30.53,-111.12,Mixta,12998400
+Santa Cruz,Sonora,1966,31.23,-110.6,Agrícola,1376200
+Sáric,Sonora,2444,31.1,-111.37,Agrícola,1710800
+Soyopa,Sonora,1288,28.75,-109.63,Agrícola,901600
+Suaqui Grande,Sonora,1093,28.37,-109.9,Agrícola,765100
+Tepache,Sonora,1341,29.53,-109.53,Agrícola,938700
+Trincheras,Sonora,1533,30.42,-111.5,Agrícola,1073100
+Tubutama,Sonora,1288,30.9,-111.5,Agrícola,901600
+Ures,Sonora,8420,29.43,-110.4,Agrícola,5894000
+Villa Hidalgo,Sonora,1473,30.17,-109.32,Agrícola,1031100
+Villa Pesqueira,Sonora,1179,29.1,-110.15,Agrícola,825300
+Yécora,Sonora,4793,28.37,-108.93,Agrícola,3355100
+General Plutarco Elías Calles,Sonora,16196,31.7,-112.72,Agrícola,11337200
+Benito Juárez,Sonora,21869,27.1,-109.83,Agrícola,15308300
+San Ignacio Río Muerto,Sonora,14136,27.35,-110.38,Agrícola,9895200
+Balancán,Tabasco,58524,17.8,-91.53,Agrícola,40966800
+Cárdenas,Tabasco,243229,18,-93.37,Mixta,218906100
+Centla,Tabasco,107732,18.53,-92.65,Agrícola,75412400
+Centro,Tabasco,683607,17.98,-92.93,Servicios,820328400
+Comalcalco,Tabasco,214877,18.27,-93.2,Mixta,193389300
+Cunduacán,Tabasco,137257,18.07,-93.17,Agrícola,96079900
+Emiliano Zapata,Tabasco,32181,17.73,-91.77,Agrícola,22526700
+Huimanguillo,Tabasco,190885,17.83,-93.38,Agrícola,133619500
+Jalapa,Tabasco,37879,17.72,-92.8,Agrícola,26515300
+Jalpa de Méndez,Tabasco,91195,18.17,-93.05,Agrícola,63836500
+Jonuta,Tabasco,30798,18,-92.13,Agrícola,21558600
+Macuspana,Tabasco,158601,17.75,-92.6,Mixta,126880800
+Nacajuca,Tabasco,150300,18.13,-93.02,Agrícola,105210000
+Paraíso,Tabasco,96741,18.4,-93.22,Industrial,106415100
+Tacotalpa,Tabasco,47905,17.58,-92.82,Agrícola,33533500
+Teapa,Tabasco,58976,17.55,-92.95,Agrícola,41283200
+Tenosique,Tabasco,62310,17.47,-91.42,Mixta,49848000
+Abasolo,Tamaulipas,10226,24.05,-98.37,Agrícola,7158200
+Aldama,Tamaulipas,28702,22.92,-98.07,Agrícola,20091400
+Altamira,Tamaulipas,269790,22.4,-97.93,Industrial,323748000
+Antiguo Morelos,Tamaulipas,8855,22.53,-99.08,Agrícola,6198500
+Burgos,Tamaulipas,4269,24.95,-98.82,Agrícola,2988300
+Bustamante,Tamaulipas,7542,23.38,-99.78,Agrícola,5279400
+Camargo,Tamaulipas,16546,26.27,-98.83,Agrícola,11582200
+Casas,Tamaulipas,4133,23.4,-98.3,Agrícola,2893100
+Ciudad Madero,Tamaulipas,205933,22.28,-97.83,Industrial,226526300
+Cruillas,Tamaulipas,1671,24.68,-98.53,Agrícola,1169700
+Gómez Farías,Tamaulipas,8286,23.03,-99.15,Agrícola,5790200
+González,Tamaulipas,41455,22.8,-98.57,Agrícola,29018500
+Güémez,Tamaulipas,15032,23.9,-98.98,Agrícola,10522400
+Guerrero,Tamaulipas,3803,26.9,-99.48,Agrícola,2662100
+Gustavo Díaz Ordaz,Tamaulipas,15291,26.23,-98.6,Agrícola,10703700
+Hidalgo,Tamaulipas,17012,24.23,-99.43,Agrícola,11908400
+Jaumave,Tamaulipas,15994,23.4,-99.38,Agrícola,11195800
+Jiménez,Tamaulipas,6375,24.2,-98.47,Agrícola,4462500
+Llera,Tamaulipas,14589,23.3,-98.9,Agrícola,10212300
+Mainero,Tamaulipas,2046,24.57,-99.6,Agrícola,1432200
+El Mante,Tamaulipas,106144,22.73,-98.97,Mixta,84915200
+Matamoros,Tamaulipas,541979,25.87,-97.5,Industrial,650374800
+Méndez,Tamaulipas,4286,25.2,-98.78,Agrícola,3000200
+Mier,Tamaulipas,6385,26.43,-99.15,Agrícola,4469500
+Miguel Alemán,Tamaulipas,26237,26.4,-99.03,Mixta,20989600
+Miquihuana,Tamaulipas,3704,23.57,-99.78,Agrícola,2592800
+Nuevo Laredo,Tamaulipas,425058,27.48,-99.5,Industrial,510069600
+Nuevo Morelos,Tamaulipas,3812,22.5,-99.18,Agrícola,2668400
+Ocampo,Tamaulipas,12170,22.83,-99.33,Agrícola,8519000
+Padilla,Tamaulipas,13618,24,-98.78,Agrícola,9532600
+Palmillas,Tamaulipas,1917,23.3,-99.55,Agrícola,1341900
+Reynosa,Tamaulipas,704767,26.08,-98.28,Industrial,845720400
+Río Bravo,Tamaulipas,132477,25.98,-98.1,Mixta,119229300
+San Carlos,Tamaulipas,7411,24.47,-99.05,Agrícola,5187700
+San Fernando,Tamaulipas,51403,24.85,-98.15,Agrícola,35982100
+San Nicolás,Tamaulipas,926,24.53,-99.3,Agrícola,648200
+Soto la Marina,Tamaulipas,23673,23.77,-98.22,Agrícola,16571100
+Tampico,Tamaulipas,297554,22.25,-97.87,Servicios,357064800
+Tula,Tamaulipas,28230,23,-99.72,Mixta,22584000
+Valle Hermoso,Tamaulipas,60055,25.67,-97.82,Agrícola,42038500
+Victoria,Tamaulipas,349688,23.73,-99.13,Servicios,384656800
+Villagrán,Tamaulipas,5330,24.5,-99.43,Agrícola,3731000
+Xicoténcatl,Tamaulipas,21956,22.98,-98.93,Agrícola,15369200
+Amaxac de Guerrero,Tlaxcala,11452,19.35,-98.18,Mixta,9161600
+Apetatitlán de Antonio Carvajal,Tlaxcala,14925,19.33,-98.2,Mixta,11940000
+Atlangatepec,Tlaxcala,6916,19.53,-98.2,Agrícola,4841200
+Atltzayanca,Tlaxcala,18129,19.43,-97.8,Agrícola,12690300
+Apizaco,Tlaxcala,80725,19.42,-98.13,Mixta,72652500
+Calpulalpan,Tlaxcala,51172,19.58,-98.57,Mixta,40937600
+El Carmen Tequexquitla,Tlaxcala,17042,19.33,-97.65,Agrícola,11929400
+Cuapiaxtla,Tlaxcala,15536,19.3,-97.77,Agrícola,10875200
+Cuaxomulco,Tlaxcala,5903,19.35,-98.08,Agrícola,4132100
+Chiautempan,Tlaxcala,73215,19.32,-98.15,Mixta,65893500
+Muñoz de Domingo Arenas,Tlaxcala,4301,19.45,-98.28,Agrícola,3010700
+Españita,Tlaxcala,8900,19.48,-98.42,Agrícola,6230000
+Huamantla,Tlaxcala,98764,19.32,-97.92,Mixta,88887600
+Hueyotlipan,Tlaxcala,15167,19.47,-98.35,Agrícola,10616900
+Ixtacuixtla de Mariano Matamoros,Tlaxcala,38012,19.32,-98.37,Agrícola,26608400
+Ixtenco,Tlaxcala,7397,19.23,-97.9,Agrícola,5177900
+Mazatecochco de José María Morelos,Tlaxcala,11213,19.2,-98.23,Mixta,8970400
+Contla de Juan Cuamatzi,Tlaxcala,38624,19.33,-98.17,Mixta,30899200
+Tepetitla de Lardizábal,Tlaxcala,22234,19.28,-98.38,Agrícola,15563800
+Sanctórum de Lázaro Cárdenas,Tlaxcala,9513,19.52,-98.5,Agrícola,6659100
+Nanacamilpa de Mariano Arista,Tlaxcala,18686,19.48,-98.53,Agrícola,13080200
+Acuamanala de Miguel Hidalgo,Tlaxcala,6413,19.23,-98.2,Agrícola,4489100
+Natívitas,Tlaxcala,26309,19.23,-98.32,Agrícola,18416300
+Panotla,Tlaxcala,27891,19.33,-98.27,Mixta,22312800
+San Pablo del Monte,Tlaxcala,79403,19.12,-98.17,Mixta,63522400
+Santa Cruz Tlaxcala,Tlaxcala,24089,19.37,-98.15,Mixta,19271200
+Tenancingo,Tlaxcala,12974,19.15,-98.22,Agrícola,9081800
+Teolocholco,Tlaxcala,25145,19.25,-98.18,Mixta,20116000
+Tepeyanco,Tlaxcala,12239,19.25,-98.23,Agrícola,8567300
+Terrenate,Tlaxcala,15424,19.48,-97.93,Agrícola,10796800
+Tetla de la Solidaridad,Tlaxcala,35306,19.43,-98.1,Mixta,28244800
+Tetlatlahuca,Tlaxcala,13627,19.28,-98.33,Agrícola,9538900
+Tlaxcala,Tlaxcala,99896,19.32,-98.23,Servicios,109885600
+Tlaxco,Tlaxcala,45538,19.62,-98.12,Mixta,36430400
+Tocatlán,Tlaxcala,6268,19.4,-98.05,Agrícola,4387600
+Totolac,Tlaxcala,22429,19.33,-98.25,Mixta,17943200
+Ziltlaltépec de Trinidad Sánchez Santos,Tlaxcala,8900,19.22,-97.87,Agrícola,6230000
+Tzompantepec,Tlaxcala,18342,19.38,-98.08,Mixta,14673600
+Xaloztoc,Tlaxcala,25477,19.38,-98.05,Mixta,20381600
+Xaltocan,Tlaxcala,10578,19.4,-98.22,Agrícola,7404600
+Papalotla de Xicohténcatl,Tlaxcala,33467,19.17,-98.2,Mixta,26773600
+Xicohtzinco,Tlaxcala,14173,19.2,-98.23,Mixta,11338400
+Yauhquemehcan,Tlaxcala,40614,19.37,-98.2,Mixta,32491200
+Zacatelco,Tlaxcala,45717,19.22,-98.23,Mixta,36573600
+Benito Juárez,Tlaxcala,5770,19.57,-98.48,Agrícola,4039000
+Emiliano Zapata,Tlaxcala,5215,19.6,-97.98,Agrícola,3650500
+Lázaro Cárdenas,Tlaxcala,3363,19.52,-97.8,Agrícola,2354100
+La Magdalena Tlaltelulco,Tlaxcala,19041,19.27,-98.2,Mixta,15232800
+San Damián Texóloc,Tlaxcala,5807,19.28,-98.28,Agrícola,4064900
+San Francisco Tetlanohcan,Tlaxcala,11762,19.25,-98.15,Mixta,9409600
+San Jerónimo Zacualpan,Tlaxcala,3993,19.28,-98.25,Agrícola,2795100
+San José Teacalco,Tlaxcala,6413,19.4,-97.98,Agrícola,4489100
+San Juan Huactzinco,Tlaxcala,7542,19.2,-98.25,Agrícola,5279400
+San Lorenzo Axocomanitla,Tlaxcala,5807,19.2,-98.2,Agrícola,4064900
+San Lucas Tecopilco,Tlaxcala,3284,19.45,-98.25,Agrícola,2298800
+Santa Ana Nopalucan,Tlaxcala,7789,19.28,-98.32,Agrícola,5452300
+Santa Apolonia Teacalco,Tlaxcala,4704,19.25,-98.3,Agrícola,3292800
+Santa Catarina Ayometla,Tlaxcala,8900,19.22,-98.25,Agrícola,6230000
+Santa Cruz Quilehtla,Tlaxcala,7957,19.22,-98.2,Agrícola,5569900
+Santa Isabel Xiloxoxtla,Tlaxcala,4923,19.27,-98.22,Agrícola,3446100
+Acajete,Veracruz,8900,19.57,-97,Agrícola,6230000
+Acatlán,Veracruz,2992,19.68,-96.85,Agrícola,2094400
+Acayucan,Veracruz,83709,17.95,-94.92,Mixta,75338100
+Actopan,Veracruz,40971,19.5,-96.62,Agrícola,28679700
+Acula,Veracruz,4490,18.52,-95.8,Agrícola,3143000
+Acultzingo,Veracruz,23101,18.72,-97.32,Agrícola,16170700
+Camarón de Tejeda,Veracruz,6268,19.02,-96.62,Agrícola,4387600
+Alpatláhuac,Veracruz,10067,19.12,-97.08,Agrícola,7046900
+Alto Lucero de Gutiérrez Barrios,Veracruz,28267,19.62,-96.73,Agrícola,19786900
+Altotonga,Veracruz,64103,19.77,-97.23,Mixta,51282400
+Alvarado,Veracruz,52912,18.77,-95.77,Servicios,47620800
+Amatitlán,Veracruz,7542,18.43,-95.73,Agrícola,5279400
+Naranjos Amatlán,Veracruz,27548,21.32,-97.68,Agrícola,19283600
+Amatlán de los Reyes,Veracruz,47109,18.85,-96.92,Agrícola,32976300
+Ángel R. Cabada,Veracruz,33844,18.6,-95.43,Agrícola,23690800
+La Antigua,Veracruz,27318,19.32,-96.37,Agrícola,19122600
+Apazapan,Veracruz,4014,19.32,-96.72,Agrícola,2809800
+Aquila,Veracruz,1894,18.78,-97.35,Agrícola,1325800
+Astacinga,Veracruz,7397,18.7,-97.1,Agrícola,5177900
+Atlahuilco,Veracruz,11213,18.68,-97.12,Agrícola,7849100
+Atoyac,Veracruz,24089,18.92,-96.77,Agrícola,16862300
+Atzacan,Veracruz,22687,18.9,-97.1,Agrícola,15880900
+Atzalan,Veracruz,50124,19.9,-97.08,Agrícola,35086800
+Tlaltetela,Veracruz,16335,19.23,-96.85,Agrícola,11434500
+Ayahualulco,Veracruz,25895,19.45,-97,Agrícola,18126500
+Banderilla,Veracruz,25993,19.57,-96.93,Mixta,20794400
+Benito Juárez,Veracruz,17623,20.83,-98.17,Agrícola,12336100
+Boca del Río,Veracruz,144550,19.1,-96.1,Servicios,159005000
+Calcahualco,Veracruz,13627,19.13,-97.03,Agrícola,9538900
+Camerino Z. Mendoza,Veracruz,40614,18.8,-97.18,Mixta,36552600
+Carrillo Puerto,Veracruz,18342,18.78,-96.57,Agrícola,12839400
+Catemaco,Veracruz,48483,18.42,-95.12,Servicios,43634700
+Cazones de Herrera,Veracruz,24423,20.73,-97.2,Agrícola,17096100
+Cerro Azul,Veracruz,24739,21.2,-97.73,Mixta,19791200
+Citlaltépetl,Veracruz,11762,21.35,-97.87,Agrícola,8233400
+Coacoatzintla,Veracruz,13627,19.65,-96.98,Agrícola,9538900
+Coahuitlán,Veracruz,8395,20.25,-97.72,Agrícola,5876500
+Coatepec,Veracruz,93981,19.45,-96.97,Mixta,84582900
+Coatzacoalcos,Veracruz,310698,18.13,-94.47,Industrial,372837600
+Coatzintla,Veracruz,62095,20.47,-97.47,Mixta,49676000
+Coetzala,Veracruz,9231,18.82,-96.93,Agrícola,6461700
+Colipa,Veracruz,13063,19.92,-96.72,Agrícola,9144100
+Comapa,Veracruz,21262,19.15,-96.78,Agrícola,14883400
+Córdoba,Veracruz,204721,18.9,-96.93,Mixta,184248900
+Cosamaloapan de Carpio,Veracruz,57463,18.37,-95.8,Mixta,45970400
+Cosautlán de Carvajal,Veracruz,16335,19.33,-96.98,Agrícola,11434500
+Coscomatepec,Veracruz,58976,19.07,-97.05,Mixta,47180800
+Cosoleacaque,Veracruz,130989,17.98,-94.63,Industrial,144087900
+Cotaxtla,Veracruz,21183,18.83,-96.4,Agrícola,14828100
+Coxquihui,Veracruz,15309,20.18,-97.58,Agrícola,10716300
+Coyutla,Veracruz,21869,20.25,-97.63,Agrícola,15308300
+Cuichapa,Veracruz,12423,18.77,-96.87,Agrícola,8696100
+Cuitláhuac,Veracruz,60244,18.82,-96.72,Agrícola,42170800
+Chacaltianguis,Veracruz,12423,18.3,-95.83,Agrícola,8696100
+Chalma,Veracruz,13410,21.2,-98.4,Agrícola,9387000
+Chiconamel,Veracruz,15424,21.22,-98.47,Agrícola,10796800
+Chiconquiaco,Veracruz,15424,19.77,-96.78,Agrícola,10796800
+Chicontepec,Veracruz,54848,20.97,-98.17,Agrícola,38393600
+Chinameca,Veracruz,21183,18.02,-94.75,Agrícola,14828100
+Chinampa de Gorostiza,Veracruz,15167,21.37,-97.73,Agrícola,10616900
+Las Choapas,Veracruz,83049,17.9,-94.1,Industrial,91353900
+Chocamán,Veracruz,21183,18.93,-97.02,Agrícola,14828100
+Chontla,Veracruz,14515,21.32,-97.92,Agrícola,10160500
+Chumatlán,Veracruz,3993,20.2,-97.62,Agrícola,2795100
+Emiliano Zapata,Veracruz,61601,19.42,-96.75,Agrícola,43120700
+Espinal,Veracruz,27318,20.27,-97.4,Agrícola,19122600
+Filomeno Mata,Veracruz,18342,20.2,-97.7,Agrícola,12839400
+Fortín,Veracruz,65832,18.9,-97,Mixta,52665600
+Gutiérrez Zamora,Veracruz,24423,20.47,-97.08,Agrícola,17096100
+Hidalgotitlán,Veracruz,17978,17.78,-94.63,Agrícola,12584600
+Huatusco,Veracruz,59923,19.15,-96.97,Mixta,47938400
+Huayacocotla,Veracruz,20464,20.53,-98.48,Agrícola,14324800
+Hueyapan de Ocampo,Veracruz,42353,18.15,-95.15,Agrícola,29647100
+Huiloapan de Cuauhtémoc,Veracruz,7397,18.8,-97.15,Agrícola,5177900
+Ignacio de la Llave,Veracruz,17623,18.63,-95.98,Agrícola,12336100
+Ilamatlán,Veracruz,12822,20.78,-98.42,Agrícola,8975400
+Isla,Veracruz,42131,18.03,-95.53,Agrícola,29491700
+Ixcatepec,Veracruz,11213,21.23,-98.05,Agrícola,7849100
+Ixhuacán de los Reyes,Veracruz,11213,19.42,-97,Agrícola,7849100
+Ixhuatlán del Café,Veracruz,22403,19.03,-96.88,Agrícola,15682100
+Ixhuatlancillo,Veracruz,23101,18.9,-97.13,Mixta,18480800
+Ixhuatlán del Sureste,Veracruz,16117,17.98,-94.38,Industrial,17728700
+Ixhuatlán de Madero,Veracruz,52392,20.7,-98,Agrícola,36674400
+Ixmatlahuacan,Veracruz,5903,18.47,-95.83,Agrícola,4132100
+Ixtaczoquitlán,Veracruz,69075,18.87,-97.03,Industrial,75982500
+Jalacingo,Veracruz,44908,19.8,-97.3,Agrícola,31435600
+Xalapa,Veracruz,488531,19.53,-96.9,Servicios,537384100
+Jalcomulco,Veracruz,5109,19.33,-96.77,Servicios,4598100
+Jáltipan,Veracruz,39719,17.98,-94.72,Mixta,31775200
+Jamapa,Veracruz,10657,19.03,-96.23,Agrícola,7459900
+Jesús Carranza,Veracruz,27083,17.43,-95.03,Agrícola,18958100
+Xico,Veracruz,38012,19.42,-96.98,Servicios,34210800
+Jilotepec,Veracruz,15309,19.6,-96.9,Agrícola,10716300
+Juan Rodríguez Clara,Veracruz,40055,17.98,-95.4,Agrícola,28038500
+Juchique de Ferrer,Veracruz,15424,19.83,-96.7,Agrícola,10796800
+Landero y Coss,Veracruz,1533,19.75,-96.85,Agrícola,1073100
+Lerdo de Tejada,Veracruz,18972,18.63,-95.52,Mixta,15177600
+Magdalena,Veracruz,2992,18.77,-97.07,Agrícola,2094400
+Maltrata,Veracruz,18540,18.82,-97.28,Agrícola,12978000
+Manlio Fabio Altamirano,Veracruz,23460,19.1,-96.32,Agrícola,16422000
+Mariano Escobedo,Veracruz,36306,18.92,-97.13,Mixta,29044800
+Martínez de la Torre,Veracruz,108842,20.07,-97.05,Mixta,87073600
+Mecatlán,Veracruz,5903,20.22,-97.68,Agrícola,4132100
+Mecayapan,Veracruz,17424,18.43,-94.8,Agrícola,12196800
+Medellín de Bravo,Veracruz,95764,19.05,-96.17,Agrícola,67034800
+Miahuatlán,Veracruz,4923,19.67,-96.88,Agrícola,3446100
+Las Minas,Veracruz,2992,19.68,-97.13,Agrícola,2094400
+Minatitlán,Veracruz,149122,17.98,-94.55,Industrial,178946400
+Misantla,Veracruz,65832,19.93,-96.85,Mixta,52665600
+Mixtla de Altamirano,Veracruz,11815,18.62,-97,Agrícola,8270500
+Moloacán,Veracruz,16335,17.97,-94.35,Agrícola,11434500
+Naolinco,Veracruz,21183,19.65,-96.85,Agrícola,14828100
+Naranjal,Veracruz,4923,18.8,-96.95,Agrícola,3446100
+Nautla,Veracruz,29849,20.22,-96.77,Agrícola,20894300
+Nogales,Veracruz,36490,18.82,-97.17,Mixta,29192000
+Oluta,Veracruz,15309,17.92,-94.9,Agrícola,10716300
+Omealca,Veracruz,24231,18.75,-96.78,Agrícola,16961700
+Orizaba,Veracruz,120844,18.85,-97.1,Servicios,132928400
+Otatitlán,Veracruz,5215,18.18,-96.03,Agrícola,3650500
+Oteapan,Veracruz,10578,18,-94.67,Agrícola,7404600
+Ozuluama de Mascareñas,Veracruz,23296,21.63,-97.85,Agrícola,16307200
+Pajapan,Veracruz,18342,18.27,-94.7,Agrícola,12839400
+Pánuco,Veracruz,97341,22.05,-98.17,Mixta,77872800
+Papantla,Veracruz,159910,20.45,-97.32,Servicios,143919000
+Paso del Macho,Veracruz,32009,18.97,-96.72,Agrícola,22406300
+Paso de Ovejas,Veracruz,33467,19.28,-96.43,Agrícola,23426900
+La Perla,Veracruz,28267,18.93,-97.13,Agrícola,19786900
+Perote,Veracruz,77436,19.57,-97.23,Mixta,61948800
+Platón Sánchez,Veracruz,17978,21.28,-98.37,Agrícola,12584600
+Playa Vicente,Veracruz,38848,17.83,-95.82,Agrícola,27193600
+Poza Rica de Hidalgo,Veracruz,189457,20.53,-97.45,Industrial,227348400
+Las Vigas de Ramírez,Veracruz,19176,19.63,-97.1,Agrícola,13423200
+Pueblo Viejo,Veracruz,55342,22.2,-97.83,Mixta,44273600
+Puente Nacional,Veracruz,24423,19.32,-96.5,Agrícola,17096100
+Rafael Delgado,Veracruz,19315,18.82,-97.1,Agrícola,13520500
+Rafael Lucio,Veracruz,8580,19.58,-96.98,Agrícola,6006000
+Los Reyes,Veracruz,5807,18.68,-97.1,Agrícola,4064900
+Río Blanco,Veracruz,41754,18.83,-97.15,Industrial,41754000
+Saltabarranca,Veracruz,5807,18.57,-95.55,Agrícola,4064900
+San Andrés Tenejapan,Veracruz,3363,18.83,-97.12,Agrícola,2354100
+San Andrés Tuxtla,Veracruz,162428,18.45,-95.22,Mixta,146185200
+San Juan Evangelista,Veracruz,31267,17.88,-95.13,Agrícola,21886900
+Santiago Tuxtla,Veracruz,57463,18.47,-95.3,Mixta,45970400
+Sayula de Alemán,Veracruz,32123,17.88,-94.95,Agrícola,22486100
+Soconusco,Veracruz,15865,17.97,-94.87,Agrícola,11105500
+Sochiapa,Veracruz,4301,19.1,-96.88,Agrícola,3010700
+Soledad Atzompa,Veracruz,24231,18.72,-97.17,Agrícola,16961700
+Soledad de Doblado,Veracruz,27318,19.05,-96.42,Agrícola,19122600
+Soteapan,Veracruz,35071,18.25,-94.87,Agrícola,24549700
+Tamalín,Veracruz,10657,21.33,-97.8,Agrícola,7459900
+Tamiahua,Veracruz,23854,21.28,-97.45,Agrícola,16697800
+Tampico Alto,Veracruz,11985,21.93,-97.78,Agrícola,8389500
+Tancoco,Veracruz,5472,21.27,-97.78,Agrícola,3830400
+Tantima,Veracruz,11815,21.33,-97.83,Agrícola,8270500
+Tantoyuca,Veracruz,101918,21.35,-98.23,Mixta,81534400
+Tatatila,Veracruz,6174,19.72,-97.07,Agrícola,4321800
+Castillo de Teayo,Veracruz,19506,20.75,-97.63,Agrícola,13654200
+Tecolutla,Veracruz,24423,20.48,-97,Servicios,21980700
+Tehuipango,Veracruz,29849,18.52,-97.03,Agrícola,20894300
+Álamo Temapache,Veracruz,104478,20.92,-97.7,Mixta,83582400
+Tempoal,Veracruz,34493,21.52,-98.38,Mixta,27594400
+Tenampa,Veracruz,6520,19.25,-96.85,Agrícola,4564000
+Tenochtitlán,Veracruz,4820,19.8,-96.9,Agrícola,3374000
+Teocelo,Veracruz,15865,19.38,-96.97,Agrícola,11105500
+Tepatlaxco,Veracruz,8229,18.98,-96.85,Agrícola,5760300
+Tepetlán,Veracruz,9394,19.7,-96.82,Agrícola,6575800
+Tepetzintla,Veracruz,14731,21.17,-97.85,Agrícola,10311700
+Tequila,Veracruz,15424,18.72,-97.07,Agrícola,10796800
+José Azueta,Veracruz,22687,18.07,-95.7,Agrícola,15880900
+Texcatepec,Veracruz,9812,20.87,-98.37,Agrícola,6868400
+Texhuacán,Veracruz,5215,18.62,-97.03,Agrícola,3650500
+Texistepec,Veracruz,21183,17.9,-94.8,Agrícola,14828100
+Tezonapa,Veracruz,54848,18.6,-96.78,Agrícola,38393600
+Tierra Blanca,Veracruz,98965,18.45,-96.35,Mixta,79172000
+Tihuatlán,Veracruz,93624,20.72,-97.53,Mixta,74899200
+Tlacojalpan,Veracruz,10305,18.2,-95.95,Agrícola,7213500
+Tlacolulan,Veracruz,10657,19.63,-96.98,Agrícola,7459900
+Tlacotalpan,Veracruz,12974,18.62,-95.67,Servicios,11676600
+Tlacotepec de Mejía,Veracruz,6916,19.18,-96.85,Agrícola,4841200
+Tlachichilco,Veracruz,11084,20.63,-98.2,Agrícola,7758800
+Tlalixcoyan,Veracruz,36490,18.8,-96.05,Agrícola,25543000
+Tlalnelhuayocan,Veracruz,17215,19.53,-96.97,Agrícola,12050500
+Tlapacoyan,Veracruz,59814,19.97,-97.22,Mixta,47851200
+Tlaquilpa,Veracruz,7789,18.6,-97.12,Agrícola,5452300
+Tlilapan,Veracruz,4923,18.8,-97.12,Agrícola,3446100
+Tomatlán,Veracruz,6174,18.95,-96.98,Agrícola,4321800
+Tonayán,Veracruz,5690,19.7,-96.92,Agrícola,3983000
+Totutla,Veracruz,16814,19.22,-96.95,Agrícola,11769800
+Tuxpan,Veracruz,161829,20.95,-97.4,Mixta,145646100
+Tuxtilla,Veracruz,2240,18.23,-95.88,Agrícola,1568000
+Úrsulo Galván,Veracruz,29466,19.4,-96.35,Agrícola,20626200
+Vega de Alatorre,Veracruz,19506,20.03,-96.65,Agrícola,13654200
+Veracruz,Veracruz,607209,19.18,-96.13,Servicios,728650800
+Villa Aldama,Veracruz,12239,19.65,-97.22,Agrícola,8567300
+Xoxocotla,Veracruz,5903,18.65,-97.15,Agrícola,4132100
+Yanga,Veracruz,17804,18.83,-96.8,Agrícola,12462800
+Yecuatla,Veracruz,11943,19.87,-96.77,Agrícola,8360100
+Zacualpan,Veracruz,10067,20.73,-98.33,Agrícola,7046900
+Zaragoza,Veracruz,11213,17.9,-94.63,Agrícola,7849100
+Zentla,Veracruz,13063,19.08,-96.85,Agrícola,9144100
+Zongolica,Veracruz,43997,18.67,-96.98,Mixta,35197600
+Zontecomatlán de López y Fuentes,Veracruz,13627,20.77,-98.3,Agrícola,9538900
+Zozocolco de Hidalgo,Veracruz,14731,20.13,-97.57,Agrícola,10311700
+Agua Dulce,Veracruz,44908,18.13,-94.13,Industrial,53889600
+El Higo,Veracruz,18540,21.78,-98.43,Agrícola,12978000
+Nanchital de Lázaro Cárdenas del Río,Veracruz,27318,18.07,-94.42,Industrial,32781600
+Tres Valles,Veracruz,42861,18.23,-96.13,Agrícola,30002700
+Carlos A. Carrillo,Veracruz,22687,18.37,-95.75,Agrícola,15880900
+Tatahuicapan de Juárez,Veracruz,15865,18.25,-94.78,Agrícola,11105500
+Uxpanapa,Veracruz,31896,17.2,-94.13,Agrícola,22327200
+San Rafael,Veracruz,35905,20.2,-96.87,Agrícola,25133500
+Santiago Sochiapan,Veracruz,12630,17.65,-95.67,Agrícola,8841000
+Abalá,Yucatán,6520,20.65,-89.67,Agrícola,4564000
+Acanceh,Yucatán,16814,20.82,-89.45,Mixta,13451200
+Akil,Yucatán,12630,20.15,-89.35,Agrícola,8841000
+Baca,Yucatán,6043,21.1,-89.4,Agrícola,4230100
+Bokobá,Yucatán,2148,21.02,-89.28,Agrícola,1503600
+Buctzotz,Yucatán,9097,21.2,-88.78,Agrícola,6367900
+Cacalchén,Yucatán,7683,21,-89.2,Agrícola,5378100
+Calotmul,Yucatán,4130,20.93,-88.17,Agrícola,2891000
+Cansahcab,Yucatán,4704,21.17,-89.1,Agrícola,3292800
+Cantamayec,Yucatán,2758,20.48,-89.08,Agrícola,1930600
+Celestún,Yucatán,8395,20.85,-90.4,Servicios,7555500
+Cenotillo,Yucatán,3791,21.15,-88.6,Agrícola,2653700
+Conkal,Yucatán,16814,21.08,-89.53,Mixta,13451200
+Cuncunul,Yucatán,1712,20.65,-88.22,Agrícola,1198400
+Cuzamá,Yucatán,5690,20.73,-89.33,Agrícola,3983000
+Chacsinkín,Yucatán,3091,20.2,-89.2,Agrícola,2163700
+Chankom,Yucatán,4594,20.6,-88.42,Agrícola,3215800
+Chapab,Yucatán,3200,20.5,-89.5,Agrícola,2240000
+Chemax,Yucatán,39933,20.65,-87.93,Agrícola,27953100
+Chicxulub Pueblo,Yucatán,4490,21.13,-89.52,Agrícola,3143000
+Chichimilá,Yucatán,9231,20.6,-88.22,Agrícola,6461700
+Chikindzonot,Yucatán,4594,20.3,-88.3,Agrícola,3215800
+Chocholá,Yucatán,4820,20.78,-89.83,Agrícola,3374000
+Chumayel,Yucatán,3363,20.47,-89.28,Agrícola,2354100
+Dzán,Yucatán,6043,20.38,-89.42,Agrícola,4230100
+Dzemul,Yucatán,3550,21.2,-89.33,Agrícola,2485000
+Dzidzantún,Yucatán,8580,21.23,-88.98,Agrícola,6006000
+Dzilam de Bravo,Yucatán,2758,21.38,-88.88,Agrícola,1930600
+Dzilam González,Yucatán,6174,21.28,-88.93,Agrícola,4321800
+Dzitás,Yucatán,4014,20.83,-88.48,Agrícola,2809800
+Dzoncauich,Yucatán,2896,21.03,-88.9,Agrícola,2027200
+Espita,Yucatán,16814,21,-88.3,Agrícola,11769800
+Halachó,Yucatán,21183,20.47,-89.92,Agrícola,14828100
+Hocabá,Yucatán,6520,20.8,-89.27,Agrícola,4564000
+Hoctún,Yucatán,6385,20.88,-89.2,Agrícola,4469500
+Homún,Yucatán,8063,20.73,-89.28,Agrícola,5644100
+Huhí,Yucatán,5215,20.72,-89.17,Agrícola,3650500
+Hunucmá,Yucatán,35905,21.02,-89.87,Mixta,28724000
+Ixil,Yucatán,4301,21.1,-89.5,Agrícola,3010700
+Izamal,Yucatán,28555,20.93,-89.02,Servicios,25699500
+Kanasín,Yucatán,149867,20.95,-89.55,Mixta,134880300
+Kantunil,Yucatán,5807,20.8,-89.08,Agrícola,4064900
+Kaua,Yucatán,3363,20.63,-88.38,Agrícola,2354100
+Kinchil,Yucatán,7295,20.97,-89.97,Agrícola,5106500
+Kopomá,Yucatán,2758,20.57,-89.83,Agrícola,1930600
+Mama,Yucatán,3284,20.47,-89.37,Agrícola,2298800
+Maní,Yucatán,5903,20.38,-89.4,Agrícola,4132100
+Maxcanú,Yucatán,23969,20.58,-89.98,Agrícola,16778300
+Mayapán,Yucatán,3993,20.52,-89.17,Agrícola,2795100
+Mérida,Yucatán,995129,20.97,-89.62,Servicios,1194154800
+Mocochá,Yucatán,3363,21.08,-89.45,Agrícola,2354100
+Motul,Yucatán,37633,21.1,-89.28,Mixta,30106400
+Muna,Yucatán,13240,20.48,-89.72,Agrícola,9268000
+Muxupip,Yucatán,2992,21.07,-89.35,Agrícola,2094400
+Opichén,Yucatán,7295,20.45,-89.87,Agrícola,5106500
+Oxkutzcab,Yucatán,33844,20.3,-89.42,Agrícola,23690800
+Panabá,Yucatán,7957,21.28,-88.27,Agrícola,5569900
+Peto,Yucatán,25993,20.12,-88.92,Agrícola,18195100
+Progreso,Yucatán,66008,21.28,-89.67,Servicios,72608800
+Quintana Roo,Yucatán,977,20.8,-88.9,Agrícola,683900
+Río Lagartos,Yucatán,2348,21.6,-88.15,Servicios,2113200
+Sacalum,Yucatán,5109,20.55,-89.57,Agrícola,3576300
+Samahil,Yucatán,5690,20.92,-89.92,Agrícola,3983000
+Sanahcat,Yucatán,2148,20.77,-89.2,Agrícola,1503600
+San Felipe,Yucatán,2148,21.58,-88.23,Servicios,1933200
+Santa Elena,Yucatán,4130,20.32,-89.63,Agrícola,2891000
+Seyé,Yucatán,10067,20.85,-89.37,Agrícola,7046900
+Sinanché,Yucatán,3200,21.23,-89.18,Agrícola,2240000
+Sotuta,Yucatán,8900,20.73,-89,Agrícola,6230000
+Sucilá,Yucatán,4130,21.15,-88.3,Agrícola,2891000
+Sudzal,Yucatán,1966,20.87,-88.98,Agrícola,1376200
+Suma,Yucatán,1805,21.13,-89.1,Agrícola,1263500
+Tahdziú,Yucatán,5575,20.25,-89.02,Agrícola,3902500
+Tahmek,Yucatán,3791,20.87,-89.32,Agrícola,2653700
+Teabo,Yucatán,6804,20.33,-89.27,Agrícola,4762800
+Tecoh,Yucatán,17804,20.73,-89.47,Agrícola,12462800
+Tekal de Venegas,Yucatán,2620,20.95,-88.92,Agrícola,1834000
+Tekantó,Yucatán,3791,21.05,-89.08,Agrícola,2653700
+Tekax,Yucatán,43806,20.2,-89.28,Mixta,35044800
+Tekit,Yucatán,11213,20.52,-89.33,Agrícola,7849100
+Tekom,Yucatán,3363,20.68,-88.33,Agrícola,2354100
+Telchac Pueblo,Yucatán,3791,21.18,-89.25,Agrícola,2653700
+Telchac Puerto,Yucatán,1966,21.33,-89.3,Servicios,1769400
+Temax,Yucatán,7188,21.15,-88.95,Agrícola,5031600
+Temozón,Yucatán,16814,20.8,-88.2,Agrícola,11769800
+Tepakán,Yucatán,2148,21,-88.9,Agrícola,1503600
+Tetiz,Yucatán,5353,21,-89.92,Agrícola,3747100
+Teya,Yucatán,2035,21.03,-89.07,Agrícola,1424500
+Ticul,Yucatán,40614,20.4,-89.53,Mixta,32491200
+Timucuy,Yucatán,7411,20.82,-89.5,Agrícola,5187700
+Tinum,Yucatán,12630,20.67,-88.4,Servicios,11367000
+Tixcacalcupul,Yucatán,8063,20.4,-88.1,Agrícola,5644100
+Tixkokob,Yucatán,18540,21,-89.38,Agrícola,12978000
+Tixmehuac,Yucatán,14041,20.27,-89.15,Agrícola,9828700
+Tixpéhual,Yucatán,5807,20.97,-89.48,Agrícola,4064900
+Tizimín,Yucatán,83842,21.13,-88.15,Mixta,67073600
+Tunkás,Yucatán,3670,20.87,-88.75,Agrícola,2569000
+Tzucacab,Yucatán,15309,20.07,-89.05,Agrícola,10716300
+Uayma,Yucatán,4130,20.72,-88.3,Agrícola,2891000
+Ucú,Yucatán,3993,21.03,-89.75,Agrícola,2795100
+Umán,Yucatán,69165,20.88,-89.75,Industrial,76081500
+Valladolid,Yucatán,85460,20.68,-88.2,Servicios,85460000
+Xocchel,Yucatán,3363,20.82,-89.2,Agrícola,2354100
+Yaxcabá,Yucatán,16117,20.55,-88.83,Agrícola,11281900
+Yaxkukul,Yucatán,3284,21.05,-89.55,Agrícola,2298800
+Yobaín,Yucatán,2240,21.28,-89.1,Agrícola,1568000
+Apozol,Zacatecas,6268,21.45,-103.08,Agrícola,4387600
+Apulco,Zacatecas,5006,21.48,-102.68,Agrícola,3504200
+Atolinga,Zacatecas,2240,21.8,-103.48,Agrícola,1568000
+Benito Juárez,Zacatecas,4490,21.45,-103.58,Agrícola,3143000
+Calera,Zacatecas,45759,22.92,-102.67,Mixta,36607200
+Cañitas de Felipe Pescador,Zacatecas,8395,23.6,-102.73,Agrícola,5876500
+Concepción del Oro,Zacatecas,12115,24.62,-101.42,Mixta,10903500
+Cuauhtémoc,Zacatecas,13410,22.45,-102.32,Agrícola,9387000
+Chalchihuites,Zacatecas,10305,23.48,-103.88,Agrícola,7213500
+Fresnillo,Zacatecas,240532,23.18,-102.87,Mixta,216478800
+Trinidad García de la Cadena,Zacatecas,3363,21.22,-103.45,Agrícola,2354100
+Genaro Codina,Zacatecas,8165,22.5,-102.5,Agrícola,5715500
+General Enrique Estrada,Zacatecas,6616,22.98,-102.73,Agrícola,4631200
+General Francisco R. Murguía,Zacatecas,21389,23.8,-102.4,Agrícola,14972300
+El Plateado de Joaquín Amaro,Zacatecas,1600,21.9,-103.1,Agrícola,1120000
+General Pánfilo Natera,Zacatecas,23460,22.7,-102.1,Agrícola,16422000
+Guadalupe,Zacatecas,211740,22.75,-102.5,Mixta,190566000
+Huanusco,Zacatecas,4301,21.75,-102.97,Agrícola,3010700
+Jalpa,Zacatecas,25232,21.63,-102.98,Mixta,20185600
+Jerez,Zacatecas,59919,22.65,-102.98,Mixta,47935200
+Jiménez del Teul,Zacatecas,4490,23.35,-103.8,Agrícola,3143000
+Juan Aldama,Zacatecas,19840,24.3,-103.38,Agrícola,13888000
+Juchipila,Zacatecas,12271,21.4,-103.12,Mixta,9816800
+Loreto,Zacatecas,53709,22.27,-101.98,Mixta,42967200
+Luis Moya,Zacatecas,13240,22.43,-102.4,Agrícola,9268000
+Mazapil,Zacatecas,17813,24.78,-101.55,Agrícola,12469100
+Melchor Ocampo,Zacatecas,2758,24.88,-101.78,Agrícola,1930600
+Mezquital del Oro,Zacatecas,2527,21.22,-103.35,Agrícola,1768900
+Miguel Auza,Zacatecas,23854,24.13,-103.58,Agrícola,16697800
+Momax,Zacatecas,2428,21.87,-103.22,Agrícola,1699600
+Monte Escobedo,Zacatecas,8683,22.3,-103.57,Agrícola,6078100
+Morelos,Zacatecas,13207,22.88,-102.6,Mixta,10565600
+Moyahua de Estrada,Zacatecas,4503,21.28,-103.17,Agrícola,3152100
+Nochistlán de Mejía,Zacatecas,27936,21.37,-102.85,Mixta,22348800
+Noria de Ángeles,Zacatecas,16603,22.42,-101.88,Agrícola,11622100
+Ojocaliente,Zacatecas,53351,22.57,-102.25,Mixta,42680800
+Pánuco,Zacatecas,17502,22.9,-102.55,Agrícola,12251400
+Pinos,Zacatecas,72248,22.3,-101.57,Mixta,57798400
+Río Grande,Zacatecas,64535,23.83,-103.03,Mixta,51628000
+Sain Alto,Zacatecas,21844,23.57,-103.23,Agrícola,15290800
+El Salvador,Zacatecas,2504,24.47,-100.9,Agrícola,1752800
+Sombrerete,Zacatecas,63665,23.63,-103.63,Mixta,50932000
+Susticacán,Zacatecas,1365,22.62,-103.15,Agrícola,955500
+Tabasco,Zacatecas,16576,21.87,-102.9,Agrícola,11603200
+Tepechitlán,Zacatecas,8229,21.67,-103.33,Agrícola,5760300
+Tepetongo,Zacatecas,6496,22.4,-103.17,Agrícola,4547200
+Teúl de González Ortega,Zacatecas,5353,21.47,-103.45,Servicios,4817700
+Tlaltenango de Sánchez Román,Zacatecas,27303,21.78,-103.3,Mixta,21842400
+Valparaíso,Zacatecas,32463,22.77,-103.57,Agrícola,22724100
+Vetagrande,Zacatecas,10278,22.82,-102.58,Agrícola,7194600
+Villa de Cos,Zacatecas,34623,23.3,-102.3,Agrícola,24236100
+Villa García,Zacatecas,19688,22.17,-101.97,Agrícola,13781600
+Villa González Ortega,Zacatecas,13410,22.5,-101.9,Agrícola,9387000
+Villa Hidalgo,Zacatecas,19448,22.35,-101.72,Agrícola,13613600
+Villanueva,Zacatecas,31558,22.35,-102.88,Mixta,25246400
+Zacatecas,Zacatecas,149607,22.77,-102.58,Servicios,164567700
+Trancoso,Zacatecas,20464,22.73,-102.37,Agrícola,14324800
+Santa María de la Paz,Zacatecas,2765,21.5,-103.22,Agrícola,1935500
