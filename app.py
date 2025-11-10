@@ -579,7 +579,6 @@ hechos_originales = cargar_hechos_firebase()
 # 1. CREA EL SISTEMA DE INFERENCIA (se cargará desde el caché)
 sistema_inferencia = crear_sistema_inferencia_difuso()
 
-
 if hechos_originales and sistema_inferencia:
     # 2. LLAMA AL NUEVO MOTOR DE LÓGICA DIFUSA
     lista_datos_inferidos = procesar_hechos_con_logica_difusa(hechos_originales, sistema_inferencia)

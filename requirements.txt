@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+pydeck
+firebase-admin
+scikit-fuzzy
+networkx
+streamlit-lottie
