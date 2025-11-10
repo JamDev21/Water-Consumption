@@ -5,12 +5,17 @@ import pydeck as pdk
 from functools import reduce
 from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components
-import json
+import json  # <- Este import ya lo tenías, es clave para la solución
 import firebase_admin 
 from firebase_admin import credentials, db
 import base64
 
-
+st.set_page_config(
+    page_title="Análisis de Consumo Hídrico",
+    page_icon="",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 # --- CONEXIÓN A LA BASE DE CONOCIMIENTO (FIREBASE) ---
 @st.cache_resource
 def init_firebase():
@@ -40,171 +45,188 @@ def init_firebase():
 
 init_firebase()
 
-@st.cache_data
-def get_video_as_base64(file_path):
-    """Lee un archivo de video y lo codifica en Base64."""
-    try:
-        with open(file_path, "rb") as f:
-            data = f.read()
-        return base64.b64encode(data).decode()
-    except FileNotFoundError:
-        st.error(f"Error: No se encontró el archivo de video '{file_path}'")
-        return None
+# ---------------------------------------------------------------------
+# --- SECCIÓN MODIFICADA 1: La función `hero_section_video` ---
+# ---------------------------------------------------------------------
 
-def hero_section_video(video_src_data, title_text):
+# Esta es la nueva función 'hero_section_video'.
+# Acepta una 'lista' de títulos y tiene un nuevo script de JS.
+import streamlit.components.v1 as components
+def hero_section_video(video_url, titles_list):
     """
-    Crea una sección de héroe con un video de fondo, título animado y subtítulo.
+    VERSIÓN FINAL CON VIDEO A ANCHO COMPLETO.
+    Usa 'position: fixed' para que el video ocupe todo el iframe.
     """
-    st.markdown(f"""
+    
+    titles_json = json.dumps(titles_list)
+    
+    html_string = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
         <style>
-        /* Contenedor principal del hero */
-        .hero-container {{
-            position: relative;
-            width: 100%;
-            height: 400px; /* Ajusta la altura según necesites */
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            margin-bottom: 30px;
-            border-radius: 15px; /* Bordes redondeados */
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2); /* Sombra sutil */
-        }}
-        
-        /* Video de fondo */
-        .hero-video {{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1;
-            transform: translateX(-50%) translateY(-50%);
-            background-size: cover;
-            filter: brightness(60%) contrast(110%); /* Oscurece y da contraste al video */
-        }}
-        
-        /* Contenido sobre el video */
-        .hero-content {{
-            position: relative;
-            z-index: 1;
-            padding: 20px;
-            max-width: 800px;
-        }}
-
-        /* Título animado con efecto de máquina de escribir */
-        .typewriter-title-hero {{
-            font-size: 3.5rem; /* Más grande */
-            font-weight: 800;
-            color: white;
-            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.6), 0 0 15px rgba(5, 94, 228, 0.8); /* Doble sombra para impacto */
-            font-family: 'Montserrat', sans-serif; 
-            line-height: 1.2;
-            margin-bottom: 15px;
-        }}
-
-        /* Subtítulo */
-        .hero-subtitle {{
-            font-size: 1.3rem;
-            font-weight: 400;
-            color: rgba(255, 255, 255, 0.9);
-            text-shadow: 0 2px 5px rgba(0,0,0,0.5);
-        }}
-
-        /* Cursor para el typewriter */
-        .cursor-hero {{
-            display: inline-block;
-            width: 5px; /* Más ancho */
-            background-color: white;
-            margin-left: 5px;
-            animation: blink-hero 0.75s step-end infinite;
-        }}
-        @keyframes blink-hero {{
-            from, to {{ opacity: 1; }}
-            50% {{ opacity: 0; }}
-        }}
+            /* Aseguramos que el HTML y BODY del IFRAME ocupen el 100% */
+            body, html {{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                font-family: 'Montserrat', sans-serif;
+                overflow: hidden; /* Evita scrolls dentro del iframe */
+            }}
+            
+            /* El contenedor principal dentro del iframe */
+            .hero-container {{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: white;
+            }}
+            
+            /* --- ¡CAMBIOS CLAVE AQUÍ EN .hero-video-bg ! --- */
+            .hero-video-bg {{
+                position: fixed; /* Lo saca del flujo normal */
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Cubre TODO, recortando si es necesario */
+                z-index: 0;
+                filter: brightness(50%) contrast(110%);
+            }}
+            
+            /* Contenido (texto) */
+            .hero-content {{
+                position: relative;
+                z-index: 1; /* Asegura que el texto esté encima del video */
+                padding: 20px;
+                max-width: 900px;
+            }}
+            
+            /* Estilo del texto animado */
+            .hero-text-animator {{
+                font-size: 3.8rem; 
+                font-weight: 800;
+                color: white;
+                text-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+                line-height: 1.2;
+                margin-bottom: 15px;
+            }}
+            
+            /* Estilo del cursor parpadeante */
+            .hero-cursor {{
+                display: inline-block;
+                width: 5px;
+                background-color: white;
+                margin-left: 8px;
+                animation: blink-video 0.75s step-end infinite;
+            }}
+            
+            @keyframes blink-video {{
+                from, to {{ opacity: 1; }}
+                50% {{ opacity: 0; }}
+            }}
         </style>
-        
+    </head>
+    <body>
         <div class="hero-container">
-            <video autoplay muted loop class="hero-video">
-                <source src="data:video/mp4;base64,{video_src_data}" type="video/mp4">
+            <video autoplay muted loop class="hero-video-bg">
+                <source src="{video_url}" type="video/mp4">
                 Tu navegador no soporta el tag de video.
             </video>
             <div class="hero-content">
-                <div class="typewriter-container-hero">
-                    <span id="typewriter-title-hero" class="typewriter-title-hero"></span>
-                    <span id="cursor-hero" class="cursor-hero">|</span>
+                <div>
+                    <span id="hero-text-animator" class="hero-text-animator"></span>
+                    <span class="hero-cursor">|</span>
                 </div>
-                <p class="hero-subtitle">
-                    Análisis inteligente y estratégico para la gestión del agua en México.
-                </p>
             </div>
         </div>
 
         <script>
-        // Script para el efecto de máquina de escribir en el hero
-        const textHero = "{title_text}";
-        const speedHero = 70;
-        const repeatDelayHero = 4000;
-        let iHero = 0;
-        let isDeletingHero = false;
-        
-        function typeWriterHero() {{
-            const element = document.getElementById("typewriter-title-hero");
-            if (!element) return; // Salir si el elemento no existe
-
-            if (!isDeletingHero && iHero < textHero.length) {{
-                element.innerHTML = textHero.substring(0, iHero + 1);
-                iHero++;
-                setTimeout(typeWriterHero, speedHero);
-            }} else if (!isDeletingHero && iHero === textHero.length) {{
-                setTimeout(() => {{
-                    isDeletingHero = true;
-                    typeWriterHero();
-                }}, repeatDelayHero);
-            }} else if (isDeletingHero && iHero > 0) {{
-                element.innerHTML = textHero.substring(0, iHero - 1);
-                iHero--;
-                setTimeout(typeWriterHero, speedHero / 2);
-            }} else if (isDeletingHero && iHero === 0) {{
-                isDeletingHero = false;
-                setTimeout(typeWriterHero, 500);
+        (function() {{
+            console.log("SCRIPT EN IFRAME: ¡Iniciando!");
+            const titles = {titles_json};
+            const elementId = "hero-text-animator";
+            console.log("SCRIPT EN IFRAME: Títulos:", titles);
+            console.log("SCRIPT EN IFRAME: Buscando ID:", elementId);
+            const speedHero = 70;
+            const holdTime = 3000;
+            const speedDelete = 40;
+            let titleIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            
+            function typeWriterHero() {{
+                const element = document.getElementById(elementId);
+                if (!element) {{
+                    console.error("SCRIPT EN IFRAME: No se encontró el elemento.");
+                    return;
+                }}
+                const currentText = titles[titleIndex];
+                if (isDeleting) {{
+                    element.innerHTML = currentText.substring(0, charIndex - 1);
+                    charIndex--;
+                    if (charIndex === 0) {{
+                        isDeleting = false;
+                        titleIndex = (titleIndex + 1) % titles.length;
+                        setTimeout(typeWriterHero, 500);
+                    }} else {{
+                        setTimeout(typeWriterHero, speedDelete);
+                    }}
+                }} else {{
+                    element.innerHTML = currentText.substring(0, charIndex + 1);
+                    charIndex++;
+                    if (charIndex === currentText.length) {{
+                        isDeleting = true;
+                        setTimeout(typeWriterHero, holdTime);
+                    }} else {{
+                        setTimeout(typeWriterHero, speedHero);
+                    }}
+                }}
             }}
-        }}
-        
-        setTimeout(typeWriterHero, 300);
+            setTimeout(typeWriterHero, 50); 
+        }})();
         </script>
-    """, unsafe_allow_html=True)
+    </body>
+    </html>
+    """
+    
+    components.html(html_string, height=500)
+# ---------------------------------------------------------------------
+# --- SECCIÓN MODIFICADA 2: La llamada a la función ---
+# ---------------------------------------------------------------------
 
 # ----- INICIO DE LA SECCIÓN HERO -----
-# 1. Define el nombre de tu archivo de video
-video_file_name = "Visualización_Futurista_de_Datos_Hídricos_Mexicanos.mp4"  # <--- !!! REEMPLAZA ESTO POR TU NOMBRE DE ARCHIVO !!!
 
-# 2. Codifica el video
-video_base64 = get_video_as_base64(video_file_name)
+# 1. Pega aquí la URL "Raw" de tu NUEVO video ("video_fondo.mp4")
+VIDEO_URL = "https://raw.githubusercontent.com/JamDev21/Water-Consumption/tema3-logica/video_fondo.mp4" 
 
-# 3. Muestra la sección
-if video_base64:
-    hero_section_video(video_base64, "Analizador Inteligente de Consumo Hídrico")
+# 2. Define la lista de títulos para la transición
+hero_titles = [
+    "Análisis inteligente y estratégico para la gestión del agua en México.",
+    "Decisiones basadas en datos reales.",
+    "Planeando el futuro hídrico de México.",
+    "Optimización y sostenibilidad con IA.",
+    "Plataforma de Inteligencia Hídrica."
+]
+
+# 3. Muestra la sección (con lógica simplificada)
+if not VIDEO_URL:
+    st.error("La variable VIDEO_URL está vacía.")
 else:
-    # Si el video falla, muestra un título normal como respaldo
-    st.title("Analizador Inteligente de Consumo Hídrico")
-    st.error(f"No se pudo cargar el video: '{video_file_name}'. Asegúrate de que el nombre sea correcto y esté en la misma carpeta.")
+    # Llamamos a la función con la LISTA de títulos
+    hero_section_video(VIDEO_URL, hero_titles)
 
 # ----- FIN DE LA SECCIÓN HERO -----
 
+
 # --- CONFIGURACIÓN DE LA PÁGINA ---
-st.set_page_config(
-    page_title="Análisis de Consumo Hídrico",
-    page_icon="",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+
 
 # --- ESTILOS CSS GLOBALES ---
 st.markdown("""
@@ -328,17 +350,41 @@ background: linear-gradient(210deg,rgba(0, 102, 204, 1) 31%, rgba(28, 96, 255, 1
     .stApp > div > div {
         animation: slideUp 0.5s ease-out;
     }
+            
+    /* Reemplaza los eventos JS por CSS puro para el hover */
+    .stat-card-hover-effect:hover {{
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.25);
+    }}
+            
+    /* Quita los 'paddings' de los lados y de arriba del contenedor principal */
+    .block-container {
+       padding-top: 0rem !important;
+    }
+
+    div[data-st-component="st.iframe"] {
+        /* Usa el truco de 100% del ancho de la ventana (viewport width) */
+        width: 100vw !important; 
+        
+        /* Centra el elemento de ancho completo */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        /* Asegura que no haya márgenes extra */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
     </style>
 """, unsafe_allow_html=True)
 
-
-
-
-
 def create_stat_card(icon, title, value, color="#0066cc"):
-    """Crea una tarjeta estadística con efecto glassmorphism"""
+    """Crea una tarjeta estadística con efecto glassmorphism (VERSIÓN CSS)"""
+    # AÑADIMOS la clase 'stat-card-hover-effect'
+    # QUITAMOS 'onmouseover' y 'onmouseout'
     return f"""
-    <div style="
+    <div class="stat-card-hover-effect" style="
         background: rgba(255, 255, 255, 0.25);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
@@ -347,10 +393,7 @@ def create_stat_card(icon, title, value, color="#0066cc"):
         border: 1px solid rgba(255, 255, 255, 0.3);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
         transition: all 0.3s ease;
-    "
-    onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 12px 40px 0 rgba(31, 38, 135, 0.25)';"
-    onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 8px 32px 0 rgba(31, 38, 135, 0.15)';"
-    >
+    ">
         <div style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
             <div style="font-size: 2.8rem; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));">{icon}</div>
             <div style="flex: 1; min-width: 120px;">
@@ -500,7 +543,7 @@ if hechos_originales:
     df_procesado = pd.DataFrame(lista_datos_inferidos)
     # 2. Sidebar mejorado
     with st.sidebar:
-        st.markdown("###  Panel de Control")
+        st.markdown("###  Panel de Control")
         st.markdown("---")
         
         umbral_alto_consumo = st.slider(
@@ -627,7 +670,7 @@ if hechos_originales:
         st.pydeck_chart(deck, use_container_width=True)
 
     # 6. Recomendaciones
-    st.markdown("###  Recomendaciones Personalizadas")
+    st.markdown("###  Recomendaciones Personalizadas")
 
     if not df_alto_consumo.empty:
         area_seleccionada_nombre = st.selectbox(
