@@ -6,3 +6,4 @@ firebase-admin
 scikit-fuzzy
 networkx
 streamlit-lottie
+scipy
