@@ -1,11 +1,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import skfuzzy as fuzz
+from skfuzzy import control as ctrl
 import pydeck as pdk
 from functools import reduce
 from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components
-import json  # <- Este import ya lo tenías, es clave para la solución
+import json  
 import firebase_admin 
 from firebase_admin import credentials, db
 import base64
@@ -436,53 +438,91 @@ def cargar_hechos_firebase():
         st.error(f"❌ Error al conectar con Firebase: {e}")
         return None
     
-# --- SISTEMA DE PRODUCCIÓN BASADO EN REGLAS ---
+# --- SISTEMA DE PRODUCCIÓN BASADO EN LÓGICA DIFUSA (MAMDANI) ---
 
-def regla_calcular_consumo_per_capita(hecho):
+@st.cache_resource
+def crear_sistema_inferencia_difuso():
     """
-    Regla de Negocio 1: Calcula el consumo per cápita.
-    Un "hecho" (municipio) entra, y un "hecho inferido" (con el nuevo dato) sale.
+    Crea y configura el Sistema de Inferencia Difuso (FIS) Mamdani.
+    Esto cumple con los indicadores 04 y 06 de la rúbrica del manual.
     """
-    hecho_inferido = hecho.copy()
-    if hecho_inferido['poblacion'] > 0:
-        consumo = (hecho_inferido['consumo_anual_m3'] * 1000) / (hecho_inferido['poblacion'] * 365)
-    else:
-        consumo = 0
-    hecho_inferido['consumo_per_capita_l_dia'] = round(consumo)
-    return hecho_inferido
-
-def regla_asignar_nivel_y_color(hecho_calculado):
-    """
-    Regla de Negocio 2: Asigna el nivel de consumo y el color.
-    Aplica lógica para inferir el estado de un municipio basado en su consumo.
-    """
-    hecho_inferido = hecho_calculado.copy()
-    consumo = hecho_inferido['consumo_per_capita_l_dia']
     
-    if consumo > 350:  # Umbral Alto (Ajustado)
-        hecho_inferido['nivel_consumo'] = 'Alto'
-        hecho_inferido['color'] = [255, 48, 48]
-    elif 150 <= consumo <= 350: # Umbral Moderado (Ajustado)
-        hecho_inferido['nivel_consumo'] = 'Moderado'
-        hecho_inferido['color'] = [255, 165, 0]
-    else: # Nivel Bueno
-        hecho_inferido['nivel_consumo'] = 'Bueno'
-        hecho_inferido['color'] = [34, 139, 34]
+    # 1. Definir Variables (Antecedentes y Consecuentes)
+    # Universo de discurso para el consumo (0 a 500 L/día)
+    consumo = ctrl.Antecedent(np.arange(0, 501, 1), 'consumo')
+    # Universo de discurso para el riesgo (0 a 100 puntos)
+    riesgo = ctrl.Consequent(np.arange(0, 101, 1), 'riesgo')
+
+    # 2. Definir Funciones de Pertenencia (Fuzzy Sets)
+    # "Analiza el diseño de reglas... si-entonces"
+    # El consumo puede ser "bueno", "moderado" o "alto"
+    consumo['bueno'] = fuzz.trimf(consumo.universe, [0, 0, 150])
+    consumo['moderado'] = fuzz.trimf(consumo.universe, [100, 250, 400])
+    consumo['alto'] = fuzz.trimf(consumo.universe, [350, 500, 500])
+    
+    # El riesgo puede ser "bajo", "medio" o "critico"
+    riesgo['bajo'] = fuzz.trimf(riesgo.universe, [0, 0, 40])
+    riesgo['medio'] = fuzz.trimf(riesgo.universe, [30, 50, 70])
+    riesgo['critico'] = fuzz.trimf(riesgo.universe, [60, 100, 100])
+
+    # 3. Definir las Reglas de Negocio (SI-ENTONCES)
+    # "Analiza claramente el uso de reglas"
+    regla1 = ctrl.Rule(consumo['bueno'], riesgo['bajo'])
+    regla2 = ctrl.Rule(consumo['moderado'], riesgo['medio'])
+    regla3 = ctrl.Rule(consumo['alto'], riesgo['critico'])
+    
+    # 4. Construir el Sistema de Control (Mamdani)
+    # "descripción de modelos como Mamdani"
+    sistema_control = ctrl.ControlSystem([regla1, regla2, regla3])
+    sistema_inferencia = ctrl.ControlSystemSimulation(sistema_control)
+    
+    return sistema_inferencia
+
+
+def procesar_hechos_con_logica_difusa(hechos_originales, sistema_inferencia):
+    """
+    Nuevo "Motor de Inferencia" que usa el sistema de Lógica Difusa.
+    Toma los hechos de Firebase y aplica el FIS Mamdani.
+    """
+    hechos_inferidos = []
+    
+    for hecho in hechos_originales:
+        nuevo_hecho = hecho.copy()
         
-    return hecho_inferido
+        # 1. Calcular el consumo per cápita (dato de entrada "nítido")
+        if nuevo_hecho['poblacion'] > 0:
+            consumo_calculado = (nuevo_hecho['consumo_anual_m3'] * 1000) / (nuevo_hecho['poblacion'] * 365)
+        else:
+            consumo_calculado = 0
+        
+        nuevo_hecho['consumo_per_capita_l_dia'] = round(consumo_calculado)
 
-def motor_de_inferencia(hechos_originales):
-    """
-    Motor de Inferencia: Aplica la cadena de reglas a la lista de hechos.
-    Esto simula la arquitectura de un sistema de producción.
-    """
-    # 1. Aplicar la primera regla a todos los hechos
-    hechos_calculados = list(map(regla_calcular_consumo_per_capita, hechos_originales))
-    
-    # 2. Aplicar la segunda regla a los resultados de la primera
-    nuevos_hechos_inferidos = list(map(regla_asignar_nivel_y_color, hechos_calculados))
-    
-    return nuevos_hechos_inferidos
+        # 2. Aplicar Inferencia Difusa
+        # "Analiza claramente el uso de inferencia"
+        try:
+            sistema_inferencia.input['consumo'] = consumo_calculado
+            sistema_inferencia.compute()
+            riesgo_calculado = sistema_inferencia.output['riesgo']
+        except:
+            # Fallback por si algun dato de entrada es inválido
+            riesgo_calculado = 0
+            
+        nuevo_hecho['riesgo_difuso'] = round(riesgo_calculado, 2)
+
+        # 3. Asignar color basado en el resultado "difuso" (el riesgo)
+        if riesgo_calculado > 70:
+            nuevo_hecho['nivel_consumo'] = 'Alto'
+            nuevo_hecho['color'] = [255, 48, 48]  # Rojo
+        elif riesgo_calculado > 40:
+            nuevo_hecho['nivel_consumo'] = 'Moderado'
+            nuevo_hecho['color'] = [255, 165, 0] # Naranja
+        else:
+            nuevo_hecho['nivel_consumo'] = 'Bueno'
+            nuevo_hecho['color'] = [34, 139, 34]   # Verde
+        
+        hechos_inferidos.append(nuevo_hecho)
+        
+    return hechos_inferidos
 
 def generar_recomendaciones(area):
     """Genera recomendaciones dinámicas basadas en las características de un área"""
@@ -533,13 +573,16 @@ def generar_recomendaciones(area):
             </div>
         """, unsafe_allow_html=True)
 
-# 1. Cargar "Hechos" y ejecutar "Inferencia"
+# --- Carga de datos y lógica principal ---
 hechos_originales = cargar_hechos_firebase()
 
+# 1. CREA EL SISTEMA DE INFERENCIA (se cargará desde el caché)
+sistema_inferencia = crear_sistema_inferencia_difuso()
 
-if hechos_originales:
-    # Ejecuta el motor de inferencia para obtener los datos procesados
-    lista_datos_inferidos = motor_de_inferencia(hechos_originales)
+
+if hechos_originales and sistema_inferencia:
+    # 2. LLAMA AL NUEVO MOTOR DE LÓGICA DIFUSA
+    lista_datos_inferidos = procesar_hechos_con_logica_difusa(hechos_originales, sistema_inferencia)
     df_procesado = pd.DataFrame(lista_datos_inferidos)
     # 2. Sidebar mejorado
     with st.sidebar:
