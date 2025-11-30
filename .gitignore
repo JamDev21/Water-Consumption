@@ -1,0 +1,11 @@
+# Ignorar la carpeta de secretos de Streamlit
+.streamlit/secrets.toml
+.env
+
+# Entorno virtual de Python
+venv/
+*.pyc
+
+# Carpetas de caché y sistema
+__pycache__/
+.DS_Store
